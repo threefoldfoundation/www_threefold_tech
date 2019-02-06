@@ -46,6 +46,22 @@
     letter-spacing: 1px;
 }
 
+.passion h2,
+.technology h2,
+.execution h2,
+.contact h2
+{
+  color: #2D2D2D !important;
+  font-family: Barlow;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #000;
+}
 .contact form ::placeholder,
 .form-control:focus {
     font-size: 1rem;
