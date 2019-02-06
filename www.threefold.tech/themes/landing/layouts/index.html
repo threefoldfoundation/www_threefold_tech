@@ -1,60 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="/css/all.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <title>ThreeFold.TECH</title>
-</head>
+{{ partial "head.html" . }}
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">ThreeFold.TECH</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto text-secondary text-uppercase">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#tech">TF tech <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#credibility">Credibility</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#passion">Passion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#execution">Execution</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#technology">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {{ partial "nav.html" . }}
     <!-- end Navbar -->
 
     <div class="container">
@@ -561,13 +512,8 @@
     </div>
     <!-- end container -->
 
-    <!-- Optional JavaScript -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA70f15E5-tShvjkCXR42Wbd2tYvWp7WbM&callback=initMap"></script>
-    <!-- Custom JS -->
-    <script src="/js/custom.js"></script>
+    {{ partial "scripts.html" . }}
+
 </body>
 
 </html>
