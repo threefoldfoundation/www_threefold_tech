@@ -1,84 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="/css/all.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <title>ThreeFold.TECH</title>
-</head>
+{{ partial "head.html" . }}
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">ThreeFold.TECH</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto text-secondary text-uppercase">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#tech">TF tech <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#credibility">Credibility</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#passion">Passion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#execution">Execution</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#technology">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {{ partial "nav.html" . }}
     <!-- end Navbar -->
 
     <div class="container">
-
+        {{ range $element := .Data.Pages }}
+        {{ if eq .Section "home" }}
+        {{ if eq .Title "tech" }}
         <!-- TF Tech Sec -->
-        <div class="tech" id="tech">
-            <div class="row">
-                <div class="col-12 col-lg-4 align-self-center">
-                    <h1 class="h1 text-uppercase font-weight-bold">ThreeFold.<small class="font-weight-bold">Tech</small></h1>
-                </div>
-                <div class="col-12 col-lg-8">
-                    <p class="font-weight-bolder">We are a technology development company that is passionate
-                        about making a meaningful <span class="text-uppercase">Impact</span> on humanity and our world.</p>
-
-                    <p>Over the passed years we have developed a disruptive stack of technology which
-                        can be used individually or combined. When combined, it makes possible access to a raw internet
-                        capacity that is, by design, responsible and democratized, protecting individual privacy,
-                        neutrality, and security, whilst being inclusive to all of humanity.</p>
-                </div>
-                <a class="ct-btn-scroll ct-js-btn-scroll text-secondary" href="#credibility">
-                    <i class="fas fa-angle-double-down fa-2x"></i>
-                </a>
-            </div>
-        </div>
+        {{ partial "home/tech.html" . }}
         <!-- end TF Tech Sec -->
 
         <!-- Credibility Sec -->
@@ -558,16 +493,14 @@
             </div>
         </footer>
         <!-- end Footer Sec -->
+        {{end}}
+        {{end}}
+        {{end}}
     </div>
     <!-- end container -->
 
-    <!-- Optional JavaScript -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA70f15E5-tShvjkCXR42Wbd2tYvWp7WbM&callback=initMap"></script>
-    <!-- Custom JS -->
-    <script src="/js/custom.js"></script>
+    {{ partial "scripts.html" . }}
+
 </body>
 
 </html>
