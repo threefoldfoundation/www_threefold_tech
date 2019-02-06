@@ -11,25 +11,23 @@
 
 .nav-link {
     color: #858585;
-    font-family: Barlow;
+    font-family: 'Barlow', sans-serif;
     font-size: 19px;
     font-weight: 600;
     line-height: 23px;
-
 }
 
 /* TF tech sec */
 .tech {
     position: relative;
     min-height: 80vh;
-    /* margin: 100px auto 200px; */
     padding-top: 212px;
 }
 
 .tech strong {
     font-weight: bolder;
     font-size: 23px;
-    font-family: Barlow;
+    font-family: 'Barlow', sans-serif;
     line-height: 24px;
 }
 
@@ -42,16 +40,18 @@
 .contact form ::placeholder,
 .form-control:focus {
     color: #0F296A;
-    font-family: "Barlow Condensed";
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 48px;
     font-weight: 600;
+}
 
-
+.contact form ::placeholder {
+    font-size: 20px;
 }
 
 h4 {
     color: #0F296A !important;
-    font-family: Barlow;
+    font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
