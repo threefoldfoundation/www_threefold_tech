@@ -1,13 +1,29 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* nav */
+
+.sticky-top {
+  padding-top: 72px;
+
+}
+
+.nav-link {
+  color: #858585;
+  font-family: Barlow;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 23px;
+
 }
 
 /* TF tech sec */
 .tech {
     position: relative;
     min-height: 80vh;
-    margin: 100px auto 200px;
-    padding-top: 255px;
+    /* margin: 100px auto 200px; */
+    padding-top: 212px;
 }
 
 .tech h1,
@@ -15,11 +31,23 @@
 .passion h1,
 .execution h1,
 .technology h1,
-.technology h4,
 .contact h1,
 .contact form ::placeholder,
 .form-control:focus {
-    color: #0f2969;
+    color: #0F296A;
+    font-family: "Barlow Condensed";
+    font-size: 48px;
+    font-weight: 600;
+
+
+}
+
+h4{
+  color: #0F296A;
+  font-family: Barlow;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
 }
 
 .tech p {
