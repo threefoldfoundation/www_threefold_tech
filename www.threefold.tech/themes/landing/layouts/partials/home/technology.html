@@ -1,0 +1,46 @@
+<div class="technology" id="technology">
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <h1 class="h1 text-uppercase font-weight-bold">{{ .Params.Title }}</h1>
+        </div>
+
+        <div class="col-12 col-lg-8">
+            <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p1 }}</h2>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.sec1_header }}</h4>
+                    {{ .Params.sec1_content }}
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.sec2_header }}</h4>
+                    {{ .Params.sec2_content }}
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.sec3_header }}</h4>
+                    {{ .Params.sec3_content }}
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.sec4_header }}</h4>
+                    {{ .Params.sec4_content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12 offset-lg-4 col-lg-8">
+            <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p2 }}</h2>
+            <div class="col">
+                <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.comp1_header }}</h4>
+                {{ .Params.comp1_content }}
+            </div>
+            <div class="col">
+                <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.comp2_header }}</h4>
+                {{ .Params.comp2_content }}
+            </div>
+            <div class="col">
+                <h4 class="h4 text-uppercase font-weight-bolder mt-5">{{ .Params.comp3_header }}</h4>
+                {{ .Params.comp3_content }}
+            </div>
+        </div>
+    </div>
+</div>

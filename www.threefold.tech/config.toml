@@ -23,6 +23,32 @@ paginate = 15
     url  = "#tech"
     weight = 1
 
+[[menu.main]]
+    name = "Credibility"
+    url  = "#credibility"
+    weight = 2
+
+[[menu.main]]
+    name = "Passion"
+    url  = "#passion"
+    weight = 3
+
+[[menu.main]]
+    name = "Execution"
+    url  = "#execution"
+    weight = 4
+
+[[menu.main]]
+    name = "Technology"
+    url  = "#technology"
+    weight = 5
+
+[[menu.main]]
+    name = "Contact"
+    url  = "#contact"
+    weight = 6
+
+
 [params]
     viewMorePostLink = ""
     author = "ThreeFold.tech"
