@@ -32,76 +32,15 @@
         <!-- end Execution Sec -->
 
         <!-- Technology Sec -->
-        <div class="technology" id="technology">
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <h1 class="h1 text-uppercase">Technology</h1>
-                </div>
-
-                <div class="col-12 col-lg-8">
-                    <h2 class="h2 text-muted text-capitalize">Differentiators</h2>
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <h4 class="h4 text-uppercase font-weight-bolder mt-5">Zero People</h4>
-                            <p>Stateless computing with self healing capabilities allows our technology to exists
-                                everywhere. Minimise the need to human intervention and understanding (lowering TCO).</p>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <h4 class="h4 text-uppercase font-weight-bolder mt-5">Simplicity</h4>
-                            <p>Achieve maximum performance from IT infrastructure by making everything extremely
-                                simple. Distibuted digital workers wih a single core function and nothing more.</p>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <h4 class="h4 text-uppercase font-weight-bolder mt-5">Blockchain Technology</h4>
-                            <p>Our zero-robot technology has allowed us to resolve what we deem to be the Blockchain
-                                Dilemma. The internet architectural shortcoming of blockchain allows either scalability
-                                or security but we have achieved both with our zero-chain technology that allows a
-                                proof of stake blockchain that is both scalable and secure.</p>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <h4 class="h4 text-uppercase font-weight-bolder mt-5">Scalability &amp; Security</h4>
-                            <p>Digital workers managing operational and financial trancastions on the grid peer-to-peer
-                                with a stateless operating system creates an infinitely scalable platform on number os
-                                capacity nodes (Zero OS enabled) and digital workers (Zero Robot) managing the
-                                activities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-12 offset-lg-4 col-lg-8">
-                    <h2 class="h2 text-muted text-capitalize">Components</h2>
-                    <div class="col">
-                        <h4 class="h4 text-uppercase font-weight-bolder mt-5">Zero OS</h4>
-                        <p>Our lightweight sateless Operating system. Designed yo be very efficient in making hardware
-                            available on the peer to peer grig network for actual IT workloads. You can find it here on
-                            Github as open source and here for bootstrap purposes.</p>
-                    </div>
-                    <div class="col">
-                        <h4 class="h4 text-uppercase font-weight-bolder mt-5">Zero Chain</h4>
-                        <p>Our (permissioned) Proof Of Stake Blockchain (PoS). A versatile blockchain technology
-                            implemented on the TG Grid to amnage all financial transactions and authoritative identity
-                            information (Zero Chain) for all Zero Bots. The Zero Bots use a different, private
-                            implementation of this PoS blockchain to store all state information of all tasks it is
-                            managin. There will literally be millions of blockchains running on the TF Grid.</p>
-                    </div>
-                    <div class="col">
-                        <h4 class="h4 text-uppercase font-weight-bolder mt-5">Zero Robot</h4>
-                        <p>A Zero Bot is a virtual worker on the TF Grid. You can find it here on Github. Ther worker
-                            can be givien different knowledge to perform a variety of tasks. The Bot lives on the
-                            network and takes care of all the system administration tasks on and for the grid, and also
-                            acts as a digital avatar for all grid producers and consumers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{ else if eq .Title "technology" }}
+        {{ partial "home/technology.html" . }}
         <!-- end Technology Sec -->
 
         <!-- Contact Sec -->
         <div class="contact" id="contact">
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <h1 class="h1 text-uppercase font-weight-bold">Contact</h1>
+                    <h1 class="h1 text-uppercase">Contact</h1>
                 </div>
 
                 <div class="col-12 col-lg-8">
