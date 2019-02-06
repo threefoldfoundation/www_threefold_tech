@@ -9,27 +9,11 @@
     <!-- end Navbar -->
 
     <div class="container">
-
+        {{ range $element := .Data.Pages }}
+        {{ if eq .Section "home" }}
+        {{ if eq .Title "tech" }}
         <!-- TF Tech Sec -->
-        <div class="tech" id="tech">
-            <div class="row">
-                <div class="col-12 col-lg-4 align-self-center">
-                    <h1 class="h1 text-uppercase">ThreeFold.<small class="font-weight-bold">Tech</small></h1>
-                </div>
-                <div class="col-12 col-lg-8">
-                    <p class="font-weight-bolder">We are a technology development company that is passionate
-                        about making a meaningful <span class="text-uppercase">Impact</span> on humanity and our world.</p>
-
-                    <p>Over the passed years we have developed a disruptive stack of technology which
-                        can be used individually or combined. When combined, it makes possible access to a raw internet
-                        capacity that is, by design, responsible and democratized, protecting individual privacy,
-                        neutrality, and security, whilst being inclusive to all of humanity.</p>
-                </div>
-                <a class="ct-btn-scroll ct-js-btn-scroll text-secondary" href="#credibility">
-                    <i class="fas fa-angle-double-down fa-2x"></i>
-                </a>
-            </div>
-        </div>
+        {{ partial "home/tech.html" . }}
         <!-- end TF Tech Sec -->
 
         <!-- Credibility Sec -->
@@ -509,6 +493,9 @@
             </div>
         </footer>
         <!-- end Footer Sec -->
+        {{end}}
+        {{end}}
+        {{end}}
     </div>
     <!-- end container -->
 
