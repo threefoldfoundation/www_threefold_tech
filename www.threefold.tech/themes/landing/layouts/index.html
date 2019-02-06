@@ -27,51 +27,15 @@
         <!-- end Passion Sec -->
 
         <!-- Execution Sec -->
-        <div class="execution" id="execution">
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <h1 class="h1 text-uppercase font-weight-bold">Execution</h1>
-                </div>
-                <div class="col-12 col-lg-8">
-                    <h2 class="h2 text-muted text-capitalize">Proof of technology</h2>
-                    <p>TFTech Technology is already being proven in terms of it's viability. In parternership with the
-                        ThreeFold Foundation, our technology is empowerig a New responsible Internet (www.threefold.io)
-                        offering a fully decentralized and distributed grid of compute and storage capacity intended to
-                        eable better privacy, neutrality and cost efficiency for the internet of tomorrow.</p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-12 offset-lg-4 col-lg-8">
-                    <h2 class="h2 text-muted text-capitalize">Parteners</h2>
-
-                    <div class="row mt-5 flex-wrap">
-                        <div class="col-12 col-lg-4">
-                            <a href="#" class="mb-4 h-100">
-                                <img class="img-fluid" src="http://placehold.it/200x200" alt="">
-                            </a>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <a href="#" class="mb-4 h-100">
-                                <img class="img-fluid" src="http://placehold.it/200x200" alt="">
-                            </a>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <a href="#" class="mb-4 h-100">
-                                <img class="img-fluid" src="http://placehold.it/200x200" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end Execution Sec -->
-
-        </div>
+        {{ else if eq .Title "execution" }}
+        {{ partial "home/execution.html" . }}
+        <!-- end Execution Sec -->
 
         <!-- Technology Sec -->
         <div class="technology" id="technology">
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <h1 class="h1 text-uppercase font-weight-bold">Technology</h1>
+                    <h1 class="h1 text-uppercase">Technology</h1>
                 </div>
 
                 <div class="col-12 col-lg-8">
@@ -170,21 +134,21 @@
                     <form class="mt-5">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control font-weight-bolder" id="fName" placeholder="FIRST NAME">
+                                <input type="text" class="form-control" id="fName" placeholder="FIRST NAME">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control font-weight-bolder" id="lName" placeholder="LAST NAME">
+                                <input type="text" class="form-control" id="lName" placeholder="LAST NAME">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control font-weight-bolder" id="mail" placeholder="EMAIL ADDRESS">
+                                <input type="email" class="form-control" id="mail" placeholder="EMAIL ADDRESS">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="tel" class="form-control font-weight-bolder" id="tel" placeholder="TELEPHONE NUMBER">
+                                <input type="tel" class="form-control" id="tel" placeholder="TELEPHONE NUMBER">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control font-weight-bolder" id="message" rows="10" placeholder="MESSAGE"></textarea>
+                            <textarea class="form-control" id="message" rows="10" placeholder="MESSAGE"></textarea>
                         </div>
 
                         <button type="submit" class="btn">Send</button>
