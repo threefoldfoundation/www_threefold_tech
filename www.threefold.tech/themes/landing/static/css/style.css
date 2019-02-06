@@ -41,7 +41,7 @@
 .form-control:focus {
     color: #0F296A;
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500;
     letter-spacing: 3px;
 }
@@ -64,6 +64,9 @@ h4 {
     color: #000;
 }
 
+.right_side{
+  padding-left: 50px;
+}
 .ct-btn-scroll {
     width: 20px;
     height: 30px;
