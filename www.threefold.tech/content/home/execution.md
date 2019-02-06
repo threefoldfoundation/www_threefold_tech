@@ -5,13 +5,13 @@ header_p1 = "Proof of technology"
 header_p2 = "Partners"
 
 img1_link = "#"
-img1_src = "http://placehold.it/200x200"
+img1_src = "img/hpe-logo.png"
 
 img2_link = "#"
-img2_src = "http://placehold.it/200x200"
+img2_src = "img/solidaridad-logo.png"
 
 img3_link = "#"
-img3_src = "http://placehold.it/200x200"
+img3_src = "img/hpe-logo.png"
 
 weight = 4
 +++
