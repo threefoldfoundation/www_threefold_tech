@@ -5,16 +5,16 @@
 /* nav */
 
 .sticky-top {
-  padding-top: 72px;
+    padding-top: 72px;
 
 }
 
 .nav-link {
-  color: #858585;
-  font-family: Barlow;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 23px;
+    color: #858585;
+    font-family: Barlow;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
 
 }
 
@@ -26,8 +26,8 @@
     padding-top: 212px;
 }
 
-.tech strong{
-  font-weight: bolder;
+.tech strong {
+    font-weight: bolder;
     font-size: 23px;
     font-family: Barlow;
     line-height: 24px;
@@ -49,12 +49,12 @@
 
 }
 
-h4{
-  color: #0F296A !important;
-  font-family: Barlow;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
+h4 {
+    color: #0F296A !important;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
 }
 
 .tech p {
