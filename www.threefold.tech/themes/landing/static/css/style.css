@@ -41,12 +41,14 @@
 .form-control:focus {
     color: #0F296A;
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3px;
 }
 
-.contact form ::placeholder {
-    font-size: 20px;
+.contact form ::placeholder,
+.form-control:focus {
+    font-size: 1rem;
 }
 
 h4 {
