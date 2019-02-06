@@ -2,7 +2,7 @@
 title = "execution"
 
 header_p1 = "Proof of technology"
-header_p2 = "Parteners"
+header_p2 = "Partners"
 
 img1_link = "#"
 img1_src = "img/hpe-logo.png"
