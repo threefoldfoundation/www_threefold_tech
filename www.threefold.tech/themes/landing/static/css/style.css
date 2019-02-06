@@ -26,6 +26,13 @@
     padding-top: 212px;
 }
 
+.tech strong{
+  font-weight: bolder;
+    font-size: 23px;
+    font-family: Barlow;
+    line-height: 24px;
+}
+
 .tech h1,
 .credibility h1,
 .passion h1,
