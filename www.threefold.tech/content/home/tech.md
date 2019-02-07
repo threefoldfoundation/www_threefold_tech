@@ -1,7 +1,7 @@
 +++
 title = "tech"
 
-header = "ThreeFold"
+header = "ThreeFold."
 slogan = "Tech"
 weight = 1
 +++
