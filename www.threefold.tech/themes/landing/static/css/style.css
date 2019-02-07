@@ -162,6 +162,180 @@ h4 {
 
 /* end Credibility Sec */
 
+/* Passion sec */
+.rj-team .rj-team-member .rj-team-member-info-text,
+.rj-team .rj-team-member .rj-team-member-info-text .member-name {
+    color: #fff;
+}
+
+.rj-team .member-photo.selected:after {
+    border-bottom-color: #0d2e75;
+}
+
+.rj-team-member-photo-rollover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.rj-team-member-photo-rollover:hover {
+    -webkit-filter: grayscale();
+    filter: grayscale(0%);
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text {
+    background-color: #0d2e75;
+}
+
+.rj-team-member-info-text .member-name {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.passion p,
+.rj-team-member-info-text .bio-excerpt {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.rj-team-member .video {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.rj-team-member .video span {
+    text-transform: uppercase;
+    color: #0d2e75;
+}
+
+.rj-team .member-photo:hover {
+    z-index: 2
+}
+
+.rj-team .rj-team-member,
+.rj-team .rj-team-member * {
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+vertical-align:middle .rj-investor div.rj-investor-svangel {
+    padding-top: 20px !important
+}
+
+.rj-team {
+    padding-top: 1rem;
+    padding-bottom: 2rem
+}
+
+.rj-team:after {
+    content: ' ';
+    display: table;
+    clear: both;
+    height: 0
+}
+
+.rj-team .rj-team-member {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 12.5%
+}
+
+.rj-team .rj-team-member .rj-team-member-photo-rollover {
+    display: block;
+    width: 100%;
+    margin: 0
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 800%;
+    padding: 50px 20px;
+    background: #0F296A;
+    left: 0;
+    margin-left: 0;
+    color: #fff;
+    font-size: inherit;
+    z-index: 1;
+    cursor: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+.rj-team .member-photo.selected:after {
+    content: '';
+    position: absolute;
+    border: 19px solid transparent;
+    border-bottom-color: #0F296A;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 19px;
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text .close-bio {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5rem
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text .member-name {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    font-weight: 600;
+    padding-top: .5rem;
+    line-height: 1.4rem;
+    text-transform: capitalize
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt {
+    font-size: 1rem;
+    line-height: 1.6rem
+}
+
+.rj-team .rj-team-member .rj-team-member-info-text:after {
+    content: none
+}
+
+.rj-team .rj-team-member:nth-child(8n+2) .rj-team-member-info-text {
+    margin-left: -100%
+}
+
+.rj-team .rj-team-member:nth-child(8n+3) .rj-team-member-info-text {
+    margin-left: -200%
+}
+
+.rj-team .rj-team-member:nth-child(8n+4) .rj-team-member-info-text {
+    margin-left: -300%
+}
+
+.rj-team .rj-team-member:nth-child(8n+5) .rj-team-member-info-text {
+    margin-left: -400%
+}
+
+.rj-team .rj-team-member:nth-child(8n+6) .rj-team-member-info-text {
+    margin-left: -500%
+}
+
+.rj-team .rj-team-member:nth-child(8n+7) .rj-team-member-info-text {
+    margin-left: -600%
+}
+
+.rj-team .rj-team-member:nth-child(8n+8) .rj-team-member-info-text {
+    margin-left: -700%
+}
+
+/* end Passion Sec */
 /* map */
 #map {
     width: 100%;
@@ -191,9 +365,101 @@ h4 {
     border-color: transparent;
 }
 
-/* footer */
+@media screen and (max-width: 992px) {
+    .rj-team .rj-team-member {
+        width: 20%
+    }
 
-.text-center {
-  font-size:12px;
-  color :#0f2969;
+    .rj-team .rj-team-member .rj-team-member-info-text {
+        width: 500%;
+        padding-right: 30px
+    }
+
+    .rj-team .rj-team-member:nth-child(5n+1) .rj-team-member-info-text {
+        margin-left: 0
+    }
+
+    .rj-team .rj-team-member:nth-child(5n+2) .rj-team-member-info-text {
+        margin-left: -100%
+    }
+
+    .rj-team .rj-team-member:nth-child(5n+3) .rj-team-member-info-text {
+        margin-left: -200%
+    }
+
+    .rj-team .rj-team-member:nth-child(5n+4) .rj-team-member-info-text {
+        margin-left: -300%
+    }
+
+    .rj-team .rj-team-member:nth-child(5n+5) .rj-team-member-info-text {
+        margin-left: -400%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rj-team {
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rj-team .rj-team-member {
+        width: 33.33%
+    }
+
+    .rj-team .rj-team-member .rj-team-member-info-text {
+        width: 300%;
+        padding: 15px 0
+    }
+
+    .rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt {
+        display: none
+    }
+
+    .rj-team .rj-team-member .rj-team-member-info-text .member-name {
+        font-size: 1rem;
+        padding-top: 0
+    }
+
+    .rj-team .rj-team-member .rj-team-member-info-text .close-bio {
+        top: 0;
+        right: 10px
+    }
+
+    .rj-team .rj-team-member:nth-child(3n+1) .rj-team-member-info-text {
+        margin-left: 0
+    }
+
+    .rj-team .rj-team-member:nth-child(3n+2) .rj-team-member-info-text {
+        margin-left: -100%
+    }
+
+    .rj-team .rj-team-member:nth-child(3n+3) .rj-team-member-info-text {
+        margin-left: -200%
+    }
+
+    .rj-team-member-info-text img {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    .tech h1,
+    .credibility h1,
+    .passion h1,
+    .execution h1,
+    .technology h1,
+    .contact h1 {
+        text-align: left !important;
+    }
+
+    .member-name {
+        text-align: center;
+    }
+
+    .rj-team {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
 }
