@@ -5,19 +5,19 @@ header_p1 = "Differentiators"
 
 # section 1
 sec1_header = "Zero People"
-sec1_content = "Stateless computing with self healing capabilities allows our technology to exists everywhere. Minimise the need to human intervention and understanding (lowering TCO)."
+sec1_content = "Storage and computing with self healing capabilities allows our technology to exists everywhere. Minimise the need to human intervention and understanding (lowering TCO)."
 
 # section 2
 sec2_header = "Simplicity"
-sec2_content = "Achieve maximum performance from IT infrastructure by making everything extremely simple. Distibuted digital workers wih a single core function and nothing more."
+sec2_content = "Achieve maximum performance from IT infrastructure by making everything extremely simple. Distibuted Zero Robots wih a single core function and nothing more."
 
 # section 3
-sec3_header = "Blockchain Technology"
+sec3_header = "Blockchain Dilemma: Solved"
 sec3_content = "Our zero-robot technology has allowed us to resolve what we deem to be the Blockchain Dilemma. The internet architectural shortcoming of blockchain allows either scalability or security but we have achieved both with our zero-chain technology that allows a proof of stake blockchain that is both scalable and secure."
 
 # section 4
 sec4_header = "Scalability & Security"
-sec4_content = "Digital workers managing operational and financial trancastions on the grid peer-to-peer with a stateless operating system creates an infinitely scalable platform on number os capacity nodes (Zero OS enabled) and digital workers (Zero Robot) managing the activities."
+sec4_content = "Zero Robots managing operational and financial trancastions on the grid peer-to-peer with a stateless operating system creates an infinitely scalable platform on number os capacity nodes (Zero OS enabled) and Zero Robot managing the activities."
 
 
 header_p2 = "Components"
