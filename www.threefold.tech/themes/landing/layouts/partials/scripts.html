@@ -2,6 +2,14 @@
 <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/popper.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA70f15E5-tShvjkCXR42Wbd2tYvWp7WbM&callback=initMap"></script>
+{{ if .Site.Params.googleMapsApiKey }}
+<script src="//maps.googleapis.com/maps/api/js?key={{.Site.Params.googleMapsApiKey}}&v=3.exp"></script>
+{{ else }}
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+{{ end }}
 <!-- Custom JS -->
-<script src="{{ .Site.BaseURL }}js/custom.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/community_data.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/data.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/founders.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/team.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/custom.js"></script>
