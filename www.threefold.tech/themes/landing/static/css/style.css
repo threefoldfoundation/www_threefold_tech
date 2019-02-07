@@ -50,19 +50,19 @@
 .passion h2,
 .technology h2,
 .execution h2,
-.contact h2
-{
-  color: #2D2D2D !important;
-  font-family: Barlow;
-  font-size: 36px;
-  font-weight: 300;
-  line-height: 43px;
+.contact h2 {
+    color: #2D2D2D !important;
+    font-family: Barlow;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43px;
 }
 
 p {
     font-size: 1.2rem;
     color: #000;
 }
+
 .contact form ::placeholder,
 .form-control:focus {
     font-size: 1rem;
@@ -81,16 +81,18 @@ h4 {
     color: #000;
 }
 
-.tech_bold{
-  font-size: 45px;
-  font-weight: 500 !important;
-  font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: -1px;
+.tech_bold {
+    font-size: 45px;
+    font-weight: 500 !important;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: -1px;
 
 }
-.right_side{
-  padding-left: 50px;
+
+.right_side {
+    padding-left: 50px;
 }
+
 .ct-btn-scroll {
     width: 20px;
     height: 30px;
@@ -101,6 +103,50 @@ h4 {
     margin: auto;
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+}
+
+.tech .first-arrow,
+.tech .second-arrow {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: relative;
+    width: 3.6em;
+    height: 3.6em;
+}
+
+.tech .first-arrow:before,
+.tech .second-arrow:before {
+    -webkit-transform: translateX(0.6em) translateY(1.55em) rotate(225deg);
+    transform: translateX(0.6em) translateY(1.55em) rotate(225deg);
+}
+
+.tech .first-arrow:after,
+.tech .second-arrow:after {
+    -webkit-transform: translateX(0.8em) translateY(1.55em) rotate(-45deg);
+    transform: translateX(0.8em) translateY(1.55em) rotate(-45deg);
+}
+
+.tech .first-arrow:before,
+.tech .first-arrow:after,
+.tech .second-arrow:before,
+.tech .second-arrow:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5em;
+    height: 0.1em;
+    border-radius: 0.25em;
+    background-color: currentColor;
+    transition: all 0.15s ease, background-color 0.8s ease;
+    -webkit-transform-origin: 0.2em 50%;
+    transform-origin: 0.2em 50%;
+    will-change: transform;
+}
+
+.tech .second-arrow:before,
+.tech .second-arrow:after {
+    top: 10px;
 }
 
 /* end TF tech Sec */
