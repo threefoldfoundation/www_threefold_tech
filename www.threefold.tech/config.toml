@@ -56,7 +56,7 @@ paginate = 15
     defaultDescription = ""
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyA70f15E5-tShvjkCXR42Wbd2tYvWp7WbM"
+    googleMapsApiKey = "AIzaSyBO8Bc546Lmv1zXDuSkhP915QT3OHP9P8s"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
