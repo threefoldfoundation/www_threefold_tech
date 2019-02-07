@@ -14,13 +14,19 @@ img3_link = "#"
 img3_src = "img/tf-foundation-underline-01.png"
 
 img4_link = "#"
-img4_src = "img/tf-foundation-underline-01.png"
+img4_src = "img/green_edge.jpg"
 
 img5_link = "#"
-img5_src = "img/tf-foundation-underline-01.png"
+img5_src = "img/safecity.jpg"
 
 img6_link = "#"
-img6_src = "img/tf-foundation-underline-01.png"
+img6_src = "img/jimbr.png"
+
+img7_link = "#"
+img7_src = "img/national_bullion.jpg"
+
+img8_link = "#"
+img8_src = "img/kleos.png"
 
 weight = 4
 +++
