@@ -169,9 +169,9 @@ h4 {
     background-color: grey;
 }
 
+.form-control,
 .contact form input,
-.form-control:focus,
-.form-control textarea {
+.form-control:focus {
     background: #d8d8d8 !important;
 }
 
