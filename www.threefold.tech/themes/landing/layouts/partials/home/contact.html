@@ -13,8 +13,8 @@
                         function initMap() {
                             // The location of lochristi
                             var lochristi = {
-                                lat: 51.1,
-                                lng: 3.8333
+                                lat: 51.092180,
+                                lng: 3.820360
                             };
                             // The map, centered at lochristi
                             var map = new google.maps.Map(
@@ -31,24 +31,25 @@
                     </script>
             <h2 class="h2 text-muted text-capitalize mt-5">{{ .Params.contact }}</h2>
 
-            <form class="mt-5">
+            <form class="mt-5" action="https://formspree.io/info@threefold.tech" method="POST">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control font-weight-bold" id="fName" placeholder="FIRST NAME">
+                        <input type="text" class="form-control font-weight-bold" id="fName" name="firstname"
+                            placeholder="FIRST NAME">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control font-weight-bold" id="lName" placeholder="LAST NAME">
+                        <input type="text" class="form-control font-weight-bold" id="lName" name="lastname" placeholder="LAST NAME">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="email" class="form-control font-weight-bold" id="mail" placeholder="EMAIL ADDRESS">
+                        <input type="email" class="form-control font-weight-bold" id="mail" name="email" placeholder="EMAIL ADDRESS">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="tel" class="form-control font-weight-bold" id="tel" placeholder="TELEPHONE NUMBER">
+                        <input type="tel" class="form-control font-weight-bold" id="tel" name="phone" placeholder="TELEPHONE NUMBER">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <textarea class="form-control font-weight-bold" id="message" rows="10" placeholder="MESSAGE"></textarea>
+                    <textarea class="form-control font-weight-bold" id="message" rows="10" name="message" placeholder="MESSAGE"></textarea>
                 </div>
 
                 <button type="submit" class="btn">Send</button>
