@@ -11,7 +11,7 @@ img2_link = "#"
 img2_src = "img/solidaridad-logo.png"
 
 img3_link = "#"
-img3_src = "img/hpe-logo.png"
+img3_src = "img/tf-foundation-underline-01.png"
 
 weight = 4
 +++
