@@ -1,14 +1,37 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="{{ .Site.Author.name }}" />
+
+    <!-- Open Graph data -->
+      <meta property="og:title" content="THREEFOLD.TECH"/>
+      <meta property="og:url" content="https://threefold.tech/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="We are a technology development company that is passionate about making a meaningful IMPACT on humanity and our world." />
+      <!-- Facebook image -->
+      <meta property="og:image" content="" />
+      <!-- Twitter Card -->
+      <meta property="twitter:card" content="summary" />
+      <meta name="twitter:image" content="" />
+      <meta name="twitter:title" content="THREEFOLD.TECH"/>
+      <meta name="twitter:description" content="We are a technology development company that is passionate about making a meaningful IMPACT on humanity and our world.">
+      <meta name="twitter:site" content="@threefold.tech"/>
 
     {{ if .Keywords }}
     <meta name="keywords" content="{{ delimit .Keywords " , " }}">
     {{ else if .Site.Params.DefaultKeywords }}
     <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords " , " }}">
     {{ end }}
+
+    {{ if .Description }}
+    <meta name="description" content="Responsible Internet For All.">
+    {{ else if .Site.Params.DefaultDescription }}
+    <meta name="description" content="Responsible Internet For All.">
+    {{ end }}
+    {{ .Hugo.Generator }}
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
