@@ -11,7 +11,7 @@
         path ../../../community_data
         then rm -rf ../www_threefold.tech/www.threefold.tech/en/
         then python3 community.py
-        then hugo -s ../www_threefold.techo/www.threefold.tech
+        then hugo -s ../www_threefold.tech/www.threefold.tech
     }
 
     git {
