@@ -1,9 +1,9 @@
-# Welcome
+# ThreeFold Tech Website
 
-To the Threefold.tech website Github repo.
+Welcome to the Threefold.tech website Github repo.
 
 Co-ordinator of this repo is Roel (@VonSub)
-The Awesome WebDev team exist of Samar (@Samaradel) and Ehab (@Ehab-hassan).
+The Awesome WebDev team includes Samar (@Samaradel) and Ehab (@Ehab-hassan).
 
 Our production version can be found on [ThreeFold Tech](https://www.threefold.tech)
 Our staging branch can be found on [ThreeFold Tech Staging](https://www2.threefold.tech)
