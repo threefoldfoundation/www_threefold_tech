@@ -33,6 +33,6 @@ img9_src = "img/bancadati.jpg"
 
 weight = 4
 +++
-TFTech's Technology is already being proven in the field. In parternership with the ThreeFold Foundation, our technology is empowerig a New responsible Internet [www.threefold.io](http://www.threefold.io) offering a fully decentralized and distributed grid of compute and storage capacity intended to eable better privacy, neutrality and cost efficiency for the internet of tomorrow.
+TFTech's Technology is already being used in the field. In parternership with the ThreeFold Foundation, our technology is empowering a New responsible Internet [www.threefold.io](http://www.threefold.io) offering a fully decentralized and distributed grid of compute and storage capacity intended to ecable better privacy, neutrality and cost efficiency for the internet of tomorrow.
 
 ThreeFold Foundation and its farmers already have over ten times more internet capacity up and running as all other blockchain "cloud" companies combined.
