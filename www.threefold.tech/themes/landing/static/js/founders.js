@@ -91,5 +91,5 @@ $(function () {
         })
     }
 
-    $("#threefold").append(render(team));
+    $("#threefold").append(render(founders));
 });
