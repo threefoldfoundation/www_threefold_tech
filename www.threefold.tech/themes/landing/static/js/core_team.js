@@ -57,7 +57,7 @@ var founders = [{
         "skype": "",
         "core": "threefold",
         "links": [],
-        "avatar": "Wolfgang_W_processed.jpg"
+        "avatar": "processed_Wolfgang W.jpg"
     },
     {
         "telegram": "@stelasuils",
