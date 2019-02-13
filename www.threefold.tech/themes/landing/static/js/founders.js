@@ -28,8 +28,8 @@ $(function () {
 
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
                 var row = $("<div>").addClass("row");
-                var imgCol = $("<div>").addClass('col-sm-3');
-                var dataCol = $("<div>").addClass('col-sm-9');
+                var imgCol = $("<div>").addClass('col-sm-5');
+                var dataCol = $("<div>").addClass('col-sm-7');
                 var close = $('<div>').addClass('close-bio').text('x');
 
                 if (details[i].core && details[i].rank > 0) {
