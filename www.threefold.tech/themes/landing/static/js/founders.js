@@ -19,6 +19,7 @@ $(function () {
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
                 img.prop('src', '/avatars/' + encodeURIComponent(details[i].avatar));
+
                 if (details[i].avatar == "") {
                     var img = $("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png');
                 }
@@ -27,8 +28,8 @@ $(function () {
 
                 var div = $("<div>").addClass("rj-team-member-info-text").css('display', 'none');
                 var row = $("<div>").addClass("row");
-                var imgCol = $("<div>").addClass('col-sm-5');
-                var dataCol = $("<div>").addClass('col-sm-7');
+                var imgCol = $("<div>").addClass('col-sm-3');
+                var dataCol = $("<div>").addClass('col-sm-9');
                 var close = $('<div>').addClass('close-bio').text('x');
 
                 if (details[i].core && details[i].rank > 0) {
