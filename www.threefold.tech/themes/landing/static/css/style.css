@@ -372,6 +372,64 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
   color: #0f2969;
 }
 
+.img_container {
+    display:inline-block;
+    position:relative;
+
+}
+
+.img_container div {
+    min-width:400px;
+    top:100px;
+    left:133%;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#fff;
+    background-color:#0F296A;
+    font-weight:normal;
+    font-size:10px;
+
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px transparent;
+    visibility:hidden; opacity:0; transition:opacity 0.8s;
+}
+.foldout h5{
+  color: #fff;
+  margin-bottom: 0px;
+}
+.foldout p{
+  color: #fff;
+  font-size: 12px;
+
+}
+
+.img_container:hover div {
+    visibility:visible; opacity:1;
+}
+
+
+.img_container div i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.img_container div i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#0F296A;
+    box-shadow:0 1px 8px transparent;
+}
 
 
 @media screen and (max-width: 992px) {
