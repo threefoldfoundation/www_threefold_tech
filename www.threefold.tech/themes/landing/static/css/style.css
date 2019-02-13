@@ -335,6 +335,20 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin-left: -700%
 }
 
+/* technology section */
+
+.github_button{
+  margin-top:15px;
+  font-size:14px;
+  text-transform:uppercase;
+  border-color: #0F296A;
+  color: #0F296A;
+
+}
+
+.fab {
+  margin-right: 10px;
+}
 /* end Passion Sec */
 /* map */
 #map {
