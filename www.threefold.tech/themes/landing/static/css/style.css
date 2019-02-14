@@ -423,6 +423,10 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     border-color: transparent;
 }
 
+.address_map ul {
+    list-style: none;
+}
+
 /* footer */
 
 .text_footer {
