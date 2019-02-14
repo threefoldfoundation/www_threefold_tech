@@ -10,4 +10,10 @@ $(document).ready(function () {
             });
         }
     });
+
+    $('.partner-member .member-photo').on("mouseenter", function () {
+        $(this).parent().find(".partner-member-info-text").css('display', 'block');
+    }).on('mouseleave', function () {
+        $(this).parent().find(".partner-member-info-text").css('display', 'none');
+    });
 });
