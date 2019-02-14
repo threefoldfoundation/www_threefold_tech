@@ -349,7 +349,8 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin-left: -300%
 }
 
-.partners .partner-member:nth-child(3n+4) .partner-member-info-text {
+.partners .partner-member:nth-child(3n+4) .partner-member-info-text,
+.partners .partner-member:nth-child(3n+7) .partner-member-info-text {
     margin-left: 0;
 }
 
@@ -365,13 +366,11 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin-left: -500%
 }
 
-.rj-team .rj-team-member:nth-child(8n+7) .rj-team-member-info-text,
-.partners .partner-member:nth-child(3n+7) .partner-member-info-text {
+.rj-team .rj-team-member:nth-child(8n+7) .rj-team-member-info-text {
     margin-left: -600%
 }
 
-.rj-team .rj-team-member:nth-child(8n+8) .rj-team-member-info-text,
-.partners .partner-member:nth-child(3n+8) .partner-member-info-text {
+.rj-team .rj-team-member:nth-child(8n+8) .rj-team-member-info-text {
     margin-left: -700%
 }
 
@@ -396,24 +395,9 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
 
 /* end partners sec */
 /* map */
-
-.address_map {
-  float: right;
-  margin-top: 50px;
-
-}
-
-.address_map ul{
-
-  list-style-type: none;
-  line-height: 1.2em;
-}
-
-
-
 #map {
     width: 100%;
-    height: 270px;
+    height: 400px;
     background-color: grey;
 }
 
@@ -445,68 +429,6 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     font-size: 12px;
     color: #0f2969;
 }
-
-.img_container {
-    display: inline-block;
-    /* position:relative; */
-}
-
-.img_container .foldout {
-    width: 260%;
-    top: 100px;
-    /* left: 133%; */
-    /* transform: translate(-50%, 0); */
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #0F296A;
-    font-weight: normal;
-    font-size: 10px;
-    position: absolute;
-    z-index: 99999999;
-    box-sizing: border-box;
-    box-shadow: 0 1px 8px transparent;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.8s;
-}
-
-.foldout h5 {
-    color: #fff;
-    margin-bottom: 0px;
-}
-
-.foldout p {
-    color: #fff;
-    font-size: 12px;
-}
-
-.img_container:hover div {
-    visibility: visible;
-    opacity: 1;
-}
-
-
-.img_container div i {
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -12px;
-    width: 24px;
-    height: 12px;
-    overflow: hidden;
-}
-
-.img_container div i::after {
-    content: '';
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 50%;
-    transform: translate(-50%, 50%) rotate(45deg);
-    background-color: #0F296A;
-    box-shadow: 0 1px 8px transparent;
-}
-
 
 @media screen and (max-width: 992px) {
 

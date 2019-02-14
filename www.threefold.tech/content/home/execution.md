@@ -32,8 +32,7 @@ foldout5_content = "When it comes to safety time is of the essence. Safe City us
 img6_link = "#"
 img6_src = "img/jimbr.png"
 foldout6_title = "Jimber"
-foldout6_content = "Jimber security broker keeps all security risks in the contained environment. 
-We achieve a level of security far beyond the possibilities of today. Powered by TF Tech"
+foldout6_content = "Jimber security broker keeps all security risks in the contained environment. We achieve a level of security far beyond the possibilities of today. Powered by TF Tech"
 
 img7_link = "#"
 img7_src = "img/national_bullion.jpg"
