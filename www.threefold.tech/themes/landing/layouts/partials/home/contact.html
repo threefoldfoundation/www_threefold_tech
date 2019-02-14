@@ -1,59 +1,76 @@
 <div class="contact" id="contact">
-    <div class="row">
-        <div class="col-12 col-lg-4">
-            <h1 class="h1 text-uppercase text-right">{{ .Params.Title }}</h1>
-        </div>
+   <div class="row">
+      <div class="col-12 col-lg-4">
+         <h1 class="h1 text-uppercase text-right">{{ .Params.Title }}</h1>
+      </div>
+      <div class="col-12 offset-lg-1 col-lg-7">
+         <h2 class="h2 text-muted text-capitalize mb-3">{{ .Params.map }}</h2>
+         <!--The div element for the map -->
+         <div class="row">
+            <div class="col-12 col-lg-7">
+               <div id="map"></div>
+               <script>
+                  // Initialize and add the map
+                          function initMap() {
+                              // The location of lochristi
+                              var lochristi = {
+                                  lat: 51.092180,
+                                  lng: 3.820360
+                              };
+                              // The map, centered at lochristi
+                              var map = new google.maps.Map(
+                                  document.getElementById('map'), {
+                                      zoom: 14,
+                                      center: lochristi
+                                  });
+                              // The marker, positioned at lochristi
+                              var marker = new google.maps.Marker({
+                                  position: lochristi,
+                                  map: map
+                              });
+                          }
 
-        <div class="col-12 offset-lg-1 col-lg-7">
-            <h2 class="h2 text-muted text-capitalize mb-3">{{ .Params.map }}</h2>
-            <!--The div element for the map -->
-            <div id="map"></div>
-            <script>
-                // Initialize and add the map
-                        function initMap() {
-                            // The location of lochristi
-                            var lochristi = {
-                                lat: 51.092180,
-                                lng: 3.820360
-                            };
-                            // The map, centered at lochristi
-                            var map = new google.maps.Map(
-                                document.getElementById('map'), {
-                                    zoom: 14,
-                                    center: lochristi
-                                });
-                            // The marker, positioned at lochristi
-                            var marker = new google.maps.Marker({
-                                position: lochristi,
-                                map: map
-                            });
-                        }
-                    </script>
-            <h2 class="h2 text-muted text-capitalize mt-5">{{ .Params.contact }}</h2>
-
-            <form class="mt-5" action="https://formspree.io/info@threefold.tech" method="POST">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control font-weight-bold" id="fName" name="firstname"
-                            placeholder="FIRST NAME">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control font-weight-bold" id="lName" name="lastname" placeholder="LAST NAME">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="email" class="form-control font-weight-bold" id="mail" name="email" placeholder="EMAIL ADDRESS">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="tel" class="form-control font-weight-bold" id="tel" name="phone" placeholder="TELEPHONE NUMBER">
-                    </div>
+               </script>
+            </div>
+            <div class="col-12 col-lg-5">
+               <div class="address_map">
+                  <ul>
+                     <li>
+                        <h4>THREEFOLD TECH</h4>
+                     </li>
+                     <li>ANTWERPSE STEENWEG 19</li>
+                     <li>9080 LOCHRISTI</li>
+                     <li>BELGIUM</li>
+                     <li><a href="mailto:info@threefold.tech">INFO@THREEFOLD.TECH</li></a>
+                     <li>+32 9 324 2092</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- <h2 class="h2 text-muted text-capitalize mt-5">{{ .Params.contact }}</h2> -->
+         <!-- <form class="mt-5" action="https://formspree.io/info@threefold.tech" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control font-weight-bold" id="fName" name="firstname"
+                        placeholder="FIRST NAME">
                 </div>
-
-                <div class="form-group">
-                    <textarea class="form-control font-weight-bold" id="message" rows="10" name="message" placeholder="MESSAGE"></textarea>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control font-weight-bold" id="lName" name="lastname" placeholder="LAST NAME">
                 </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control font-weight-bold" id="mail" name="email" placeholder="EMAIL ADDRESS">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="tel" class="form-control font-weight-bold" id="tel" name="phone" placeholder="TELEPHONE NUMBER">
+                </div>
+            </div>
 
-                <button type="submit" class="btn">Send</button>
-            </form>
-        </div>
-    </div>
+            <div class="form-group">
+                <textarea class="form-control font-weight-bold" id="message" rows="10" name="message" placeholder="MESSAGE"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send</button>
+            </form> -->
+      </div>
+   </div>
 </div>

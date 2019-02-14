@@ -396,9 +396,24 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
 
 /* end partners sec */
 /* map */
+
+.address_map {
+  float: right;
+  margin-top: 50px;
+
+}
+
+.address_map ul{
+
+  list-style-type: none;
+  line-height: 1.2em;
+}
+
+
+
 #map {
     width: 100%;
-    height: 400px;
+    height: 270px;
     background-color: grey;
 }
 
