@@ -1,64 +1,109 @@
 <div class="execution" id="execution">
-    <div class="row">
-        <div class="col-12 col-lg-4">
-            <h1 class="h1 text-uppercase text-right">{{ .Params.Title }}</h1>
-        </div>
-        <div class="col-12 offset-lg-1 col-lg-7">
-            <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p1 }}</h2>
-            {{ .Content }}
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-12 offset-lg-5 col-lg-8">
-            <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p2 }}</h2>
 
-            <div class="row mt-7 flex-wrap">
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img1_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img1_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img2_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img2_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img3_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img3_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img4_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img4_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img5_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img5_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img6_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img6_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img7_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img7_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img8_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img8_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-                <div class="col-12 col-lg-4">
-                    <!-- <a href="{{ .Params.img9_link }}" class="mb-4 h-100"> -->
-                        <img class="img-fluid" src="{{ .Params.img9_src }}" alt="">
-                    <!-- </a> -->
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <h1 class="h1 text-uppercase text-right">{{ .Params.Title }}</h1>
     </div>
+    <div class="col-12 offset-lg-1 col-lg-7">
+      <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p1 }}</h2>
+      {{ .Content }}
+    </div>
+  </div>
+
+  <div class="col-12 offset-lg-5 col-lg-7">
+    <h2 class="h2 text-muted text-capitalize">{{ .Params.header_p2 }}</h2>
+
+    <div class="partners">
+      <div class="row mt-7 d-flex flex-wrap justify-content-between">
+        <div class="partner-member">
+          <div class=" member-photo">
+            <img class="img-fluid" src="{{ .Params.img1_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout1_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout1_content }}</div>
+          </div>
+        </div>
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img2_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout2_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout2_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img3_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout3_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout3_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img4_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout4_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout4_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img5_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout5_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout5_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img6_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout6_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout6_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img7_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout7_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout7_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img8_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout8_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout8_content }}</div>
+          </div>
+        </div>
+
+        <div class="partner-member">
+          <div class="member-photo">
+            <img class="img-fluid" src="{{ .Params.img9_src }}" alt="">
+          </div>
+          <div class="partner-member-info-text">
+            <div class="member-name">{{ .Params.foldout9_title }}</div>
+            <div class="bio-excerpt">{{ .Params.foldout9_content }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

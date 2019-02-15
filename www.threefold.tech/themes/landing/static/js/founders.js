@@ -19,6 +19,7 @@ $(function () {
                 var a = $("<div>").addClass('member-photo');
                 var img = $("<img/>").addClass('rj-team-member-photo-rollover');
                 img.prop('src', '/avatars/' + encodeURIComponent(details[i].avatar));
+
                 if (details[i].avatar == "") {
                     var img = $("<img/>").width('93px').height('94px').prop('src', '/img/Jobs-CTA-inline.png');
                 }
@@ -91,5 +92,5 @@ $(function () {
         })
     }
 
-    $("#threefold").append(render(team));
+    $("#threefold").append(render(founders));
 });
