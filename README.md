@@ -10,3 +10,5 @@ Our staging branch can be found on [ThreeFold Tech Staging](https://www2.threefo
 
 Feel free to commit anything you feel helps the website for the better, we are happy to review it and add it if we feel it adds value to our website.
 
+IT environment documentation can be found here:
+[ThreeFold ITENV Main](https://docs.grid.tf/threefold/itenv_threefold_main/src/branch/master/WWW/threefold-tech)
