@@ -1,12 +1,15 @@
 <div class="tech" id="tech">
-    <div class="row">
-        <div class="col-12 col-lg-4 align-self-center text-right">
-            <h1 class="h1 text-uppercase">{{ .Params.header }}<small class="font-weight-bold tech_bold">{{ .Params.slogan }}</small></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 align-self-center text-right">
+                <h1 class="h1 text-uppercase">{{ .Params.header }}<small
+                        class="font-weight-bold tech_bold">{{ .Params.slogan }}</small></h1>
+            </div>
+            <div class="col-12 offset-lg-1 col-lg-7">{{ .Content }}</div>
+            <a class="ct-btn-scroll text-secondary" href="#credibility">
+                <span class="first-arrow"></span>
+                <span class="second-arrow"></span>
+            </a>
         </div>
-        <div class="col-12 offset-lg-1 col-lg-7">{{ .Content }}</div>
-        <a class="ct-btn-scroll text-secondary" href="#credibility">
-            <span class="first-arrow"></span>
-            <span class="second-arrow"></span>
-        </a>
     </div>
 </div>

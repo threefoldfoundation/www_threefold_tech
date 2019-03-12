@@ -8,7 +8,7 @@
     {{ partial "nav.html" . }}
     <!-- end Navbar -->
 
-    <div class="container">
+    <!-- <div class="container"> -->
         {{ range $element := .Data.Pages }}
         {{ if eq .Section "home" }}
         {{ if eq .Title "tech" }}
@@ -48,7 +48,7 @@
         {{end}}
         {{end}}
         {{end}}
-    </div>
+    <!-- </div> -->
     <!-- end container -->
 
     {{ partial "scripts.html" . }}
