@@ -6,7 +6,6 @@
 
 .sticky-top {
     padding-top: 72px;
-
 }
 
 .nav-link {
@@ -18,28 +17,32 @@
 }
 
 /* TF tech sec */
+
 .tech {
     position: relative;
-    min-height: 80vh;
-    padding-top: 212px;
+    min-height: 88vh;
+    padding-top: 250px;
+}
+
+.tech::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mathyas-kurmann.jpg) 50% 50%;
+    filter: opacity(0.4);
 }
 
 .tech strong {
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 22px;
     font-family: 'Barlow', sans-serif;
     line-height: 24px;
-
 }
 
-.tech h1,
-.credibility h1,
-.passion h1,
-.execution h1,
-.technology h1,
-.contact h1,
-.contact form ::placeholder,
-.form-control:focus {
+.tech h1, .credibility h1, .passion h1, .execution h1, .technology h1, .contact h1, .contact form ::placeholder, .form-control:focus {
     color: #0F296A;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 60px;
@@ -47,10 +50,7 @@
     letter-spacing: 0px;
 }
 
-.passion h2,
-.technology h2,
-.execution h2,
-.contact h2 {
+.passion h2, .technology h2, .execution h2, .contact h2 {
     color: #2D2D2D !important;
     font-family: Barlow;
     font-size: 36px;
@@ -63,8 +63,7 @@ p {
     color: #000;
 }
 
-.contact form ::placeholder,
-.form-control:focus {
+.contact form ::placeholder, .form-control:focus {
     font-size: 1rem;
 }
 
@@ -86,7 +85,6 @@ h4 {
     font-weight: 500 !important;
     font-family: "Barlow Condensed", sans-serif;
     letter-spacing: -1px;
-
 }
 
 .right_side {
@@ -97,7 +95,7 @@ h4 {
     width: 20px;
     height: 30px;
     position: absolute;
-    bottom: 10px;
+    bottom: 150px;
     left: 0;
     right: 0;
     margin: auto;
@@ -105,8 +103,7 @@ h4 {
     transition: all 0.25s ease-in-out;
 }
 
-.tech .first-arrow,
-.tech .second-arrow {
+.tech .first-arrow, .tech .second-arrow {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     position: relative;
@@ -114,22 +111,17 @@ h4 {
     height: 3.6em;
 }
 
-.tech .first-arrow:before,
-.tech .second-arrow:before {
+.tech .first-arrow:before, .tech .second-arrow:before {
     -webkit-transform: translateX(0.6em) translateY(1.55em) rotate(225deg);
     transform: translateX(0.6em) translateY(1.55em) rotate(225deg);
 }
 
-.tech .first-arrow:after,
-.tech .second-arrow:after {
+.tech .first-arrow:after, .tech .second-arrow:after {
     -webkit-transform: translateX(0.8em) translateY(1.55em) rotate(-45deg);
     transform: translateX(0.8em) translateY(1.55em) rotate(-45deg);
 }
 
-.tech .first-arrow:before,
-.tech .first-arrow:after,
-.tech .second-arrow:before,
-.tech .second-arrow:after {
+.tech .first-arrow:before, .tech .first-arrow:after, .tech .second-arrow:before, .tech .second-arrow:after {
     content: ' ';
     position: absolute;
     top: 0;
@@ -144,34 +136,27 @@ h4 {
     will-change: transform;
 }
 
-.tech .second-arrow:before,
-.tech .second-arrow:after {
+.tech .second-arrow:before, .tech .second-arrow:after {
     top: 10px;
 }
 
 /* end TF tech Sec */
 
 /* Credibility Sec */
-.credibility,
-.passion,
-.execution,
-.technology,
-.contact {
+
+.credibility, .passion, .execution, .technology, .contact {
     padding: 200px 0;
 }
 
 /* end Credibility Sec */
 
 /* Passion sec */
-.rj-team .rj-team-member .rj-team-member-info-text,
-.rj-team .rj-team-member .rj-team-member-info-text .member-name,
-.partners .partner-member .partner-member-info-text,
-.partners .partner-member .partner-member-info-text .member-name {
+
+.rj-team .rj-team-member .rj-team-member-info-text, .rj-team .rj-team-member .rj-team-member-info-text .member-name, .partners .partner-member .partner-member-info-text, .partners .partner-member .partner-member-info-text .member-name {
     color: #fff;
 }
 
-.rj-team .member-photo.selected:after,
-.partners .member-photo.selected:after {
+.rj-team .member-photo.selected:after, .partners .member-photo.selected:after {
     border-bottom-color: #0d2e75;
 }
 
@@ -185,19 +170,15 @@ h4 {
     filter: grayscale(0%);
 }
 
-.rj-team .rj-team-member .rj-team-member-info-text,
-.partners .partner-member .partner-member-info-text {
+.rj-team .rj-team-member .rj-team-member-info-text, .partners .partner-member .partner-member-info-text {
     background-color: #0d2e75;
 }
 
-.rj-team-member-info-text .member-name,
-.partner-member-info-text .member-name {
+.rj-team-member-info-text .member-name, .partner-member-info-text .member-name {
     font-family: "Barlow Condensed", sans-serif;
 }
 
-.passion p,
-.rj-team-member-info-text .bio-excerpt,
-.partner-member-info-text .bio-excerpt {
+.passion p, .rj-team-member-info-text .bio-excerpt, .partner-member-info-text .bio-excerpt {
     font-family: "Nunito Sans", sans-serif;
 }
 
@@ -215,10 +196,7 @@ h4 {
     z-index: 2
 }
 
-.rj-team .rj-team-member,
-.rj-team .rj-team-member *,
-.partners .partner-member,
-.partners .partner-member * {
+.rj-team .rj-team-member, .rj-team .rj-team-member *, .partners .partner-member, .partners .partner-member * {
     -o-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
@@ -229,22 +207,19 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     padding-top: 20px !important
 }
 
-.rj-team,
-.partners {
+.rj-team, .partners {
     padding-top: 1rem;
     padding-bottom: 2rem
 }
 
-.rj-team:after,
-.partners:after {
+.rj-team:after, .partners:after {
     content: ' ';
     display: table;
     clear: both;
     height: 0
 }
 
-.rj-team .rj-team-member,
-.partners .partner-member {
+.rj-team .rj-team-member, .partners .partner-member {
     display: block;
     cursor: pointer;
     position: relative;
@@ -262,8 +237,7 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin: 0
 }
 
-.rj-team .rj-team-member .rj-team-member-info-text,
-.partners .partner-member .partner-member-info-text {
+.rj-team .rj-team-member .rj-team-member-info-text, .partners .partner-member .partner-member-info-text {
     display: none;
     position: absolute;
     top: 100%;
@@ -288,8 +262,7 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     width: 400%;
 }
 
-.rj-team .member-photo.selected:after,
-.partners .member-photo.partner-member-info-text:after {
+.rj-team .member-photo.selected:after, .partners .member-photo.partner-member-info-text:after {
     content: '';
     position: absolute;
     border: 19px solid transparent;
@@ -309,8 +282,7 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     font-size: 1.5rem
 }
 
-.rj-team .rj-team-member .rj-team-member-info-text .member-name,
-.partners .partner-member .partner-member-info-text .member-name {
+.rj-team .rj-team-member .rj-team-member-info-text .member-name, .partners .partner-member .partner-member-info-text .member-name {
     font-size: 1.5rem;
     padding-bottom: 1rem;
     color: #fff;
@@ -320,14 +292,12 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     text-transform: capitalize
 }
 
-.rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt,
-.partners .partner-member .partner-member-info-text .bio-excerpt {
+.rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt, .partners .partner-member .partner-member-info-text .bio-excerpt {
     font-size: 1rem;
     line-height: 1.6rem
 }
 
-.rj-team .rj-team-member .rj-team-member-info-text:after,
-.partners .partner-member .partner-member-info-text:after {
+.rj-team .rj-team-member .rj-team-member-info-text:after, .partners .partner-member .partner-member-info-text:after {
     content: none
 }
 
@@ -335,8 +305,7 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin-left: -100%
 }
 
-.partners .partner-member:nth-child(3n+2) .partner-member-info-text,
-.partners .partner-member:nth-child(3n+5) .partner-member-info-text {
+.partners .partner-member:nth-child(3n+2) .partner-member-info-text, .partners .partner-member:nth-child(3n+5) .partner-member-info-text {
     margin-left: -150%
 }
 
@@ -344,13 +313,11 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     margin-left: -200%
 }
 
-.rj-team .rj-team-member:nth-child(8n+4) .rj-team-member-info-text,
-.partners .partner-member:nth-child(3n+3) .partner-member-info-text {
+.rj-team .rj-team-member:nth-child(8n+4) .rj-team-member-info-text, .partners .partner-member:nth-child(3n+3) .partner-member-info-text {
     margin-left: -300%
 }
 
-.partners .partner-member:nth-child(3n+4) .partner-member-info-text,
-.partners .partner-member:nth-child(3n+7) .partner-member-info-text {
+.partners .partner-member:nth-child(3n+4) .partner-member-info-text, .partners .partner-member:nth-child(3n+7) .partner-member-info-text {
     margin-left: 0;
 }
 
@@ -382,7 +349,6 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
     text-transform: uppercase;
     border-color: #0F296A;
     color: #0F296A;
-
 }
 
 .fab {
@@ -394,21 +360,20 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
 /* start partners sec */
 
 /* end partners sec */
+
 /* map */
+
 #map {
     width: 100%;
     height: 400px;
     background-color: grey;
 }
 
-.form-control,
-.contact form input,
-.form-control:focus {
+.form-control, .contact form input, .form-control:focus {
     background: #d8d8d8 !important;
 }
 
-.contact form button,
-.btn:hover {
+.contact form button, .btn:hover {
     background-color: #0f2969;
     color: #fff;
 }
@@ -435,119 +400,77 @@ vertical-align:middle .rj-investor div.rj-investor-svangel {
 }
 
 @media screen and (max-width: 992px) {
-
-    .rj-team .rj-team-member,
-    .partners .partner-member {
+    .rj-team .rj-team-member, .partners .partner-member {
         width: 20%
     }
-
-    .rj-team .rj-team-member .rj-team-member-info-text,
-    .partners .partner-member .partner-member-info-text {
+    .rj-team .rj-team-member .rj-team-member-info-text, .partners .partner-member .partner-member-info-text {
         width: 500%;
         padding-right: 30px
     }
-
-    .rj-team .rj-team-member:nth-child(5n+1) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(5n+1) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(5n+1) .rj-team-member-info-text, .partners .partner-member:nth-child(5n+1) .partner-member-info-text {
         margin-left: 0
     }
-
-    .rj-team .rj-team-member:nth-child(5n+2) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(5n+2) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(5n+2) .rj-team-member-info-text, .partners .partner-member:nth-child(5n+2) .partner-member-info-text {
         margin-left: -100%
     }
-
-    .rj-team .rj-team-member:nth-child(5n+3) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(5n+3) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(5n+3) .rj-team-member-info-text, .partners .partner-member:nth-child(5n+3) .partner-member-info-text {
         margin-left: -200%
     }
-
-    .rj-team .rj-team-member:nth-child(5n+4) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(5n+4) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(5n+4) .rj-team-member-info-text, .partners .partner-member:nth-child(5n+4) .partner-member-info-text {
         margin-left: -300%
     }
-
-    .rj-team .rj-team-member:nth-child(5n+5) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(5n+5) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(5n+5) .rj-team-member-info-text, .partners .partner-member:nth-child(5n+5) .partner-member-info-text {
         margin-left: -400%
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-    .rj-team,
-    .partners {
+    .rj-team, .partners {
         padding-bottom: 10rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-
-    .rj-team .rj-team-member,
-    .partners .partner-member {
+    .rj-team .rj-team-member, .partners .partner-member {
         width: 33.33%
     }
-
-    .rj-team .rj-team-member .rj-team-member-info-text,
-    .partners .partner-member .partner-member-info-text {
+    .rj-team .rj-team-member .rj-team-member-info-text, .partners .partner-member .partner-member-info-text {
         width: 300%;
         padding: 15px 0
     }
-
-    .rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt,
-    .partners .partner-member .partner-member-info-text .bio-excerpt {
+    .rj-team .rj-team-member .rj-team-member-info-text .bio-excerpt, .partners .partner-member .partner-member-info-text .bio-excerpt {
         display: none
     }
-
-    .rj-team .rj-team-member .rj-team-member-info-text .member-name,
-    .partners .partner-member .partner-member-info-text .member-name {
+    .rj-team .rj-team-member .rj-team-member-info-text .member-name, .partners .partner-member .partner-member-info-text .member-name {
         font-size: 1rem;
         padding-top: 0
     }
-
     .rj-team .rj-team-member .rj-team-member-info-text .close-bio {
         top: 0;
         right: 10px
     }
-
-    .rj-team .rj-team-member:nth-child(3n+1) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(3n+1) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(3n+1) .rj-team-member-info-text, .partners .partner-member:nth-child(3n+1) .partner-member-info-text {
         margin-left: 0
     }
-
-    .rj-team .rj-team-member:nth-child(3n+2) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(3n+2) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(3n+2) .rj-team-member-info-text, .partners .partner-member:nth-child(3n+2) .partner-member-info-text {
         margin-left: -100%
     }
-
-    .rj-team .rj-team-member:nth-child(3n+3) .rj-team-member-info-text,
-    .partners .partner-member:nth-child(3n+3) .partner-member-info-text {
+    .rj-team .rj-team-member:nth-child(3n+3) .rj-team-member-info-text, .partners .partner-member:nth-child(3n+3) .partner-member-info-text {
         margin-left: -200%
     }
-
-    .rj-team-member-info-text img,
-    .partner-member-info-text img {
+    .rj-team-member-info-text img, .partner-member-info-text img {
         display: none
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-
-    .tech h1,
-    .credibility h1,
-    .passion h1,
-    .execution h1,
-    .technology h1,
-    .contact h1 {
+    .tech h1, .credibility h1, .passion h1, .execution h1, .technology h1, .contact h1 {
         text-align: left !important;
     }
-
     .member-name {
         text-align: center;
     }
-
-    .rj-team,
-    .partners {
+    .rj-team, .partners {
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
