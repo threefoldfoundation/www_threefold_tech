@@ -3,11 +3,11 @@
 
 
     git {
-        repo ssh://git@github.com:threefoldtech/www_threefold.tech.git
+        repo https://github.com/threefoldtech/www_threefold.tech.git
         branch master
         hook /webhook "zU3687$aJEb6"
         key ~/.ssh/id_rsa
-        path ../..
+        path .
         
     }
 }
