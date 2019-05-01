@@ -1810,7 +1810,8 @@ body {
 }
 @media (max-width: 991px) {
   .cid-rl3XqDP8Bc .mbr-figure {
-    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {

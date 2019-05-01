@@ -50,9 +50,7 @@
     "google-analytics": "",
     "uniqCompNum": 17,
     "versionPublish": "4.9.7",
-    "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Ehab/Desktop/goodTFT-tech"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
