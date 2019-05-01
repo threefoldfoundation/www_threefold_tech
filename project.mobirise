@@ -513,7 +513,8 @@
                 }
               },
               "@media (max-width: 991px)": {
-                "padding-bottom": "3rem"
+                "padding-top": "3rem",
+                "padding-bottom": "2rem"
               }
             },
             ".mbr-text": {
@@ -529,7 +530,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
