@@ -1794,30 +1794,11 @@ body {
 .cid-rl3XlDBz3H .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rl3XqDP8Bc {
-  background-image: url("../../../assets/images/matteo-catanese-400107-unsplash-2000x1124.jpg");
+.cid-rppgJImcnQ {
+  background-image: url("../../../assets/images/billy-huynh-278252-unsplash-2000x1334.jpg");
 }
-.cid-rl3XqDP8Bc .media-container-row {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-@media (min-width: 992px) {
-  .cid-rl3XqDP8Bc .mbr-figure {
-    padding-right: 4rem;
-    padding-right: 0;
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rl3XqDP8Bc .mbr-figure {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-rl3XqDP8Bc .mbr-text {
-    text-align: center;
-  }
+.cid-rppgJImcnQ H1 {
+  color: #ffffff;
 }
 .cid-rl41rYEJwH {
   padding-top: 105px;
