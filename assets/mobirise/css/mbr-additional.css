@@ -1794,6 +1794,8 @@ body {
   color: #0f296a !important;
 }
 .cid-rtbsXMtZ4E {
+  padding-top: 120px;
+  padding-bottom: 75px;
   background-image: url("../../../assets/images/jeremy-bishop-393073-unsplash-2000x1333.jpg");
 }
 .cid-rtbsXMtZ4E B,
@@ -2351,27 +2353,6 @@ body {
     padding-bottom: 2rem;
   }
 }
-.cid-rtnnwezX3R {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rtnnwezX3R H2 {
-  text-align: left;
-  color: #0f296a;
-}
-.cid-rtnnwezX3R H3 {
-  text-align: left;
-  color: #232323;
-}
-.cid-rtnnwezX3R .mbr-text,
-.cid-rtnnwezX3R .mbr-section-btn {
-  text-align: left;
-  color: #232323;
-}
-.cid-rtnnwezX3R B {
-  color: #0f296a;
-}
 .cid-rtb26qt9ew .navbar {
   background: #ffffff;
   transition: none;
@@ -2771,160 +2752,6 @@ body {
 .cid-rtb26qt9ew .nav-link:hover,
 .cid-rtb26qt9ew .dropdown-item:hover {
   color: #0f296a !important;
-}
-.cid-rtnkYeG15j {
-  background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.cid-rtnkYeG15j .image-block {
-  margin: auto;
-}
-.cid-rtnkYeG15j figcaption {
-  position: relative;
-}
-.cid-rtnkYeG15j figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rtnkYeG15j .image-block {
-    width: 100% !important;
-  }
-}
-.cid-rtnqGA5ESi {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rtnqGA5ESi H2 {
-  text-align: left;
-  color: #0f296a;
-}
-.cid-rtnqGA5ESi H3 {
-  text-align: left;
-  color: #232323;
-}
-.cid-rtnqGA5ESi .mbr-text,
-.cid-rtnqGA5ESi .mbr-section-btn {
-  text-align: left;
-  color: #232323;
-}
-.cid-rtnqGA5ESi B {
-  color: #0f296a;
-}
-.cid-rtnoSfGMf5 {
-  padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rtnoSfGMf5 .mbr-section-subtitle {
-  color: #767676;
-  text-align: center;
-  font-weight: 300;
-}
-.cid-rtnoSfGMf5 .timeline-text-content {
-  padding: 2rem 2.5rem;
-  background: #f5f5f5;
-  margin-left: 2rem;
-}
-.cid-rtnoSfGMf5 .timeline-text-content p {
-  margin-bottom: 0;
-}
-.cid-rtnoSfGMf5 .time-line-date-content {
-  margin-right: 2rem;
-}
-.cid-rtnoSfGMf5 .time-line-date-content p {
-  padding: 2rem 2.5rem;
-  background: #f5f5f5;
-  float: right;
-}
-.cid-rtnoSfGMf5 .timeline-element {
-  margin-bottom: 50px;
-  position: relative;
-  word-wrap: break-word;
-  word-break: break-word;
-  display: -webkit-flex;
-  flex-direction: row;
-  -webkit-flex-direction: row;
-}
-.cid-rtnoSfGMf5 .timeline-element:hover .mbr-timeline-date {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
-}
-.cid-rtnoSfGMf5 .timeline-element:hover .timeline-text-content {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
-}
-.cid-rtnoSfGMf5 .mbr-timeline-date,
-.cid-rtnoSfGMf5 .timeline-text-content {
-  transition: all .4s;
-}
-.cid-rtnoSfGMf5 .reverse {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-.cid-rtnoSfGMf5 .reverse .timeline-text-content {
-  margin-right: 2rem;
-  margin-left: 0;
-}
-.cid-rtnoSfGMf5 .reverse .time-line-date-content {
-  margin-left: 2rem;
-  margin-right: 0rem;
-}
-.cid-rtnoSfGMf5 .reverse .time-line-date-content p {
-  float: left;
-}
-.cid-rtnoSfGMf5 .iconBackground {
-  position: absolute;
-  left: 50%;
-  width: 20px;
-  height: 20px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 30px;
-  display: inline-block;
-  background-color: #f5f5f5;
-  top: 20px;
-  margin-left: -10px;
-}
-.cid-rtnoSfGMf5 .separline:before {
-  top: 20px;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #f5f5f5;
-  left: calc(50% - 1px);
-  height: calc(100% + 4rem);
-}
-@media (max-width: 768px) {
-  .cid-rtnoSfGMf5 .iconBackground {
-    left: 0 !important;
-  }
-  .cid-rtnoSfGMf5 .separline:before {
-    left: 0!important;
-  }
-  .cid-rtnoSfGMf5 .timeline-text-content {
-    margin-left: 0 !important;
-  }
-  .cid-rtnoSfGMf5 .time-line-date-content {
-    margin-right: 0 !important;
-  }
-  .cid-rtnoSfGMf5 .time-line-date-content p {
-    float: left !important;
-  }
-  .cid-rtnoSfGMf5 .reverse .time-line-date-content {
-    margin-left: 0 !important;
-  }
-  .cid-rtnoSfGMf5 .reverse .timeline-text-content {
-    margin-right: 0 !important;
-  }
-}
-.cid-rtnoSfGMf5 .mbr-timeline-title {
-  color: #0f296a;
 }
 .cid-rtnGLDXJuA {
   padding-top: 90px;
