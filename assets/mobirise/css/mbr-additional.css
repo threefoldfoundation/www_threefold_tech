@@ -1387,11 +1387,119 @@ body {
   background-color: #0f296a;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #0f296a;
+  border-bottom-color: #0f296a;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #0f296a !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
+}
+.cid-rtbsXMtZ4E {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/jeremy-bishop-393073-unsplash-1-2000x1333.jpg");
+}
+.cid-rtbsXMtZ4E B,
+.cid-rtbsXMtZ4E .mbr-section-title {
+  color: #0f296a;
+}
+.cid-rtbsXMtZ4E .mbr-text,
+.cid-rtbsXMtZ4E .mbr-title,
+.cid-rtbsXMtZ4E .mbr-section-btn {
+  color: #2400fc;
+}
+.cid-rtbsXMtZ4E .mbr-text,
+.cid-rtbsXMtZ4E .mbr-section-btn {
+  color: #232323;
+}
+.cid-rtMyQdaIC0 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rtMyQdaIC0 H2 {
+  color: #0f296a;
+}
+.cid-rtMxSPFM4v {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rtMxSPFM4v .mbr-text {
+  color: #767676;
+}
+.cid-rtMxSPFM4v h4 {
+  text-align: center;
+}
+.cid-rtMxSPFM4v p {
+  text-align: center;
+}
+.cid-rtMxSPFM4v .card-img span {
+  font-size: 96px;
+  color: #149dcc;
+}
+.cid-rtMxSPFM4v .card-title,
+.cid-rtMxSPFM4v .card-img {
+  color: #0f296a;
+}
+.cid-rtMtQsMtjo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rtMtQsMtjo .card-img {
+  background-color: #fff;
+}
+.cid-rtMtQsMtjo .card-box {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.cid-rtMtQsMtjo h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rtMtQsMtjo p {
+  text-align: left;
+}
+.cid-rtMtQsMtjo .mbr-text {
+  color: #767676;
+}
+.cid-rtMtQsMtjo .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rtMtQsMtjo .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rtMtQsMtjo .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
 }
 .cid-rtnsINZjQR .navbar {
   background: #ffffff;
@@ -1793,49 +1901,13 @@ body {
 .cid-rtnsINZjQR .dropdown-item:hover {
   color: #0f296a !important;
 }
-.cid-rtbsXMtZ4E {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/jeremy-bishop-393073-unsplash-1-2000x1333.jpg");
-}
-.cid-rtbsXMtZ4E B,
-.cid-rtbsXMtZ4E .mbr-section-title {
-  color: #0f296a;
-}
-.cid-rtbsXMtZ4E .mbr-text,
-.cid-rtbsXMtZ4E .mbr-title,
-.cid-rtbsXMtZ4E .mbr-section-btn {
-  color: #2400fc;
-}
-.cid-rtbsXMtZ4E .mbr-text,
-.cid-rtbsXMtZ4E .mbr-section-btn {
-  color: #232323;
-}
-.cid-rtmIEp0o4S {
-  padding-top: 60px;
-  padding-bottom: 105px;
-  background-color: #ffffff;
-}
-.cid-rtmIEp0o4S H2 {
-  text-align: left;
-  color: #0f296a;
-}
-.cid-rtmIEp0o4S H3 {
-  text-align: left;
-  color: #232323;
-}
-.cid-rtmIEp0o4S .mbr-text,
-.cid-rtmIEp0o4S .mbr-section-btn {
-  text-align: left;
-  color: #232323;
-}
 .cid-rtKTuXEfkj {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #0f296a;
 }
 .cid-rtKTuXEfkj H2 {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .cid-rtKTuXEfkj H3 {
