@@ -168,8 +168,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #15dabd !important;
-  border-color: #15dabd !important;
+  background-color: #e89005 !important;
+  border-color: #e89005 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -177,14 +177,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #0e9481 !important;
-  border-color: #0e9481 !important;
+  background-color: #9d6203 !important;
+  border-color: #9d6203 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #0e9481 !important;
-  border-color: #0e9481 !important;
+  background-color: #9d6203 !important;
+  border-color: #9d6203 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -332,22 +332,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #0c7d6c;
-  color: #0c7d6c;
+  border-color: #845203;
+  color: #845203;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #15dabd;
-  border-color: #15dabd;
+  background-color: #e89005;
+  border-color: #e89005;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #15dabd !important;
-  border-color: #15dabd !important;
+  background-color: #e89005 !important;
+  border-color: #e89005 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -467,7 +467,7 @@ body {
   color: #0f296a !important;
 }
 .text-secondary {
-  color: #15dabd !important;
+  color: #e89005 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -493,7 +493,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #0c7d6c !important;
+  color: #845203 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -1410,7 +1410,7 @@ body {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #15dabd !important;
+  background: #e89005 !important;
   box-shadow: none !important;
 }
 .cid-rtbsXMtZ4E {
@@ -4316,8 +4316,36 @@ body {
 .cid-rtbsmA0zyJ .media-container-row .mbr-text {
   color: #0f296a;
 }
-.cid-rtPScRRNXC {
+.cid-rtQ17M1GDA {
   padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rtQ17M1GDA P {
+  color: #767676;
+}
+.cid-rtQ17M1GDA H1 {
+  color: #0f296a;
+  text-align: left;
+}
+.cid-rtQ17M1GDA .mbr-text,
+.cid-rtQ17M1GDA .mbr-section-btn {
+  text-align: left;
+}
+.cid-rtQ2rhWezV {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rtQ2rhWezV .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rtQ2rhWezV H2 {
+  color: #0f296a;
+  text-align: center;
+}
+.cid-rtPScRRNXC {
+  padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -6181,7 +6209,7 @@ body {
   color: #232323;
 }
 .cid-rtnwouuLhC H2 {
-  color: #15dabd;
+  color: #e89005;
 }
 .cid-rtnwu1Fhh1 {
   padding-top: 30px;
@@ -6342,10 +6370,12 @@ body {
 }
 .cid-rtN8xlEGpL H1 {
   color: #0f296a;
+  text-align: right;
 }
 .cid-rtN8xlEGpL .mbr-text,
 .cid-rtN8xlEGpL .mbr-section-btn {
   color: #232323;
+  text-align: right;
 }
 .cid-rtN9qJfPtO {
   padding-top: 0px;
@@ -6409,13 +6439,14 @@ body {
   }
 }
 .cid-rtN9qJfPtO .mbr-section-title {
-  color: #15dabd;
+  color: #e89005;
+  text-align: center;
 }
 .cid-rtN9qJfPtO H4 {
-  color: #15dabd;
+  color: #e89005;
 }
 .cid-rtN9qJfPtO .img-text {
-  color: #15dabd;
+  color: #e89005;
 }
 .cid-rtP1ypu7dj {
   padding-top: 30px;
@@ -6427,6 +6458,7 @@ body {
 }
 .cid-rtP1ypu7dj H2 {
   color: #0f296a;
+  text-align: center;
 }
 .cid-rtP1usnYsn {
   padding-top: 30px;
@@ -6477,14 +6509,15 @@ body {
   background-color: #ffffff;
 }
 .cid-rtPQJ0Z8rM .line {
-  background-color: #15dabd;
-  color: #15dabd;
+  background-color: #e89005;
+  color: #e89005;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
 .cid-rtPQJ0Z8rM .section-text {
   padding: 2rem 0;
+  text-align: left;
 }
 .cid-rtPQJ0Z8rM .inner-container {
   margin: 0 auto;
