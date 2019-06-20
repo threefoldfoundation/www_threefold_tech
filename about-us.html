@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.10.0, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.10.0, mobirise.com">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/screenshot-2019-06-14-at-13.31.36-128x128.png" type="image/x-icon">
   <meta name="description" content="">
@@ -21,7 +21,10 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
   <section class="menu cid-rtb26qt9ew" once="menu" id="menu2-m">
@@ -56,7 +59,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/k">develop your own website</a></section><section class="mbr-section info4 cid-rtnal6wd3S" id="info4-27">
+<section class="mbr-section info4 cid-rtnal6wd3S" id="info4-27">
 
     
 
@@ -80,7 +83,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="row col-12">
-                <div class="col-12 mbr-text mbr-fonts-style display-2 col-md-5">
+                <div class="col-12 mbr-text mbr-fonts-style display-2 col-md-1">
                      <p></p>
                 </div>
                 <div class="col-12 mbr-text mbr-fonts-style display-2 col-md-7">
@@ -336,7 +339,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="row col-12 col-md-12">
-                <div class="col-12 mbr-text mbr-fonts-style col-md-5 display-2">
+                <div class="col-12 mbr-text mbr-fonts-style col-md-1 display-2">
                      <p><br></p>
                 </div>
                 <div class="col-12 mbr-text mbr-fonts-style display-2 col-md-7">
@@ -890,6 +893,41 @@
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script>
+"use strict";
+$(function () {
+
+    function toggleBio() {
+        $(".rj-team-member .member-photo").click(function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            $(this).parent().siblings().children(".member-photo").removeClass("selected"), $(this).toggleClass("selected"), $(this).parent().siblings().children(".rj-team-member-info-text").hide(), $(this).siblings(".rj-team-member-info-text").toggle();
+            var a = $(this).siblings(".rj-team-member-info-text").offset();
+            $("body").animate({
+                scrollTop: a
+            }), $(".close-bio").click(function () {
+                $(this).parent().siblings(".member-photo").removeClass("selected"), $(this).parent(".rj-team-member-info-text").hide()
+            })
+        })
+        return false;
+    }
+
+    function activateTeamFilter() {
+        $("#teamFilterText").prop("disabled", !1), $("#teamFilterText").on("input", function () {
+            var a = $("#teamFilterText").val();
+            "" == a ? $(".rj-team-member").show() : ($(".rj-team-member").hide(), $(".rj-team-member:Contains('" + a + "')").show())
+        })
+    }
+
+    function unselectDiv() {
+        $(document).click(function (a) {
+            $(a.target).closest(".rj-team-member .member-photo").length || $(".rj-team-member .member-photo").is(":visible") && ($(".rj-team-member-info-text").hide(), $(".member-photo").removeClass("selected"))
+        })
+    }
+    toggleBio();
+    unselectDiv();
+    activateTeamFilter();
+});
+</script>
 </body>
 </html>
