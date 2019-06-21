@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ThreeFold.Tech",
-    "currentPage": "index.html",
+    "currentPage": "partners.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -95,9 +95,7 @@
     "versionPublish": "4.10.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/screenshot-2019-06-14-at-13.31.36-128x128.png",
-    "noImageResize": "",
-    "publishType": "local",
-    "publishPath": "file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech"
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
