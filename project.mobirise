@@ -92,7 +92,7 @@
       }
     ],
     "uniqCompNum": 196,
-    "versionPublish": "4.10.7",
+    "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/screenshot-2019-06-14-at-13.31.36-128x128.png",
     "noImageResize": "",
@@ -2951,8 +2951,6 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5626,8 +5624,6 @@
           "_cid": "rtQOMpmuY3",
           "_anchor": "formbuilder-46",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
