@@ -149,21 +149,36 @@ section .mbr-background-video-preview {
 
 /*! Media  */
 .media-size-item {
+  -webkit-flex: 1 1 auto;
   -moz-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
   -o-flex: 1 1 auto;
   flex: 1 1 auto;
 }
 
 .media-content {
+  -webkit-flex-basis: 100%;
   flex-basis: 100%;
 }
 
 .media-container-row {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -172,11 +187,23 @@ section .mbr-background-video-preview {
 }
 
 .media-container-column {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
 }
 
@@ -186,6 +213,8 @@ section .mbr-background-video-preview {
 
 @media (min-width: 992px) {
   .media-container-row {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 }
@@ -208,6 +237,10 @@ figure[mbr-media-size] {
   border: none;
 }
 
+.card-box {
+  width: 100%;
+}
+
 .card-img {
   text-align: center;
   flex-shrink: 0;
@@ -220,7 +253,9 @@ figure[mbr-media-size] {
 }
 
 .mbr-figure {
+  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
+  -webkit-align-self: center;
   align-self: center;
 }
 
@@ -289,6 +324,7 @@ nav .mbr-section-btn {
 
 .mbr-fullscreen {
   display: flex;
+  display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -445,26 +481,22 @@ nav .mbr-section-btn {
 @keyframes gradient-animation {
   from {
     background-position: 0% 100%;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
   to {
     background-position: 100% 0%;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
 }
 
 @-webkit-keyframes gradient-animation {
   from {
     background-position: 0% 100%;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
   to {
     background-position: 100% 0%;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
 }
 
@@ -491,13 +523,15 @@ nav .mbr-section-btn {
   display: -webkit-flex;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .menu .navbar-toggleable-sm .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .menu .navbar-collapse {
     max-height: 93.5vh;
   }
@@ -506,7 +540,7 @@ nav .mbr-section-btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .menu .navbar-nav.nav-dropdown {
     display: -webkit-flex;
   }
@@ -561,6 +595,7 @@ nav .mbr-section-btn {
 
 .form-inline {
   display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
   -webkit-align-items: center;
 }
 
@@ -603,30 +638,35 @@ nav .mbr-section-btn {
 }
 
 .jq-selectbox__trigger-arrow {
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .jq-selectbox li {
   padding: 1.07em .5em;
 }
 
+input[type="range"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
 .modal-dialog, .modal-content {
-  height: 100%; }
+  height: 100%;
+}
 
 .modal-dialog .carousel-inner {
   height: 100%;
   height: -webkit-fill-available;
-  height: fill-available; }
+  height: fill-available;
+}
 
 .carousel-item {
-  text-align: center; }
+  text-align: center;
+}
 
 .carousel-item img {
-  margin: auto; }
-
-/*# sourceMappingURL=style.css.map */
+  margin: auto;
+}
 .engine {
 	position: absolute;
 	text-indent: -2400px;
