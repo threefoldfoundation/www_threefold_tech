@@ -1,0 +1,12 @@
+:8080 {
+    bind 0.0.0.0
+
+    git {
+        repo https://github.com/threefoldtech/www_threefold.tech.git
+        branch production
+        hook /webhook "zU3687$aJEb6"
+        key ~/.ssh/id_rsa
+        path .
+        
+    }
+}
