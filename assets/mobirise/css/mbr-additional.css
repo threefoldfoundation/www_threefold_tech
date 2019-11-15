@@ -3923,7 +3923,7 @@ body {
 }
 .cid-rtQ2rhWezV {
   padding-top: 90px;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rtQ2rhWezV .mbr-section-subtitle {
@@ -3933,102 +3933,51 @@ body {
   color: #0f296a;
   text-align: center;
 }
-.cid-rtPScRRNXC {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/markus-spiske-207946-unsplash-2000x1333.jpg");
+.cid-rHTtsWkhmG {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
-.cid-rtPScRRNXC .mbr-section-subtitle {
-  color: #767676;
-  text-align: center;
-  font-weight: 300;
-}
-.cid-rtPScRRNXC .timeline-text-content {
-  padding: 2rem 2.5rem;
-  background: #efefef;
-  margin-right: 2rem;
-  transition: all .4s;
-}
-.cid-rtPScRRNXC .timeline-text-content p {
+.cid-rHTtsWkhmG h4 {
+  font-weight: 500;
   margin-bottom: 0;
+  text-align: left;
 }
-.cid-rtPScRRNXC .timeline-element {
-  margin-bottom: 50px;
-  position: relative;
-  word-wrap: break-word;
-  word-break: break-word;
-  display: -webkit-flex;
-  flex-direction: row;
-  -webkit-flex-direction: row;
+.cid-rHTtsWkhmG p {
+  color: #767676;
+  text-align: left;
 }
-.cid-rtPScRRNXC .timeline-element:hover .timeline-text-content {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all .4s;
+.cid-rHTtsWkhmG .card-box {
+  padding-top: 2rem;
 }
-.cid-rtPScRRNXC .reverse {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
+.cid-rHTtsWkhmG .card-wrapper {
+  height: 100%;
 }
-.cid-rtPScRRNXC .reverse .timeline-text-content {
-  margin-left: 2rem;
-  margin-right: 0;
+.cid-rHTtsWkhmG .card-title {
+  color: #0f296a;
 }
-.cid-rtPScRRNXC .iconsBackground {
-  position: absolute;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #efefef;
-  top: 20px;
-  margin-left: -30px;
+.cid-rHTtB1bpP7 {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
 }
-.cid-rtPScRRNXC .mbr-iconfont {
-  position: absolute;
-  text-align: center;
-  font-size: 35px;
-  display: inline-block;
-  z-index: 3;
-  top: 13px;
-  left: 13px;
+.cid-rHTtB1bpP7 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
 }
-.cid-rtPScRRNXC .separline:before {
-  top: 20px;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #efefef;
-  left: calc(50% - 1px);
-  height: calc(100% + 4rem);
+.cid-rHTtB1bpP7 p {
+  color: #767676;
+  text-align: left;
 }
-@media (max-width: 768px) {
-  .cid-rtPScRRNXC .iconsBackground {
-    left: 1.5rem;
-  }
-  .cid-rtPScRRNXC .separline:before {
-    left: calc(1.5rem - 1px);
-  }
-  .cid-rtPScRRNXC .timeline-text-content {
-    margin-left: 3rem !important;
-    margin-right: 0 !important;
-  }
-  .cid-rtPScRRNXC .reverse .timeline-text-content {
-    margin-right: 0 !important;
-  }
+.cid-rHTtB1bpP7 .card-box {
+  padding-top: 2rem;
 }
-.cid-rtPScRRNXC .reverseTimeline {
-  display: flex;
-  flex-direction: column-reverse;
+.cid-rHTtB1bpP7 .card-wrapper {
+  height: 100%;
 }
-.cid-rtPScRRNXC .mbr-timeline-text {
-  color: #232323;
-}
-.cid-rtPScRRNXC .mbr-timeline-title {
-  color: #0f7666;
+.cid-rHTtB1bpP7 .card-title {
+  color: #0f296a;
 }
 .cid-rysb8ECONm {
   padding-top: 60px;
