@@ -3955,6 +3955,11 @@ body {
 }
 .cid-rHTtsWkhmG .card-title {
   color: #0f296a;
+  text-align: center;
+}
+.cid-rHTtsWkhmG P {
+  color: #232323;
+  text-align: center;
 }
 .cid-rHTtB1bpP7 {
   padding-top: 0px;
@@ -3978,6 +3983,11 @@ body {
 }
 .cid-rHTtB1bpP7 .card-title {
   color: #0f296a;
+  text-align: center;
+}
+.cid-rHTtB1bpP7 P {
+  text-align: center;
+  color: #232323;
 }
 .cid-rysb8ECONm {
   padding-top: 60px;
