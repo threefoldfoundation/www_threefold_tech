@@ -1177,7 +1177,7 @@ pre {
     display: none;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -1187,7 +1187,7 @@ pre {
     padding-left: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .navbar-toggleable-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3923,7 +3923,7 @@ body {
 }
 .cid-rtQ2rhWezV {
   padding-top: 90px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rtQ2rhWezV .mbr-section-subtitle {
@@ -4493,7 +4493,7 @@ body {
 }
 .cid-rtmIEp0o4S {
   padding-top: 120px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rtmIEp0o4S H2 {
@@ -5662,7 +5662,7 @@ body {
 }
 .cid-rtN8xlEGpL {
   padding-top: 120px;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
   background-image: url("../../../assets/images/paul-skorupskas-59950-unsplash-2000x1333.jpg");
 }
 .cid-rtN8xlEGpL P {
