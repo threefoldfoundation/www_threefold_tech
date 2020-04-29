@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ThreeFold.Tech",
-    "currentPage": "partners.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -97,7 +97,7 @@
       }
     ],
     "uniqCompNum": 213,
-    "versionPublish": "4.10.7",
+    "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
     "noImageResize": "",
