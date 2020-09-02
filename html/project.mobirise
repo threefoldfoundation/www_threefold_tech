@@ -97,21 +97,20 @@
       }
     ],
     "uniqCompNum": 213,
-    "versionPublish": "4.9.3",
+    "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
     "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-142617747-1');\r\n</script>\r\n",
-    "gdpr": "",
-    "cookiesAlert": {
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacity": "99",
-      "text": "We use cookies to give you the best experience. Read our <a href='https://docs.google.com/document/d/e/2PACX-1vQz4xXuBVkycXu9q4YmC17UsRP0HKmO4tCZOP4Na-KuGHwW9fIK5FpHGBAqp9A_lzRSOxxzxkviwLSB/pub' target='_blank'>privacy policy</a>.",
-      "colorButton": "undefined"
-    }
+    "google-analytics": "",
+    "gdpr": false,
+    "imageResize": true,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech"
   },
   "pages": {
     "index.html": {
@@ -119,7 +118,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1145,7 +1144,7 @@
         "meta_descr": "",
         "title": "About Us",
         "order": 5,
-        "header_custom": "<script\n  src=\"https://code.jquery.com/jquery-3.3.1.min.js\"\n  integrity=\"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\"\n  crossorigin=\"anonymous\"></script>",
+        "header_custom": "<script\n  src=\"https://code.jquery.com/jquery-3.3.1.min.js\"\n  integrity=\"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\"\n  crossorigin=\"anonymous\"></script>\n\n<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->",
         "footer_custom": "<script>\n\"use strict\";\n$(function () {\n\n    function toggleBio() {\n        $(\".rj-team-member .member-photo\").click(function (event) {\n            event.preventDefault();\n            event.stopPropagation();\n            $(this).parent().siblings().children(\".member-photo\").removeClass(\"selected\"), $(this).toggleClass(\"selected\"), $(this).parent().siblings().children(\".rj-team-member-info-text\").hide(), $(this).siblings(\".rj-team-member-info-text\").toggle();\n            var a = $(this).siblings(\".rj-team-member-info-text\").offset();\n            $(\"body\").animate({\n                scrollTop: a\n            }), $(\".close-bio\").click(function () {\n                $(this).parent().siblings(\".member-photo\").removeClass(\"selected\"), $(this).parent(\".rj-team-member-info-text\").hide()\n            })\n        })\n        return false;\n    }\n\n    function activateTeamFilter() {\n        $(\"#teamFilterText\").prop(\"disabled\", !1), $(\"#teamFilterText\").on(\"input\", function () {\n            var a = $(\"#teamFilterText\").val();\n            \"\" == a ? $(\".rj-team-member\").show() : ($(\".rj-team-member\").hide(), $(\".rj-team-member:Contains('\" + a + \"')\").show())\n        })\n    }\n\n    function unselectDiv() {\n        $(document).click(function (a) {\n            $(a.target).closest(\".rj-team-member .member-photo\").length || $(\".rj-team-member .member-photo\").is(\":visible\") && ($(\".rj-team-member-info-text\").hide(), $(\".member-photo\").removeClass(\"selected\"))\n        })\n    }\n    toggleBio();\n    unselectDiv();\n    activateTeamFilter();\n});\n</script>"
       },
       "components": [
@@ -2338,7 +2337,8 @@
       "settings": {
         "meta_descr": "",
         "title": "Contact",
-        "order": 7
+        "order": 7,
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->"
       },
       "components": [
         {
@@ -2937,6 +2937,8 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
@@ -3048,7 +3050,8 @@
       "settings": {
         "meta_descr": "",
         "title": "Use Cases",
-        "order": 3
+        "order": 3,
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->"
       },
       "components": [
         {
@@ -3692,7 +3695,7 @@
       "settings": {
         "title": "Partners",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->",
         "footer_custom": "",
         "html_before": "",
         "order": 4
@@ -5196,7 +5199,8 @@
       "settings": {
         "meta_descr": "",
         "title": "Investors",
-        "order": 6
+        "order": 6,
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->"
       },
       "components": [
         {
@@ -5487,6 +5491,8 @@
           "_cid": "rtQOMpmuY3",
           "_anchor": "formbuilder-46",
           "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
@@ -6017,7 +6023,8 @@
       "settings": {
         "meta_descr": "",
         "title": "Autonomous IT",
-        "order": 2
+        "order": 2,
+        "header_custom": "<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->\n<script type=\"text/javascript\" src=\"//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js\"></script>\n<script type=\"text/javascript\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"interstitial\",\"consent_type\":\"express\",\"palette\":\"dark\",\"language\":\"en\",\"website_name\":\"ThreeFold.tech\",\"cookies_policy_url\":\"https://www.threefold.tech/html/privacy-policy.html\"});\n});\n</script>\n\n<!-- Ga -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script type=\"text/plain\" cookie-consent=\"tracking\" async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142617747-1\"></script>\n<script type=\"text/plain\" cookie-consent=\"tracking\">\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-142617747-1');\n</script>\n<!-- end of Ga-->\n\n<noscript>Cookie Consent by <a href=\"https://www.FreePrivacyPolicy.com/free-cookie-consent/\" rel=\"nofollow noopener\">FreePrivacyPolicy.com</a></noscript>\n<!-- End Cookie Consent -->"
       },
       "components": [
         {
