@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ThreeFold.Tech",
-    "currentPage": "about-us.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -110,7 +110,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "publishType": "local",
-    "publishPath": "file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech"
+    "publishPath": "file:///Users/RoelvanSabben1/Desktop/tech"
   },
   "pages": {
     "index.html": {
