@@ -1,0 +1,126 @@
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/100.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/200.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/100italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/200italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/800italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Barlow Condensed';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_threefold.tech/html/fonts/Barlow Condensed/900italic.ttf') format('truetype');
+}
