@@ -12,7 +12,7 @@
         :key="idx"
         :to="logo.url"
         target="_blank"
-        class="md:w-1/3 px-8 mb-0 md:mb-8 mx-auto logo_size"
+        class="w-1/2 md:w-1/6 px-8 mb-8"
       >
         <g-image :src="img(logo.image)" />
       </g-link>
@@ -31,12 +31,17 @@ export default {
     },
   },
 };
+
 </script>
-<style scoped>
+
+<!-- <style scoped>
 .logo_size img {
   display: inline;
 }
 </style>
+
+class="md:w-1/3 px-8 mb-0 md:mb-8 mx-auto logo_size" -->
+
 
 
 

@@ -79,6 +79,19 @@
         :roadmap="$page.markdownPage.roadmap"
     /> -->
 
+    <template>
+        <ClientOnly>
+          <Comparison
+            v-if="
+              $page.markdownPage.comparisonSecs &&
+              $page.markdownPage.comparisonSecs.length > 0
+            "
+            :main="$page.markdownPage.comparisonMain"
+            :sections="$page.markdownPage.comparisonSecs"
+          />
+        </ClientOnly>
+    </template>
+
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
@@ -248,6 +261,19 @@
           link
           content
         }
+        comparisonMain{
+          id
+          title
+          description
+          button
+          link
+        }
+        comparisonSecs{
+          id
+          svg
+          title
+          excerpt(length: 2000)
+        }
         inTheNews {
           id
           excerpt(length: 2000)
@@ -272,6 +298,7 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
+import Comparison from "~/components/custom/sections/Comparison.vue";
 
 export default {
   components: {
@@ -285,6 +312,7 @@ export default {
     CallToAction,
     InTheNews,
     Roadmap,
+    Comparison,
   },
   metaInfo() {
     return {
