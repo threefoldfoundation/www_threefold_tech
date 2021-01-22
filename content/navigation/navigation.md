@@ -1,6 +1,17 @@
 ---
 id: navigation
 navLinks:
+  - name: ''
+    link: ''
+    external: false
+    expandable: false
+
+social:
+  - icon: telegram-plane
+    link: "" #Talegram link
+---
+
+<!-- navLinks:
   - name: Features
     link: "#features" 
     external: false
@@ -19,12 +30,7 @@ navLinks:
   - name: Team
     link: /team
     external: false
-    expandable: false
-
-social:
-  - icon: telegram-plane
-    link: "" #Talegram link
----
+    expandable: false -->
 
 <!--       - title: Future
         path: /future -->

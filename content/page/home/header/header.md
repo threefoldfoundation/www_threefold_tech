@@ -1,11 +1,11 @@
 ---
 id: home_header
-title: FULLY DECENTRALIZED MARKETPLACE
-subtitle: SWAP EVERYTHING
-btn1: What's ZeroOS?
-link1: https://wiki.threefold.io/#/threefold_layers
-btn2: Network of decentralized capacity
-link2: https://threefold.io/
+title: ''
+subtitle: DECENTRALIZED CLOUD TECHNOLOGY
+btn1: ''
+link1: ''
+btn2: ''
+link2: ''
 ---
 
-FairSwap is a decentralized Peer-to-Peer marketplace. Combining the technologies of Blockchain, Erasure-Coding and ZeroOS with the largest network of decentralized capacity in the world.
+A fundamentally new approach for the Internet and Cloud. Disruptive compute and storage technology for a secure digital world.

@@ -9,15 +9,15 @@
         <div class="space-y-8 xl:col-span-1">
           <g-image
             class="h-10"
-            src="/img/fair_logo_black.png"
-            alt="Company name"
+            src="/img/"
+            alt=""
             v-if="theme == 'light'"
           />
 
           <g-image
             class="h-10"
-            src="/img/fair_logo_white.png"
-            alt="Company name"
+            src="/img/"
+            alt=""
             v-else
           />
 
@@ -161,7 +161,7 @@
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
-          &#xA9; 2021, FairSwap, All rights reserved.
+          &#xA9; 2021, ThreeFold Tech, All rights reserved.
         </p>
       </div>
     </div>

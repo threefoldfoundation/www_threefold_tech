@@ -1,4 +1,4 @@
 ---
-id: headerHome
-subtitle: Exponential Growth Across the Industry
+id: header_solution
+subtitle: Title
 ---

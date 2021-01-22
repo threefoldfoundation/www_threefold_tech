@@ -63,7 +63,34 @@ module.exports = {
                 path: './content/page/**/header/*.md',
             }
         },
-
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header2',
+                path: './content/page/**/header2/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header3',
+                path: './content/page/**/header3/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header4',
+                path: './content/page/**/header4/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header5',
+                path: './content/page/**/header5/*.md',
+            }
+        },
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -195,6 +222,10 @@ module.exports = {
                     slides: 'Slide',
                     contactData: 'Contact',
                     header: 'Header',
+                    header2: 'Header2',
+                    header3: 'Header3',
+                    header4: 'Header4',
+                    header5: 'Header5',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
                     productData: 'Product',

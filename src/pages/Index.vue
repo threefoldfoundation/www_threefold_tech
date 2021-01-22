@@ -1,12 +1,17 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5" div/> -->
       <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
+      /> 
+
+      <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
       />
 
       <SolutionsHeader
@@ -14,56 +19,84 @@
         :header="$page.markdownPage.header"
       />
 
+      <g-image
+        v-if="$page.markdownPage.solution_image_2"
+        :src="$page.markdownPage.solution_image_2.src"
+      />
+
       <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
       />
 
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image_2"
-        :src="$page.markdownPage.solution_image_2.src"
-      /> -->
-
-      <Features
-        :main="$page.markdownPage.featuresMain"
-        :features="$page.markdownPage.features"
+      <SolutionsHeader
+        v-if="$page.markdownPage.header2"
+        :header="$page.markdownPage.header2"
       />
 
-      <NewCard
+      <SolutionsHeader
+        v-if="$page.markdownPage.header3"
+        :header="$page.markdownPage.header3"
+      />
+      
+      <g-image
+        v-if="$page.markdownPage.solution_image_3"
+        :src="$page.markdownPage.solution_image_3.src"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header4"
+        :header="$page.markdownPage.header4"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image_4"
+        :src="$page.markdownPage.solution_image_4.src"
+      />
+      <SolutionsHeader
+        v-if="$page.markdownPage.header5"
+        :header="$page.markdownPage.header5"
+      />
+
+      <!-- <Features
+        :main="$page.markdownPage.featuresMain"
+        :features="$page.markdownPage.features"
+      /> -->
+
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
-    </div>
+      /> -->
 
     <!-- <Features
       :main="$page.markdownPage.featuresMain2"
       :features="$page.markdownPage.features2"
     /> -->
 
-  <Roadmap
+    <!-- <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"
         :roadmap="$page.markdownPage.roadmap"
-    />
+    /> -->
 
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
 
-    <InTheNews
+    <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
-    />
+    /> -->
 
-    <template>
+    <!-- <template>
       <ClientOnly>
         <SignUp
           :signup="$page.markdownPage.signup"
           v-if="$page.markdownPage.signup"
         />
       </ClientOnly>
-    </template>
+    </template> -->
 
     <template>
       <ClientOnly>
@@ -73,10 +106,10 @@
         />
       </ClientOnly>
     </template>
-
+    
     <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
+        v-if="$page.markdownPage.solution_image_5"
+        :src="$page.markdownPage.solution_image_5.src"
     />
 
     <!-- <Getintouch :contacts="contacts"/> -->
@@ -95,8 +128,11 @@
         button
         link
         solution_image
-      # solution_image_2
-        cards{
+        solution_image_2
+        solution_image_3
+        solution_image_4
+        solution_image_5
+       cards{
           id
           title
           image
@@ -106,6 +142,46 @@
           excerpt(length: 2000)
         }
         header{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header2{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header3{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header4{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header5{
          title
          subtitle
          excerpt(length: 2000)
