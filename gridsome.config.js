@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'FairSwap',
+    siteName: 'ThreeFold Tech',
     plugins: [
 
         // Local models
