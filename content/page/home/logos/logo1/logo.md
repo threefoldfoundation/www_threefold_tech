@@ -1,5 +1,5 @@
 ---
 id: logo1
-image: ./threefold.png
-url: https://threefold.io/
+image: ./partner.png
+url: ''
 ---

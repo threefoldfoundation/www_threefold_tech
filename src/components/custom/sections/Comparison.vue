@@ -1,17 +1,17 @@
 <template>
   <section class="py-12 px-4 text-center">
-    <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
+    <h2 class="text-4xl mb-6 leading-tight font-semibold font-heading">
       {{ main.title }}
     </h2>
-    <p class="text-gray-600">{{ main.description }}</p>
-    <div class="flex flex-wrap items-center -mx-8 mt-12 mb-2">
+    <p class="text-gray-600 mb-6">{{ main.description }}</p>
+    <div class="flex flex-wrap -mx-8">
       <div
-        class="lg:w-1/3 px-8 mb-8"
+        class="w-1/ md:w-1/6 px-8 mb-8 active--exact active"
         v-for="(section, index) in sections"
         :key="index"
       >
         <g-image
-          class="w-1/2 mx-auto mb-8 h-32"
+          class="w-1/8 mx-auto mb-8 h-30"
           :src="section.svg.src"
           :alt="section.title"
         />
@@ -43,3 +43,7 @@ export default {
   props: ["main", "sections"],
 };
 </script>
+
+<!-- <div class="flex flex-wrap items-center -mx-8 mt-12 mb-2"> -->
+<!-- class="w-1/2 mx-auto mb-8 h-30" -->
+<!-- class="lg:w-1/3 px-8 mb-8" -->

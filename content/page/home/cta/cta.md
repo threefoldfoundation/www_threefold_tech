@@ -1,6 +1,8 @@
 ---
 id: home_cta
-title: How much capacity will you provide?
-button: Get your 3Node
-link: /participate #Add button link here
+title: GET IN TOUCH
+button: info@threefold.tech
+link: 'mailto:info@threefold.tech'
 ---
+
+Our technology is leading the transition to a more secure digital world. Get in touch for more information, partnership or investment opportunities.

@@ -11,7 +11,7 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/fair_logo_black.png"
+              src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
               width="150"
               v-if="theme == 'light'"
@@ -19,7 +19,7 @@
             />
 
             <img
-              src="/img/fair_logo_white.png"
+              src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
               width="150"
               v-else
