@@ -13,7 +13,8 @@
             <img
               src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
-              width="150"
+              width="200"
+              height="17"
               v-if="theme == 'light'"
               alt=""
             />
@@ -21,7 +22,8 @@
             <img
               src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
-              width="150"
+              width="200"
+              height="17"
               v-else
               alt=""
             />
