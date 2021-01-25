@@ -14,6 +14,7 @@ blockquote {
 body {
     padding-top: 100px;
     font-family: "Inconsolata", monospace !important;
+    // background-color: black !important;
 }
 
 h2 {
@@ -90,6 +91,15 @@ ul {
 
 .no-border {
     border-width: 0px !important;
+}
+.learn-button{
+    color:#00FFFF !important;
+    border: 1px solid #00FFFF !important;
+    &:hover {
+                 border: 2px solid #64f5f5 !important;
+                 color:#64f5f5 !important;
+            }
+    
 }
 
 .flex-post {
@@ -288,12 +298,22 @@ body[data-theme="dark"] {
     .lg\:shadow-lg {
         box-shadow: 0 20px 25px -5px rgba(255, 255, 255, 0.1), 0 10px 10px -5px rgba(255, 255, 255, 0.04);
     }
-    .learn-button {
-        background-color: #c4c4c4;
-        @apply text-gray-900;
+    // .learn-button {
+    //     background-color: #c4c4c4;
+    //     @apply text-gray-900;
+    //     &:hover {
+    //         @apply bg-gray-300;
+    //     }
+    // }
+    .learn-button{
+        color:#00FFFF !important;
+        border: 1px solid #00FFFF !important;
         &:hover {
-            @apply bg-gray-300;
-        }
+                     
+                     border: 2px solid #64f5f5 !important;
+                     color:#64f5f5 !important;
+                }
+        
     }
     .text-indigo-600 {
         @apply text-white;
