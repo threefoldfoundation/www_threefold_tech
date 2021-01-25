@@ -144,15 +144,6 @@
         solution_image_3
         solution_image_4
         solution_image_5
-       cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          excerpt(length: 2000)
-        }
         header{
          title
          subtitle
@@ -207,43 +198,11 @@
          subtitle
          excerpt(length: 2000)
        }
-       roadmap{
-          id
-          title
-          excerpt
-          content
-        }
-       featuresMain{
-          id
-          title 
-          btn 
-          link
-          excerpt(length: 2000)
-        }
-        featuresMain2{
-          id
-          title 
-          btn 
-          link
-          excerpt(length: 2000)
-        }
         logos{
           id
           image
           url
         }
-        features{
-          id
-          title 
-          svg
-          excerpt(length: 2000)
-        }
-      #  features2{
-      #    id
-      #    title 
-      #    svg
-      #    excerpt(length: 2000)
-      #  }
         signup{
           id
           title
@@ -272,14 +231,6 @@
           svg
           title
           excerpt(length: 2000)
-        }
-        inTheNews {
-          id
-          excerpt(length: 2000)
-          partners {
-            path
-            logo
-          }
         }
     }  
   }
@@ -327,3 +278,54 @@ export default {
 </style> >
 
     <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5" div/> -->
+
+
+  <!-- cards{
+          id
+          title
+          image
+          button
+          link
+          order
+          excerpt(length: 2000)
+        }
+        roadmap{
+          id
+          title
+          excerpt
+          content
+        }
+       featuresMain{
+          id
+          title 
+          btn 
+          link
+          excerpt(length: 2000)
+        }
+        featuresMain2{
+          id
+          title 
+          btn 
+          link
+          excerpt(length: 2000)
+        }
+        features{
+          id
+          title 
+          svg
+          excerpt(length: 2000)
+        }
+        features2{
+          id
+          title 
+          svg
+          excerpt(length: 2000)
+        }
+        inTheNews {
+          id
+          excerpt(length: 2000)
+          partners {
+            path
+            logo
+          }
+        } -->

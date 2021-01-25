@@ -13,7 +13,8 @@
             <img
               src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
-              width="150"
+              width="200"
+              height="17"
               v-if="theme == 'light'"
               alt=""
             />
@@ -21,7 +22,8 @@
             <img
               src="/img/tf_tech_logo.png"
               class="mr-3 fill-current"
-              width="150"
+              width="200"
+              height="17"
               v-else
               alt=""
             />
@@ -52,7 +54,7 @@
             </svg>
           </button>
         </div>
-        <div class="text-gray-400 sm:block md:hidden">
+        <!-- <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
             <li class="mr-0 sm:mr-6">
               <theme-switcher v-on="$listeners" :theme="theme" />
@@ -76,7 +78,7 @@
               </span>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
 
       <nav
@@ -183,8 +185,8 @@
           />
         </div> -->
       </nav>
-      <div class="hidden md:ml-auto md:inline-block md:order-last">
-        <!-- <div class="inline-flex rounded-full border-2 border-gray-200 w-1/2">
+      <!-- <div class="hidden md:ml-auto md:inline-block md:order-last">
+         <div class="inline-flex rounded-full border-2 border-gray-200 w-1/2">
           <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
           </span>
@@ -195,11 +197,11 @@
             v-model="search"
             @keyup.enter="result"
           />
-        </div> -->
+        </div>
         <ul class="list-none inline-flex justify-center md:justify-end">
-          <!-- <li class="mr-0 sm:mr-6">
+           <li class="mr-0 sm:mr-6">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
-          </li> -->
+          </li>
           <li
             :key="element.name"
             v-for="(element, index) in navigation.social"
@@ -214,8 +216,8 @@
               </a>
             </span>
           </li>
-        </ul>
-      </div>
+        </ul> 
+      </div> -->
     </header>
   </div>
 </template>
