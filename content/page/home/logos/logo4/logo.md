@@ -1,5 +1,5 @@
 ---
 id: logo4
-image: ./partner.png
-url: ''
+image: ./kleos.png
+url: 'https://kleos.net/'
 ---
