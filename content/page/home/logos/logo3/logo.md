@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./partner.png
-url: ''
+image: ./flowgen.png
+url: 'https://www.flowgen.com/'
 ---

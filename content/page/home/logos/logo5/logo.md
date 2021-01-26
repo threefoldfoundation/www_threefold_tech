@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./partner.png
-url: ''
+image: ./greenedge.png
+url: 'https://www.green-edge.net/'
 ---
