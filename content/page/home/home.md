@@ -1,6 +1,6 @@
 ---
 id: home
-solution_image: ./romb_header.png
+solution_image: ./globe_header2.png
 header: home_header
 solution_image_2: ./triangles_home.png
 header2: home_header2
