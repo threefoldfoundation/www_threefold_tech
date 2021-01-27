@@ -5,7 +5,7 @@ header: home_header
 solution_image_2: ./triangles_home.png
 header2: home_header2
 header3: home_header3
-solution_image_3: ./world_map2.png
+solution_image_3: ./world_map.png
 header4: home_header4
 solution_image_4: ./map.png
 header5: home_header5
