@@ -160,13 +160,7 @@ module.exports = {
             }
         },
 
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'BrandPanel',
-                path: './content/page/**/brandPanel/*.md',
-            }
-        },
+ 
 
         {
             use: '@gridsome/source-filesystem',
@@ -204,13 +198,7 @@ module.exports = {
                 path: './content/page/**/headerSolution4/*.md',
             }
         },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'InTheNews',
-                path: './content/page/**/InTheNews/*.md',
-            }
-        },
+ 
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -242,13 +230,11 @@ module.exports = {
                     comparisonSecs: 'Comparison',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
-                    brandPanel: 'BrandPanel',
                     splitWithImage: 'SplitWithImage',
                     headerSolution: 'SolutionsHeader',
                     headerSolution2: 'SolutionsHeader',
                     headerSolution3: 'SolutionsHeader',
                     headerSolution4: 'SolutionsHeader',
-                    inTheNews: 'InTheNews',
                     roadmap: 'Roadmap',
                 }
             }

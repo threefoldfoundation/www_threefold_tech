@@ -18,16 +18,7 @@
     <div
       class="content inline-block h-full w-3/4 align-top p-5 transition ease-in-out duration-150"
     >
-      <div :id="slides[activeIndex]" class="hidden" style="display: block">
-        <g-image
-          v-if="slides[activeIndex].image"
-          :src="
-            require(`!!assets-loader!@images/sliders/${slides[activeIndex].image}`)
-          "
-          :alt="slides[activeIndex].title"
-        />
-        <p v-html="slides[activeIndex].content"></p>
-      </div>
+
     </div>
   </div>
 </template>

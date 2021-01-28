@@ -101,10 +101,6 @@
       :logos="$page.markdownPage.logos"
     />
 
-    <!-- <InTheNews
-      v-if="$page.markdownPage.inTheNews"
-      :news="$page.markdownPage.inTheNews"
-    /> -->
 
     <!-- <template>
       <ClientOnly>
@@ -253,7 +249,6 @@ import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
-import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 
@@ -267,7 +262,6 @@ export default {
     logoShowcase,
     SignUp,
     CallToAction,
-    InTheNews,
     Roadmap,
     Comparison,
   },

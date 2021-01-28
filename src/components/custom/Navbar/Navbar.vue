@@ -11,19 +11,17 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/tf_tech_logo.png"
+              src="/img/TFT Logo.svg"
               class="mr-3 fill-current"
               width="200"
-              height="17"
               v-if="theme == 'light'"
               alt=""
             />
 
             <img
-              src="/img/tf_tech_logo.png"
+              src="/img/TFT Logo.svg"
               class="mr-3 fill-current"
               width="200"
-              height="17"
               v-else
               alt=""
             />
