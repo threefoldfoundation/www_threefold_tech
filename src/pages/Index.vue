@@ -237,6 +237,7 @@
           svg
           title
           excerpt(length: 2000)
+          url
         }
     }  
   }

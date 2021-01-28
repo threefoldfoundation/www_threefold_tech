@@ -3,25 +3,29 @@
     <h2 class="text-4xl mb-6 leading-tight font-semibold font-heading">
       {{ main.title }}
     </h2>
-    <p class="text-gray-600 mb-6">{{ main.description }}</p>
+    <p class="text-gray-700 mb-6">{{ main.description }}</p>
     <div class="flex flex-wrap -mx-8">
       <div
-        class="w-1/ md:w-1/6 px-8 mb-8 active--exact active"
+        class="w-1/2 md:w-1/6 px-8 mb-8 active--exact active"
         v-for="(section, index) in sections"
         :key="index"
+      >
+      <g-link
+         :to="section.url"
       >
         <g-image
           class="w-1/8 mx-auto mb-8 h-30"
           :src="section.svg.src"
           :alt="section.title"
         />
-        <h3 class="text-2xl mb-4 font-semibold font-heading">
+        </g-link>
+        <p class="text-gray-700 mb-6">
           <!-- <span
             class="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full"
             >{{ index + 1 }}</span
           > -->
           <span>{{ section.title }}</span>
-        </h3>
+        </p>
         <p class="text-gray-700">
           {{ section.excerpt }}
         </p>
