@@ -3,7 +3,7 @@
     <h2 class="text-4xl mb-6 leading-tight font-semibold font-heading">
       {{ main.title }}
     </h2>
-    <p class="text-gray-700 mb-6">{{ main.description }}</p>
+    <p class="text-gray-700 mb-10">{{ main.description }}</p>
     <div class="flex flex-wrap -mx-8">
       <div
         class="w-1/2 md:w-1/6 px-8 mb-8 active--exact active"
@@ -19,7 +19,7 @@
           :alt="section.title"
         />
         </g-link>
-        <p class="text-gray-700 mb-6">
+        <p class="text-lg leading-tight text-gray-700 mb-6 mx-3">
           <!-- <span
             class="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full"
             >{{ index + 1 }}</span
