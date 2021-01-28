@@ -1,7 +1,7 @@
 ---
-id: comparison6
-svg: ./experience.png
-title: ''
+id: rob
+svg: ./rob_van_mieghem.png
+title: 'Rob Van Mieghem'
 ---
 
 

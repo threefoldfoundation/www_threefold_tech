@@ -1,7 +1,7 @@
 ---
-id: comparison3
-svg: ./experience.png
-title: ''
+id: weynand
+svg: ./weynand_kuijpers.png
+title: 'Weynand Kuijpers'
 ---
 
 

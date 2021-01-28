@@ -1,5 +1,5 @@
 ---
-id: comparison2
-svg: ./experience.png
-title: ''
+id: chris
+svg: ./chris_hutton.png
+title: 'Chris Hutton'
 ---

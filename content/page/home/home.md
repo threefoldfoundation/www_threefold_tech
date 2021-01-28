@@ -1,5 +1,10 @@
 ---
 id: home
+header_title: SWAP EVERYTHING
+header_image: ./
+header_excerpt: 
+button: 
+link:
 solution_image: ./globe_header2.png
 header: home_header
 solution_image_2: ./triangles_home.png
@@ -11,15 +16,15 @@ solution_image_4: ./map.png
 header5: home_header5
 comparisonMain: experience
 comparisonSecs:
-  [comparison1, comparison2, comparison3, comparison4, comparison5, comparison6]
-logos: [logo1, logo2, logo3, logo4, logo5]
+  [kristof, chris, weynand, andreas, owen, rob]
+logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
 solution_image_5: ./grid.png
 ---
 
 <!-- header: home_header -->
+
 <!-- logos: [logo1, logo2, logo3, logo4, logo5, logo6] -->
-<!--  -->
 
 <!-- header: home_header
 headerSolution : headerHome
