@@ -1,13 +1,13 @@
 ---
 id: home
 solution_image: ./globe_header2.png
+header: home_header
 header_title: THE CYBERPANDEMIC ERA
-header_image: ./cyber_3d.png
+header_image: ./cyber.png
 header_excerpt: NEVER BEFORE WAS SECURITY SO ESSENTIAL. As the world’s population increasingly moves online amid a global pandemic, cyber attacks have rapidly surged as well. Both companies and individuals now face security risks that can no longer be ignored.
 button: 
 link:
 solution_image_6: ./cyber_infographic.png
-header: home_header
 solution_image_2: ./triangles_home.png
 header2: home_header2
 header3: home_header3
