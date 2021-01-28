@@ -1,5 +1,10 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
+    <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+    />
+
      <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
@@ -11,11 +16,6 @@
       <g-image
       v-if="$page.markdownPage.solution_image_6"
       :src="$page.markdownPage.solution_image_6.src"
-      />
-
-      <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
       />
 
       <SolutionsHeader
