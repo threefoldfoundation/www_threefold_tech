@@ -1,12 +1,17 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-      <!-- <Header
+     <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      /> -->
+      />
+
+      <g-image
+      v-if="$page.markdownPage.solution_image_6"
+      :src="$page.markdownPage.solution_image_6.src"
+      />
 
       <g-image
       v-if="$page.markdownPage.solution_image"
@@ -144,6 +149,7 @@
         solution_image_3
         solution_image_4
         solution_image_5
+        solution_image_6
         header{
          title
          subtitle
