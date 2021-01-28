@@ -8,4 +8,6 @@ btn2: ''
 link2: ''
 ---
 
-Bringing a smart, secure and efficient network solution that allows anyone (farmers) to connect capacity and participate in the Internet economy. An upgrade from today's centralized data center model.
+Bringing a smart, secure and efficient network solution that allows anyone to connect capacity and participate in the Internet economy.
+<br/>
+An upgrade from today's centralized data center model.
