@@ -1,5 +1,6 @@
 ---
-id: comparison2
-svg: ./experience.png
-title: ''
+id: chris
+svg: ./chris_hutton.png
+title: 'Chris Hutton'
+url : 'https://www.linkedin.com/in/chris-hutton-a3034777/'
 ---

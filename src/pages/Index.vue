@@ -1,21 +1,26 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-      <!-- <Header
+      <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+      />
+    
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+
+     <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      /> -->
-
-      <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
       />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
+      <g-image
+      v-if="$page.markdownPage.solution_image_6"
+      :src="$page.markdownPage.solution_image_6.src"
       />
 
       <g-image
@@ -96,10 +101,6 @@
       :logos="$page.markdownPage.logos"
     />
 
-    <!-- <InTheNews
-      v-if="$page.markdownPage.inTheNews"
-      :news="$page.markdownPage.inTheNews"
-    /> -->
 
     <!-- <template>
       <ClientOnly>
@@ -144,6 +145,7 @@
         solution_image_3
         solution_image_4
         solution_image_5
+        solution_image_6
         header{
          title
          subtitle
@@ -231,6 +233,7 @@
           svg
           title
           excerpt(length: 2000)
+          url
         }
     }  
   }
@@ -246,7 +249,6 @@ import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
-import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 
@@ -260,7 +262,6 @@ export default {
     logoShowcase,
     SignUp,
     CallToAction,
-    InTheNews,
     Roadmap,
     Comparison,
   },

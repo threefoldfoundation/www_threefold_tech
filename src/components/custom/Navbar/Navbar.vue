@@ -11,19 +11,17 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/tf_tech_logo.png"
+              src="/img/TFT Logo.svg"
               class="mr-3 fill-current"
               width="200"
-              height="17"
               v-if="theme == 'light'"
               alt=""
             />
 
             <img
-              src="/img/tf_tech_logo.png"
+              src="/img/TFT Logo.svg"
               class="mr-3 fill-current"
               width="200"
-              height="17"
               v-else
               alt=""
             />
@@ -34,7 +32,7 @@
           </a>
         </div>
 
-        <div class="sm:hidden ml-auto">
+        <!-- <div class="sm:hidden ml-auto">
           <button
             @click="isOpen = !isOpen"
             type="button"
@@ -53,7 +51,7 @@
               />
             </svg>
           </button>
-        </div>
+        </div> -->
         <!-- <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
             <li class="mr-0 sm:mr-6">

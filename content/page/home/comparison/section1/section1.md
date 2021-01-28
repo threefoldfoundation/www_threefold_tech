@@ -1,5 +1,6 @@
 ---
-id: comparison1
-svg: ./experience.png
-title: ''
+id: kristof
+svg: ./kristof_de_piegeleer.png
+title: 'Kristof De Spiegeleer'
+url : 'https://www.linkedin.com/in/despiegk/'
 ---
