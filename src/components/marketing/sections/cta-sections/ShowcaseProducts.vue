@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div
+   <!-- <div
       class="bannerFondo bg-left-top bg-auto bg-repeat-x"
       style="background-image: url(./img/continuartl_4.png)"
     ></div>
@@ -9,13 +9,13 @@
       <div class="w-full text-center">
         <p class="text-sm tracking-widest text-white">subtitle</p>
         <h1 class="font-bold text-5xl text-white">title</h1>
-      </div>
+      </div> -->
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <div class="grid grid-cols-1 py-12 gap-4 sm:grid-cols-3">
         <div
           v-for="(product, idx) in products"
           :key="idx"
-          class="p-2 sm:p-10 text-center cursor-pointer"
+          class="p-2 sm:p-0 text-center cursor-pointer"
         >
           <div
             class="max-w-sm rounded overflow-hidden shadow-lg hover:bg-white transition duration-500 bg-white"
