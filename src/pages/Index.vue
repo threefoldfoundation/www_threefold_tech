@@ -17,11 +17,20 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
+      
+      <ShowcaseProducts
+        :main="$page.markdownPage.productMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+      />
 
-      <g-image
+      <!-- <g-image
       v-if="$page.markdownPage.solution_image_6"
       :src="$page.markdownPage.solution_image_6.src"
-      />
+      /> -->
 
       <g-image
         v-if="$page.markdownPage.solution_image_2"
@@ -145,7 +154,7 @@
         solution_image_3
         solution_image_4
         solution_image_5
-        solution_image_6
+     #  solution_image_6
         header{
          title
          subtitle
@@ -200,6 +209,17 @@
          subtitle
          excerpt(length: 2000)
        }
+       productMain{
+         id
+         subtitle
+         title
+       }
+       productData{
+         id
+         title
+         excerpt
+         image
+       }
         logos{
           id
           image
@@ -251,11 +271,13 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 
 export default {
   components: {
     SolutionsHeader,
     Header,
+    ShowcaseProducts,
     Features,
     NewCard,
     Getintouch,
