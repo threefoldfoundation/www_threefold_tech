@@ -218,6 +218,7 @@
          id
          title
          excerpt
+         image
        }
         logos{
           id
