@@ -27,10 +27,10 @@
         "
       />
 
-      <g-image
+      <!-- <g-image
       v-if="$page.markdownPage.solution_image_6"
       :src="$page.markdownPage.solution_image_6.src"
-      />
+      /> -->
 
       <g-image
         v-if="$page.markdownPage.solution_image_2"
@@ -154,7 +154,7 @@
         solution_image_3
         solution_image_4
         solution_image_5
-        solution_image_6
+     #  solution_image_6
         header{
          title
          subtitle
