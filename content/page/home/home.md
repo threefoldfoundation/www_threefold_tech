@@ -7,6 +7,8 @@ header_image: ./cyber.png
 header_excerpt: NEVER BEFORE WAS SECURITY SO ESSENTIAL. As the world’s population increasingly moves online amid a global pandemic, cyber attacks have rapidly surged as well. Both companies and individuals now face security risks that can no longer be ignored.
 button: 
 link:
+productMain: tech_graph
+productData: [img_1, img_2, img_3, img_4]
 solution_image_6: ./cyber_infographic.png
 solution_image_2: ./triangles_home.png
 header2: home_header2

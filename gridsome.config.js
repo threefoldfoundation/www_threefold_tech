@@ -216,6 +216,7 @@ module.exports = {
                     header5: 'Header5',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
+                    productMain: 'Product',
                     productData: 'Product',
                     featuresMain: 'Features',
                     features: 'Features',
