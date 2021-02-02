@@ -8,6 +8,7 @@ header_excerpt: NEVER BEFORE WAS SECURITY SO ESSENTIAL. As the world’s populat
 button: ''
 link: ''
 productData: [img_1, img_2, img_3, img_4, img_5, img_6]
+productsMain: graph_home
 solution_image_2: ./triangles_home.png
 header2: home_header2
 header3: home_header3
