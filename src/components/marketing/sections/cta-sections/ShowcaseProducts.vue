@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 mb-5">
+  <div class="py-12 mb-12">
 
 
     
