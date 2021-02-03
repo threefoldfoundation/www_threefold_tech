@@ -8,5 +8,5 @@ btn2: ''
 link2: ''
 ---
 
-A fundamentally new approach for the Internet and Cloud. 
+A fundamentally new approach to empower a peer-to-peer data economy. 
 Disruptive compute and storage technology for a secure digital world.

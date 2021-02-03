@@ -19,7 +19,7 @@
       />
       
       <ShowcaseProducts
-        :main="$page.markdownPage.productMain"
+        :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
         v-if="
           $page.markdownPage.productData &&
@@ -209,11 +209,12 @@
          subtitle
          excerpt(length: 2000)
        }
-       productMain{
-         id
-         subtitle
-         title
-       }
+       productsMain{
+          id
+          title
+          subtitle
+          image
+        }
        productData{
          id
          title

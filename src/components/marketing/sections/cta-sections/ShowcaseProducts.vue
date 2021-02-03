@@ -1,17 +1,18 @@
 <template>
-  <div>
-   <!-- <div
-      class="bannerFondo bg-left-top bg-auto bg-repeat-x"
-      style="background-image: url(./img/continuartl_4.png)"
-    ></div>
+  <div class="py-4 mb-12">
 
-    <div class="-mt-64">
-      <div class="w-full text-center">
-        <p class="text-sm tracking-widest text-white">subtitle</p>
-        <h1 class="font-bold text-5xl text-white">title</h1>
-      </div> -->
 
-      <div class="grid grid-cols-1 py-12 gap-4 sm:grid-cols-3">
+    
+      <div class="hidden md:block">
+        <!-- <p class="text-sm tracking-widest text-gray-700">{{ main.subtitle}}</p>
+        <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading">{{ main.title }}</h1> -->
+       
+        <g-image :src="img(main.image)" />
+      </div> 
+
+      
+
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:hidden">
         <div
           v-for="(product, idx) in products"
           :key="idx"
@@ -20,7 +21,7 @@
           <div
             class="max-w-sm rounded overflow-hidden shadow-lg hover:bg-white transition duration-500 bg-white"
           >
-            <div class="px-6 py-4">
+            <div class="px-2 py-2">
               <g-image :src="img(product.image)" />
               <!-- <div class="font-bold text-xl mb-2">{{ product.title }}</div> -->
               <p v-html="product.content" class="text-gray-700 text-base"></p>
@@ -28,14 +29,14 @@
           </div>
         </div>
       </div>
-    </div>
+    
   </div>
 </template>
 
 
 <script>
 export default {
-  props: ["products"],
+  props: ["products" ,"main"],
   methods: {
     img(image) {
       if (!image) return "";
