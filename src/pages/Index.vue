@@ -213,6 +213,7 @@
           id
           title
           subtitle
+          image
         }
        productData{
          id

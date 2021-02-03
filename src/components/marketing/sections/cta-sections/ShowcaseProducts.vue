@@ -1,14 +1,18 @@
 <template>
-  <div class="py-12 mb-12">
+  <div class="py-4 mb-12">
 
 
     
-      <!-- <div class="w-full text-center">
-        <p class="text-sm tracking-widest text-gray-700">{{ main.subtitle}}</p>
-        <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading">{{ main.title }}</h1>
-      </div> -->
+      <div class="hidden md:block">
+        <!-- <p class="text-sm tracking-widest text-gray-700">{{ main.subtitle}}</p>
+        <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading">{{ main.title }}</h1> -->
+       
+        <g-image :src="img(main.image)" />
+      </div> 
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      
+
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:hidden">
         <div
           v-for="(product, idx) in products"
           :key="idx"
