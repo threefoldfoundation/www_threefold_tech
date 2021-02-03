@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'FairSwap',
+    siteName: 'ThreeFold Tech',
     plugins: [
 
         // Local models
@@ -63,7 +63,34 @@ module.exports = {
                 path: './content/page/**/header/*.md',
             }
         },
-
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header2',
+                path: './content/page/**/header2/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header3',
+                path: './content/page/**/header3/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header4',
+                path: './content/page/**/header4/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Header5',
+                path: './content/page/**/header5/*.md',
+            }
+        },
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -71,7 +98,13 @@ module.exports = {
                 path: './content/page/**/productData/**/*.md',
             }
         },
-
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'ProductTitle',
+                path: './content/page/**/home/**/*.md',
+            }
+        },
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -133,13 +166,7 @@ module.exports = {
             }
         },
 
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'BrandPanel',
-                path: './content/page/**/brandPanel/*.md',
-            }
-        },
+ 
 
         {
             use: '@gridsome/source-filesystem',
@@ -177,13 +204,7 @@ module.exports = {
                 path: './content/page/**/headerSolution4/*.md',
             }
         },
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'InTheNews',
-                path: './content/page/**/InTheNews/*.md',
-            }
-        },
+ 
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -195,8 +216,13 @@ module.exports = {
                     slides: 'Slide',
                     contactData: 'Contact',
                     header: 'Header',
+                    header2: 'Header2',
+                    header3: 'Header3',
+                    header4: 'Header4',
+                    header5: 'Header5',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
+                    productsMain: 'ProductTitle',
                     productData: 'Product',
                     featuresMain: 'Features',
                     features: 'Features',
@@ -211,13 +237,11 @@ module.exports = {
                     comparisonSecs: 'Comparison',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
-                    brandPanel: 'BrandPanel',
                     splitWithImage: 'SplitWithImage',
                     headerSolution: 'SolutionsHeader',
                     headerSolution2: 'SolutionsHeader',
                     headerSolution3: 'SolutionsHeader',
                     headerSolution4: 'SolutionsHeader',
-                    inTheNews: 'InTheNews',
                     roadmap: 'Roadmap',
                 }
             }
@@ -374,6 +398,13 @@ module.exports = {
                 ]
             }
         },
+        {
+            use: 'gridsome-plugin-matomo',
+            options: {
+		host: 'https://analytics.threefold.io',
+                siteId: 3
+            }
+        }
     ],
     chainWebpack: config => {
         config.resolve.alias.set('@images', '@/assets/images')

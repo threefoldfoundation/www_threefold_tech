@@ -1,5 +1,5 @@
 ---
 id: logo6
-image: ./tomo_chain.png
-url: /partners/tomochain
+image: ./digibyte.png
+url: 'https://digibyte.io/'
 ---

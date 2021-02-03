@@ -13,7 +13,6 @@ headerSolution2: headerSolution2
 cards: [solution_card4, solution_card5]
 solution_image4: ./participate_image.png
 cta: solution_cta
-brandPanel: solution_brandPanel
 ---
 
 <!-- 

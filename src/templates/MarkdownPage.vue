@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+   <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
@@ -21,7 +21,7 @@
         :src="$page.markdownPage.solution_image3.src"
       />
 
-      <Header
+     <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
           $page.markdownPage.header_title &&
@@ -33,53 +33,52 @@
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      />
+      /> 
 
-      <Features
+      <!-- <Features
         v-if="$page.markdownPage.features3 && $page.markdownPage.features3.length > 0"
         :main="$page.markdownPage.featuresMain3"
         :features="$page.markdownPage.features3"
-      />
+      /> -->
 
-      <HowItWorks
+      <!-- <HowItWorks
         v-if="$page.markdownPage.howItWorks && $page.markdownPage.howItWorks.length > 0"
         :HIWData="$page.markdownPage.howItWorks"
         :main="$page.markdownPage.howItWorksMain"
-      />
+      /> -->
 
       <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
       />
 
-      <GetInTouch
+      <!-- <GetInTouch
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData && $page.markdownPage.contactData.length > 0"
-      />
+      /> -->
 
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         :products="$page.markdownPage.productData"
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
-        "
-      />
+        " /> -->
 
       <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution2"
         :header="$page.markdownPage.headerSolution2"
-      />
+      /> -->
 
-      <Features
+      <!-- <Features
         v-if="$page.markdownPage.features && $page.markdownPage.features.length > 0"
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
-      />
+      /> -->
 
       <!-- <HowItWorks
         v-if="$page.markdownPage.howItWorks.length > 0"
@@ -87,22 +86,21 @@
         :main="$page.markdownPage.howItWorksMain"
       /> -->
 
-      <VerticalNav
+      <!-- <VerticalNav
         :slides="$page.markdownPage.slides"
         v-if="$page.markdownPage.slide && $page.markdownPage.slides.length > 0"
-      />
+      /> -->
 
-      <div v-html="$page.markdownPage.content"></div>
-      <NewCard
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
+      /> -->
       
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution3"
         :header="$page.markdownPage.headerSolution3"
-      />
+      /> -->
 
       <template>
         <ClientOnly>
@@ -117,22 +115,22 @@
         </ClientOnly>
       </template>
 
-      <Features
+      <!-- <Features
         v-if="$page.markdownPage.features2 && $page.markdownPage.features2.length > 0"
         :main="$page.markdownPage.featuresMain2"
         :features="$page.markdownPage.features2"
-      />
+      /> -->
 
       <!-- <logoShowcase
         v-if="$page.markdownPage.logos"
         :logos="$page.markdownPage.logos"
       /> -->
 
-      <NewCard
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards2"
         :key="card.id"
         :card="card"
-      />
+      /> -->
 
       <template>
         <ClientOnly>
@@ -143,36 +141,32 @@
         </ClientOnly>
       </template>
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image4"
         :src="$page.markdownPage.solution_image4.src"
-      />
+      /> -->
 
-      <template>
+      <!-- <template>
         <ClientOnly>
           <SignUp
             v-if="$page.markdownPage.signup"
             :signup="$page.markdownPage.signup"
           />
         </ClientOnly>
-      </template>
+      </template> -->
 
-      <BrandPanel
-        :brand="$page.markdownPage.brandPanel"
-        v-if="$page.markdownPage.brandPanel"
-      />
 
       <!-- <SplitWithImage
       :split="$page.markdownPage.splitWithImage"
         v-if="$page.markdownPage.splitWithImage"
       /> -->
-    </div>
+    </div> 
   </Layout>
 </template>
 
 <page-query>
   query($id: ID!) {
-    markdownPage(id: $id) {
+   markdownPage(id: $id) {
         id
         path
         content
@@ -183,9 +177,6 @@
         button
         link
         solution_image
-        solution_image2
-        solution_image3
-        solution_image4
         slides{
           id
           title
@@ -193,30 +184,6 @@
           image
           order
         }
-        cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          excerpt(length: 2000)
-        }
-        cards2{
-          id
-          title
-          image
-          button
-          link
-          order
-          excerpt(length: 2000)
-        }
-       contactData{
-         id
-         title
-         mail
-         phone
-       }
        header{
          title
          subtitle
@@ -247,81 +214,9 @@
         btn1
         link1
        }
-       howItWorks{
-         id
-         title
-         excerpt(length: 2000)
-       }
-       brandPanel{
-         id
-         title
-         subtitle
-         excerpt(length: 2000)
-         sourceUrl
-         btnTxt
-         image
-       }
-       splitWithImage{
-         id
-         subtitle
-         title
-         excerpt(length: 2000)
-         sourceUrl
-         btnTxt
-         image
-       }
-       howItWorksMain{
-         id
-         title
-         image
-       }
-       productData{
-        id
-         title
-        content
-       }
-        featuresMain{
-          id
-          title 
-          btn 
-          link
-          excerpt(length: 2000)
-        }
-        featuresMain2{
-          id
-          title
-          btn 
-          link
-          excerpt(length: 2000)
-        }
-        featuresMain3{
-          id
-          title
-          btn 
-          link
-          excerpt(length: 2000)
-        }
         logos{
           id
           image
-        }
-        features{
-          id
-          title 
-          svg
-          excerpt(length: 2000)
-        }
-        features2{
-          id
-          title 
-          svg
-          excerpt(length: 2000)
-        }
-        features3{
-          id
-          title 
-          svg
-          excerpt(length: 2000)
         }
         cta{
           id
@@ -330,14 +225,6 @@
           excerpt(length: 2000)
           button
           link
-        }
-        signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
         }
         comparisonMain{
           id
@@ -352,8 +239,8 @@
           title
           excerpt(length: 2000)
         }
-    }
-  }
+    } 
+  } 
 
 </page-query>
 
@@ -370,7 +257,6 @@ import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowc
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
-import BrandPanel from "~/components/marketing/sections/cta-sections/BrandPanel.vue";
 import SplitWithImage from "~/components/marketing/sections/cta-sections/SplitWithImage.vue";
 
 
@@ -388,7 +274,6 @@ export default {
     CallToAction,
     SignUp,
     Comparison,
-    BrandPanel,
     SplitWithImage,
   },
   metaInfo() {
@@ -442,3 +327,100 @@ export default {
   padding-left: 2.8em;
 }
 </style> >
+
+
+  <!--  cards{
+          id
+          title
+          image
+          button
+          link
+          order
+          excerpt(length: 2000)
+        }
+        cards2{
+          id
+          title
+          image
+          button
+          link
+          order
+          excerpt(length: 2000)
+        }
+       contactData{
+         id
+         title
+         mail
+         phone
+       }
+       howItWorks{
+         id
+         title
+         excerpt(length: 2000)
+       }
+       splitWithImage{
+         id
+         subtitle
+         title
+         excerpt(length: 2000)
+         sourceUrl
+         btnTxt
+         image
+       }
+       howItWorksMain{
+         id
+         title
+         image
+       }
+       productData{
+        id
+         title
+        content
+       }
+        featuresMain{
+          id
+          title 
+          btn 
+          link
+          excerpt(length: 2000)
+        }
+        featuresMain2{
+          id
+          title
+          btn 
+          link
+          excerpt(length: 2000)
+        }
+        featuresMain3{
+          id
+          title
+          btn 
+          link
+          excerpt(length: 2000)
+        }
+        features{
+          id
+          title 
+          svg
+          excerpt(length: 2000)
+        }
+        features2{
+          id
+          title 
+          svg
+          excerpt(length: 2000)
+        }
+        features3{
+          id
+          title 
+          svg
+          excerpt(length: 2000)
+        }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
+        } -->

@@ -1,5 +1,5 @@
 ---
 id: logo2
-image: ./jimber.png
-url: https://jimber.io/
+image: ./solidaridad.png
+url: 'https://www.solidaridadnetwork.org/'
 ---

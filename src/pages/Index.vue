@@ -1,17 +1,40 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <Header
+      <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+      />
+    
+      <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+
+     <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
+      
+      <ShowcaseProducts
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+      />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
+      <!-- <g-image
+      v-if="$page.markdownPage.solution_image_6"
+      :src="$page.markdownPage.solution_image_6.src"
+      /> -->
+
+      <g-image
+        v-if="$page.markdownPage.solution_image_2"
+        :src="$page.markdownPage.solution_image_2.src"
       />
 
       <SolutionsHeader
@@ -19,51 +42,83 @@
         :header="$page.markdownPage.headerSolution"
       />
 
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image_2"
-        :src="$page.markdownPage.solution_image_2.src"
-      /> -->
-
-      <Features
-        :main="$page.markdownPage.featuresMain"
-        :features="$page.markdownPage.features"
+      <SolutionsHeader
+        v-if="$page.markdownPage.header2"
+        :header="$page.markdownPage.header2"
       />
 
-      <NewCard
+      <SolutionsHeader
+        v-if="$page.markdownPage.header3"
+        :header="$page.markdownPage.header3"
+      />
+      
+      <g-image
+        v-if="$page.markdownPage.solution_image_3"
+        :src="$page.markdownPage.solution_image_3.src"
+      />
+
+      <SolutionsHeader
+        v-if="$page.markdownPage.header4"
+        :header="$page.markdownPage.header4"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image_4"
+        :src="$page.markdownPage.solution_image_4.src"
+      />
+      <SolutionsHeader
+        v-if="$page.markdownPage.header5"
+        :header="$page.markdownPage.header5"
+      />
+
+      <!-- <Features
+        :main="$page.markdownPage.featuresMain"
+        :features="$page.markdownPage.features"
+      /> -->
+
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
-    </div>
+      /> -->
 
     <!-- <Features
       :main="$page.markdownPage.featuresMain2"
       :features="$page.markdownPage.features2"
     /> -->
 
-  <Roadmap
+    <!-- <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"
         :roadmap="$page.markdownPage.roadmap"
-    />
+    /> -->
+
+    <template>
+        <ClientOnly>
+          <Comparison
+            v-if="
+              $page.markdownPage.comparisonSecs &&
+              $page.markdownPage.comparisonSecs.length > 0
+            "
+            :main="$page.markdownPage.comparisonMain"
+            :sections="$page.markdownPage.comparisonSecs"
+          />
+        </ClientOnly>
+    </template>
 
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
 
-    <InTheNews
-      v-if="$page.markdownPage.inTheNews"
-      :news="$page.markdownPage.inTheNews"
-    />
 
-    <template>
+    <!-- <template>
       <ClientOnly>
         <SignUp
           :signup="$page.markdownPage.signup"
           v-if="$page.markdownPage.signup"
         />
       </ClientOnly>
-    </template>
+    </template> -->
 
     <template>
       <ClientOnly>
@@ -73,10 +128,10 @@
         />
       </ClientOnly>
     </template>
-
+    
     <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
+        v-if="$page.markdownPage.solution_image_5"
+        :src="$page.markdownPage.solution_image_5.src"
     />
 
     <!-- <Getintouch :contacts="contacts"/> -->
@@ -95,17 +150,52 @@
         button
         link
         solution_image
-      # solution_image_2
-        cards{
-          id
-          title
-          image
-          button
-          link
-          order
-          excerpt(length: 2000)
-        }
+        solution_image_2
+        solution_image_3
+        solution_image_4
+        solution_image_5
+     #  solution_image_6
         header{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header2{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header3{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header4{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+        header5{
          title
          subtitle
          excerpt(length: 2000)
@@ -119,7 +209,111 @@
          subtitle
          excerpt(length: 2000)
        }
-       roadmap{
+       productsMain{
+          id
+          title
+          subtitle
+          image
+        }
+       productData{
+         id
+         title
+         excerpt
+         image
+       }
+        logos{
+          id
+          image
+          url
+        }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
+        }
+        cta{
+          id
+          title
+          excerpt(length: 2000)
+          button
+          link
+          content
+        }
+        comparisonMain{
+          id
+          title
+          description
+          button
+          link
+        }
+        comparisonSecs{
+          id
+          svg
+          title
+          excerpt(length: 2000)
+          url
+        }
+    }  
+  }
+
+</page-query>
+
+<script>
+import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
+import Header from "~/components/marketing/sections/cta-sections/Header.vue";
+import Features from "~/components/custom/sections/Features.vue";
+import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
+import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
+import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
+import SignUp from "~/components/custom/sections/SignUp.vue";
+import CallToAction from "~/components/custom/sections/CallToAction.vue";
+import Roadmap from "~/components/custom/sections/Roadmap.vue";
+import Comparison from "~/components/custom/sections/Comparison.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
+
+export default {
+  components: {
+    SolutionsHeader,
+    Header,
+    ShowcaseProducts,
+    Features,
+    NewCard,
+    Getintouch,
+    logoShowcase,
+    SignUp,
+    CallToAction,
+    Roadmap,
+    Comparison,
+  },
+  metaInfo() {
+    return {
+      title: this.$page.markdownPage.title,
+    };
+  },
+};
+</script>
+<style scoped>
+/* h2 {
+  padding-bottom: 8rem;
+} */
+</style> >
+
+    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5" div/> -->
+
+
+  <!-- cards{
+          id
+          title
+          image
+          button
+          link
+          order
+          excerpt(length: 2000)
+        }
+        roadmap{
           id
           title
           excerpt
@@ -139,38 +333,17 @@
           link
           excerpt(length: 2000)
         }
-        logos{
-          id
-          image
-          url
-        }
         features{
           id
           title 
           svg
           excerpt(length: 2000)
         }
-      #  features2{
-      #    id
-      #    title 
-      #    svg
-      #    excerpt(length: 2000)
-      #  }
-        signup{
+        features2{
           id
-          title
-          button1
-          link1
-          button2
-          link2
-        }
-        cta{
-          id
-          title
+          title 
+          svg
           excerpt(length: 2000)
-          button
-          link
-          content
         }
         inTheNews {
           id
@@ -179,46 +352,4 @@
             path
             logo
           }
-        }
-    }  
-  }
-
-</page-query>
-
-<script>
-import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
-import Header from "~/components/marketing/sections/cta-sections/Header.vue";
-import Features from "~/components/custom/sections/Features.vue";
-import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
-import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
-import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
-import SignUp from "~/components/custom/sections/SignUp.vue";
-import CallToAction from "~/components/custom/sections/CallToAction.vue";
-import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
-import Roadmap from "~/components/custom/sections/Roadmap.vue";
-
-export default {
-  components: {
-    SolutionsHeader,
-    Header,
-    Features,
-    NewCard,
-    Getintouch,
-    logoShowcase,
-    SignUp,
-    CallToAction,
-    InTheNews,
-    Roadmap,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
-  },
-};
-</script>
-<style scoped>
-/* h2 {
-  padding-bottom: 8rem;
-} */
-</style> >
+        } -->

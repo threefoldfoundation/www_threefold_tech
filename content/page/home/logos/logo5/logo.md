@@ -1,5 +1,5 @@
 ---
 id: logo5
-image: ./dash.png
-url: /partners/dash
+image: ./greenedge.png
+url: 'https://www.green-edge.net/'
 ---

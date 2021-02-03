@@ -9,7 +9,7 @@
       </p>
       <g-link
         v-if="cta.button"
-        class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
+        class="rounded-md learn-button px-5 py-3 mr-3 font-semibold"
         :to="cta.link"
         >{{ cta.button }}</g-link
       >
