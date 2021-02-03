@@ -4,9 +4,9 @@
 -->
 <template>
   <footer class="bg-white">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-       <div class="xl:grid xl:grid-cols-3 xl:gap-8"> 
-      <!-- <div class="space-y-8 xl:col-span-1">
+    <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+        <!-- <div class="space-y-8 xl:col-span-1">
           <g-image
             class="h-10"
             src="/img/"
@@ -125,9 +125,9 @@
         >
           <!-- class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2" -->
 
-         <div
+          <div
             v-for="footerLink in record.items"
-            :key="footerLink.title"
+            :key="footerLink.id"
             class="md:grid md:grid-cols-3"
           >
             <div>
@@ -137,7 +137,7 @@
                 {{ footerLink.title }}
               </h4>
               <ul class="mt-4 space-y-4 footerlink">
-                <li v-for="item in footerLink.links" :key="item.name">
+                <li v-for="item in footerLink.links" :key="item.id">
                   <a
                     v-if="item.link.includes('http')"
                     :href="item.link"
@@ -158,7 +158,7 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
           &#xA9; 2021, ThreeFold Tech, All rights reserved.
@@ -177,5 +177,5 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
-};
+}
 </style>
