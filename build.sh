@@ -22,6 +22,6 @@ rsync -ra --delete /Users/despiegk/codewww/github/threefoldtech/www_threefold_te
 
 cd /Users/despiegk/codewww/github/threefoldtech/www_threefold_tech/dist
 
-echo go to http://localhost:9999/
- python3 -m http.server 9999
+#echo go to http://localhost:9999/
+ #python3 -m http.server 9999
 
