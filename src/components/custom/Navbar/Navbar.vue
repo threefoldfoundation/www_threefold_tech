@@ -10,21 +10,35 @@
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
-            <img
-              src="/img/TFT Logo.svg"
-              class="mr-3 fill-current"
+            <g-image
+              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
+              class="mr-3 fill-current logo"
               width="200"
               v-if="theme == 'light'"
               alt=""
             />
 
-            <img
-              src="/img/TFT Logo.svg"
-              class="mr-3 fill-current"
+            <g-image
+              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
+              class="mr-3 fill-current logo"
               width="200"
               v-else
               alt=""
             />
+
+            <!-- <g-image
+              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
+              class="mr-3 fill-current w-3/5"
+              v-if="theme == 'light'"
+              alt=""
+            />
+
+            <g-image
+              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
+              class="mr-3 fill-current w-3/5"
+              v-else
+              alt=""
+            /> -->
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
@@ -300,5 +314,8 @@ button:focus {
 
 .inset-0 {
   z-index: 999;
+}
+.logo {
+  max-width: 200px;
 }
 </style>

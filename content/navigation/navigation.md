@@ -37,13 +37,13 @@ social:
 
 <!--       submenu:
       - title: Solution
-        path: /solution
+        path: /threefoldtech/solution
 
       - title: Participate
-        path: /participate
+        path: /threefoldtech/participate
 
       - title: Token
-        path: /token
+        path: /threefoldtech/token
 
       - title: Knowledge Base
         path: https://wiki.threefold.io/#/what_is_farming

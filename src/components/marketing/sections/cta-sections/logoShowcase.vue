@@ -6,7 +6,7 @@
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
     </div>
-    <div class="flex flex-wrap -mx-8">
+    <div class="flex flex-wrap mx-8">
       <g-link
         v-for="(logo, idx) in logos"
         :key="idx"
