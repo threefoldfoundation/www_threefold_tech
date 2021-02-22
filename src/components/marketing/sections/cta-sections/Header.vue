@@ -7,7 +7,7 @@
         >
           {{ title }}
         </h2>
-        <p class="mb-8 text-gray-700 leading-relaxed">{{ excerpt }}</p>
+        <p class="mb-8 text-white leading-relaxed">{{ excerpt }}</p>
         <div v-if="button">
           <a
             v-if="link.includes('http')"

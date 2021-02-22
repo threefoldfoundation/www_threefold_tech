@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 bg-white">
+  <div class="fixed inset-0 dark-nav">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       v-bind:class="{
@@ -14,7 +14,7 @@
               :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
               class="mr-3 fill-current logo"
               width="200"
-              v-if="theme == 'light'"
+              v-if="theme == 'dark'"
               alt=""
             />
 
@@ -93,11 +93,11 @@
         </div> -->
       </div>
 
-      <nav
+      <!-- <nav
         :class="isOpen ? 'block' : 'hidden'"
         class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-white"
-      >
-        <ul
+      > -->
+        <!-- <ul
           class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
           <li
@@ -181,7 +181,7 @@
               element.name
             }}</g-link>
           </li>
-        </ul>
+        </ul> -->
         <!-- <div
           class="md:hidden inline-flex rounded-full border-2 border-gray-200 w-1/2"
         >
@@ -312,6 +312,9 @@ button:focus {
   outline: 0;
 }
 
+.dark-nav{
+  background-color: #191b1f;
+}
 .inset-0 {
   z-index: 999;
 }

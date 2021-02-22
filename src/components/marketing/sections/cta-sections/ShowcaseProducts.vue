@@ -19,7 +19,7 @@
           class="p-2 sm:p-0 text-center cursor-pointer"
         >
           <div
-            class="max-w-sm rounded overflow-hidden shadow-lg hover:bg-white transition duration-500 bg-white"
+            class="max-w-sm rounded overflow-hidden "
           >
             <div class="px-2 py-2">
               <g-image :src="img(product.image)" />

@@ -1,11 +1,11 @@
 <template>
   <section class="py-12 px-4 text-center ">
     <div class="w-full max-w-2xl mx-auto">
-      <span class="font-semibold">{{ header.title }}</span>
+      <span class="font-semibold text-white">{{ header.title }}</span>
       <h2 class="text-4xl mt-2 mb-6 leading-tight font-semibold font-heading">
         {{ header.subtitle }}
       </h2>
-      <p  v-html="header.content" class="mb-8 text-gray-700 leading-relaxed">
+      <p  v-html="header.content" class="mb-8 text-white leading-relaxed">
        
       </p>
       <div>

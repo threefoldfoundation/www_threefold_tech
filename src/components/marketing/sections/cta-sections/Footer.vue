@@ -3,7 +3,7 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
 <template>
-  <footer class="bg-white">
+  <footer class="">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <!-- <div class="space-y-8 xl:col-span-1">

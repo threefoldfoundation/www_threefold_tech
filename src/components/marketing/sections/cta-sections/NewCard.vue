@@ -8,8 +8,8 @@
           <div class="h-64 bg-cover lg:rounded-lg lg:h-full" :style="img"></div>
         </div>
         <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
-          <h2 class="text-3xl text-gray-700 font-bold">{{ card.title }}</h2>
-          <p class="mt-4 text-gray-700">{{ card.excerpt }}</p>
+          <h2 class="text-3xl text-white font-bold">{{ card.title }}</h2>
+          <p class="mt-4 text-white">{{ card.excerpt }}</p>
           <div class="mt-8" v-if="card.button">
             <a
               v-if="card.link.includes('http')"
