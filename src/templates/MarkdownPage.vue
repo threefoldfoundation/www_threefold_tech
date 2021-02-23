@@ -1,27 +1,27 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-   <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
-      <SolutionsHeader
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <SolutionsHeader2
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      
-      <g-image
+
+      <!-- <g-image
         v-if="$page.markdownPage && $page.markdownPage.solution_image2"
         :src="$page.markdownPage.solution_image2.src"
-      />
+      /> -->
 
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution4"
         :header="$page.markdownPage.headerSolution4"
-      />
-      
-      <g-image
+      /> -->
+
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image3"
         :src="$page.markdownPage.solution_image3.src"
-      />
+      /> -->
 
-     <Header
+      <!-- <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
           $page.markdownPage.header_title &&
@@ -33,7 +33,7 @@
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      />  -->
+      />   -->
 
       <!-- <Features
         v-if="$page.markdownPage.features3 && $page.markdownPage.features3.length > 0"
@@ -46,11 +46,14 @@
         :HIWData="$page.markdownPage.howItWorks"
         :main="$page.markdownPage.howItWorksMain"
       /> -->
-
-      <!-- <SolutionsHeader
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
+      <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
-      /> -->
+      />
 
       <!-- <GetInTouch
         :contacts="$page.markdownPage.contactData"
@@ -63,11 +66,6 @@
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         " /> -->
-
-      <!-- <g-image
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      /> -->
 
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution2"
@@ -96,7 +94,7 @@
         :key="card.id"
         :card="card"
       /> -->
-      
+
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution3"
         :header="$page.markdownPage.headerSolution3"
@@ -155,12 +153,11 @@
         </ClientOnly>
       </template> -->
 
-
       <!-- <SplitWithImage
       :split="$page.markdownPage.splitWithImage"
         v-if="$page.markdownPage.splitWithImage"
       /> -->
-    </div> 
+    </div>
   </Layout>
 </template>
 
@@ -253,7 +250,8 @@ import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 import GetInTouch from "~/components/custom/Navbar/Getintouch.vue";
-import SolutionsHeader from "~/components/custom/sections/header/HeaderSectionRight.vue";
+import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
+import SolutionsHeader2 from "~/components/custom/sections/header/HeaderSectionRight.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import Features from "~/components/custom/sections/Features.vue";
@@ -263,7 +261,6 @@ import SignUp from "~/components/custom/sections/SignUp.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import SplitWithImage from "~/components/marketing/sections/cta-sections/SplitWithImage.vue";
 
-
 export default {
   components: {
     NewCard,
@@ -271,6 +268,7 @@ export default {
     VerticalNav,
     GetInTouch,
     SolutionsHeader,
+    SolutionsHeader2,
     HowItWorks,
     ShowcaseProducts,
     Features,

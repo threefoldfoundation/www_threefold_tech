@@ -1,6 +1,10 @@
 ---
 id: privacypolicy
 header: solution_header
+
+---
+
+<!-- 
 solution_image2: ./solution_image.png
 headerSolution4: headerSolution4
 solution_image3: ./solution_node.png
@@ -13,9 +17,8 @@ headerSolution2: headerSolution2
 cards: [solution_card4, solution_card5]
 solution_image4: ./participate_image.png
 cta: solution_cta
----
 
-<!-- 
+
 featuresMain: Feature_main
 features: [high_durability, versatility, value_based_price, variety] -->
 
