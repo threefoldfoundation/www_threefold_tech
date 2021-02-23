@@ -12,8 +12,8 @@ telegram: '#'
 items:
  - title: ''
    links:
-    - name: ''
-      link: ''
+    - name: 'Privacy Policy'
+      link: /privacypolicy
     - name: ''
       link: ''
     - name: ''
@@ -22,8 +22,8 @@ items:
       link: ''
  - title: ''
    links:
-    - name: ''
-      link: ''
+    - name: 'Impressum'
+      link: /impressum
     - name: ''
       link: ''
     - name: ''

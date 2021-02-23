@@ -253,7 +253,7 @@ import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 import GetInTouch from "~/components/custom/Navbar/Getintouch.vue";
-import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
+import SolutionsHeader from "~/components/custom/sections/header/HeaderSectionRight.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import Features from "~/components/custom/sections/Features.vue";

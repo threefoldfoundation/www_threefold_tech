@@ -34,7 +34,7 @@
           </a>
         </div>
 
-        <div class="sm:hidden ml-auto">
+        <!-- <div class="sm:hidden ml-auto">
           <button
             @click="isOpen = !isOpen"
             type="button"
@@ -53,7 +53,7 @@
               />
             </svg>
           </button>
-        </div>
+        </div> -->
         <!-- <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
             <li class="mr-0 sm:mr-6">
@@ -85,7 +85,7 @@
         :class="isOpen ? 'block' : 'hidden'"
         class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-dark text-white"
       >
-        <ul
+        <!-- <ul
           class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
           <li
@@ -169,7 +169,7 @@
               element.name
             }}</g-link>
           </li>
-        </ul>
+        </ul> -->
         <!-- <div
           class="md:hidden inline-flex rounded-full border-2 border-gray-200 w-1/2"
         >
