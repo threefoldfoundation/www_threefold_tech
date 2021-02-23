@@ -17,10 +17,12 @@ body {
     background-color: #191b1f !important;
 }
 
-h2 {
+h2, h3, h4 {
     font-family: "Inconsolata", monospace !important;
     color: #fff;
 }
+
+
 
 pre {
     @apply border-l;

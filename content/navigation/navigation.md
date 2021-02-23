@@ -1,8 +1,8 @@
 ---
 id: navigation
 navLinks:
-  - name: ''
-    link: ''
+  - name: 'Privacy Policy'
+    link: /privacypolicy
     external: false
     expandable: false
 

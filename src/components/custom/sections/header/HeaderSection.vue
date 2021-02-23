@@ -1,6 +1,6 @@
 <template>
-  <section class="py-12 px-4 text-center ">
-    <div class="w-full max-w-2xl mx-auto">
+  <section class="py-12 px-4">
+    <div class="w-full mx-auto">
       <span class="font-semibold text-white">{{ header.title }}</span>
       <h2 class="text-4xl mt-2 mb-6 leading-tight font-semibold font-heading">
         {{ header.subtitle }}

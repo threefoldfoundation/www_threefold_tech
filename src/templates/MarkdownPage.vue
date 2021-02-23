@@ -11,7 +11,7 @@
         :src="$page.markdownPage.solution_image2.src"
       />
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution4"
         :header="$page.markdownPage.headerSolution4"
       />
@@ -33,7 +33,7 @@
         :excerpt="$page.markdownPage.header_excerpt"
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
-      /> 
+      />  -->
 
       <!-- <Features
         v-if="$page.markdownPage.features3 && $page.markdownPage.features3.length > 0"
@@ -47,10 +47,10 @@
         :main="$page.markdownPage.howItWorksMain"
       /> -->
 
-      <SolutionsHeader
+      <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution"
         :header="$page.markdownPage.headerSolution"
-      />
+      /> -->
 
       <!-- <GetInTouch
         :contacts="$page.markdownPage.contactData"
@@ -64,10 +64,10 @@
           $page.markdownPage.productData.length > 0
         " /> -->
 
-      <g-image
+      <!-- <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
-      />
+      /> -->
 
       <!-- <SolutionsHeader
         v-if="$page.markdownPage.headerSolution2"
@@ -102,7 +102,7 @@
         :header="$page.markdownPage.headerSolution3"
       /> -->
 
-      <template>
+      <!-- <template>
         <ClientOnly>
           <Comparison
             v-if="
@@ -113,7 +113,7 @@
             :sections="$page.markdownPage.comparisonSecs"
           />
         </ClientOnly>
-      </template>
+      </template> -->
 
       <!-- <Features
         v-if="$page.markdownPage.features2 && $page.markdownPage.features2.length > 0"
@@ -132,14 +132,14 @@
         :card="card"
       /> -->
 
-      <template>
+      <!-- <template>
         <ClientOnly>
           <CallToAction
             v-if="$page.markdownPage.cta"
             :cta="$page.markdownPage.cta"
           />
         </ClientOnly>
-      </template>
+      </template> -->
 
       <!-- <g-image
         v-if="$page.markdownPage.solution_image4"
@@ -192,10 +192,12 @@
          link1
          btn2
          link2
+         content
        }
        headerSolution{
          subtitle
          excerpt(length: 2000)
+         content
        }
         headerSolution2{
         subtitle
@@ -207,12 +209,14 @@
          excerpt(length: 2000)
          btn1
          link1
+         content
        }
         headerSolution4{
         subtitle
         excerpt(length: 2000)
         btn1
         link1
+        content
        }
         logos{
           id

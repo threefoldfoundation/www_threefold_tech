@@ -26,19 +26,7 @@
               alt=""
             />
 
-            <!-- <g-image
-              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
-              class="mr-3 fill-current w-3/5"
-              v-if="theme == 'light'"
-              alt=""
-            />
-
-            <g-image
-              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
-              class="mr-3 fill-current w-3/5"
-              v-else
-              alt=""
-            /> -->
+          
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
@@ -46,7 +34,7 @@
           </a>
         </div>
 
-        <!-- <div class="sm:hidden ml-auto">
+        <div class="sm:hidden ml-auto">
           <button
             @click="isOpen = !isOpen"
             type="button"
@@ -65,7 +53,7 @@
               />
             </svg>
           </button>
-        </div> -->
+        </div>
         <!-- <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
             <li class="mr-0 sm:mr-6">
@@ -93,11 +81,11 @@
         </div> -->
       </div>
 
-      <!-- <nav
+      <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-white"
-      > -->
-        <!-- <ul
+        class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-dark text-white"
+      >
+        <ul
           class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
           <li
@@ -181,7 +169,7 @@
               element.name
             }}</g-link>
           </li>
-        </ul> -->
+        </ul>
         <!-- <div
           class="md:hidden inline-flex rounded-full border-2 border-gray-200 w-1/2"
         >
