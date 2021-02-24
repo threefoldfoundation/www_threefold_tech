@@ -288,12 +288,16 @@ export default {
     Roadmap,
     Comparison,
   },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
+  metaInfo: {
+    title: "",
+    titleTemplate: "ThreeFold tech",
+ 
   },
 };
+
+
+
+
 </script>
 <style scoped>
 /* h2 {

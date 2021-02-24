@@ -278,10 +278,10 @@ export default {
     Comparison,
     SplitWithImage,
   },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
+  metaInfo: {
+    title: "",
+    titleTemplate: "ThreeFold tech",
+ 
   },
 };
 </script>
