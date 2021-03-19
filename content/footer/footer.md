@@ -42,3 +42,12 @@ items:
 
 <br/>
 &#xA9; 2021 ThreeFold, All rights reserved.
+
+ 
+ 
+ 
+ <!-- - name: 'Privacy Policy'
+      link: /privacypolicy
+
+    - name: 'Impressum'
+      link: /impressum -->
