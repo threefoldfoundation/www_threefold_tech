@@ -12,8 +12,6 @@ telegram: '#'
 items:
  - title: ''
    links:
-    - name: 'Privacy Policy'
-      link: /privacypolicy
     - name: ''
       link: ''
     - name: ''
@@ -22,8 +20,6 @@ items:
       link: ''
  - title: ''
    links:
-    - name: 'Impressum'
-      link: /impressum
     - name: ''
       link: ''
     - name: ''
@@ -40,3 +36,18 @@ items:
     - name: ''
       link: ''
 ---
+
+
+<!-- [Terms & Conditions](https://new.threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://new.threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
+
+<br/>
+&#xA9; 2021 ThreeFold, All rights reserved. -->
+
+ 
+ 
+ 
+ <!-- - name: 'Privacy Policy'
+      link: /privacypolicy
+
+    - name: 'Impressum'
+      link: /impressum -->
