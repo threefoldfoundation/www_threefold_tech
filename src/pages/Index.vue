@@ -1,82 +1,82 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-      <g-image
+    <g-image
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
-      />
-    
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      />
+    />
 
-     <Header
-        :title="$page.markdownPage.header_title"
-        :image="$page.markdownPage.header_image"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$url($page.markdownPage.link)"
-      />
-      
-      <ShowcaseProducts
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header"
+      :header="$page.markdownPage.header"
+    />
 
-      <!-- <g-image
+    <Header
+      :title="$page.markdownPage.header_title"
+      :image="$page.markdownPage.header_image"
+      :excerpt="$page.markdownPage.header_excerpt"
+      :button="$page.markdownPage.button"
+      :link="$url($page.markdownPage.link)"
+    />
+
+    <ShowcaseProducts
+      :main="$page.markdownPage.productsMain"
+      :products="$page.markdownPage.productData"
+      v-if="
+        $page.markdownPage.productData &&
+        $page.markdownPage.productData.length > 0
+      "
+    />
+
+    <!-- <g-image
       v-if="$page.markdownPage.solution_image_6"
       :src="$page.markdownPage.solution_image_6.src"
       /> -->
 
-      <g-image
-        v-if="$page.markdownPage.solution_image_2"
-        :src="$page.markdownPage.solution_image_2.src"
-      />
+    <g-image
+      v-if="$page.markdownPage.solution_image_2"
+      :src="$page.markdownPage.solution_image_2.src"
+    />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.headerSolution"
-        :header="$page.markdownPage.headerSolution"
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.headerSolution"
+      :header="$page.markdownPage.headerSolution"
+    />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header2"
-        :header="$page.markdownPage.header2"
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header2"
+      :header="$page.markdownPage.header2"
+    />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header3"
-        :header="$page.markdownPage.header3"
-      />
-      
-      <g-image
-        v-if="$page.markdownPage.solution_image_3"
-        :src="$page.markdownPage.solution_image_3.src"
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header3"
+      :header="$page.markdownPage.header3"
+    />
 
-      <SolutionsHeader
-        v-if="$page.markdownPage.header4"
-        :header="$page.markdownPage.header4"
-      />
+    <g-image
+      v-if="$page.markdownPage.solution_image_3"
+      :src="$page.markdownPage.solution_image_3.src"
+    />
 
-      <g-image
-        v-if="$page.markdownPage.solution_image_4"
-        :src="$page.markdownPage.solution_image_4.src"
-      />
-      <SolutionsHeader
-        v-if="$page.markdownPage.header5"
-        :header="$page.markdownPage.header5"
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header4"
+      :header="$page.markdownPage.header4"
+    />
 
-      <!-- <Features
+    <g-image
+      v-if="$page.markdownPage.solution_image_4"
+      :src="$page.markdownPage.solution_image_4.src"
+    />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header5"
+      :header="$page.markdownPage.header5"
+    />
+
+    <!-- <Features
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
       /> -->
 
-      <!-- <NewCard
+    <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
@@ -93,23 +93,22 @@
     /> -->
 
     <template>
-        <ClientOnly>
-          <Comparison
-            v-if="
-              $page.markdownPage.comparisonSecs &&
-              $page.markdownPage.comparisonSecs.length > 0
-            "
-            :main="$page.markdownPage.comparisonMain"
-            :sections="$page.markdownPage.comparisonSecs"
-          />
-        </ClientOnly>
+      <ClientOnly>
+        <Comparison
+          v-if="
+            $page.markdownPage.comparisonSecs &&
+            $page.markdownPage.comparisonSecs.length > 0
+          "
+          :main="$page.markdownPage.comparisonMain"
+          :sections="$page.markdownPage.comparisonSecs"
+        />
+      </ClientOnly>
     </template>
 
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
-
 
     <!-- <template>
       <ClientOnly>
@@ -128,10 +127,10 @@
         />
       </ClientOnly>
     </template>
-    
+
     <g-image
-        v-if="$page.markdownPage.solution_image_5"
-        :src="$page.markdownPage.solution_image_5.src"
+      v-if="$page.markdownPage.solution_image_5"
+      :src="$page.markdownPage.solution_image_5.src"
     />
 
     <!-- <Getintouch :contacts="contacts"/> -->
@@ -290,14 +289,9 @@ export default {
   },
   metaInfo: {
     title: "",
-    titleTemplate: "ThreeFold tech",
- 
+    titleTemplate: "ThreeFold Tech | Welcome",
   },
 };
-
-
-
-
 </script>
 <style scoped>
 /* h2 {
