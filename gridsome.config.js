@@ -94,6 +94,13 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Header6',
+                path: './content/page/**/header6/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Product',
                 path: './content/page/**/productData/**/*.md',
             }
@@ -220,6 +227,7 @@ module.exports = {
                     header3: 'Header3',
                     header4: 'Header4',
                     header5: 'Header5',
+                    header6: 'Header6',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
                     productsMain: 'ProductTitle',

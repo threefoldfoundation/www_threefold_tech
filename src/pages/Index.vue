@@ -27,10 +27,6 @@
       "
     />
 
-    <!-- <g-image
-      v-if="$page.markdownPage.solution_image_6"
-      :src="$page.markdownPage.solution_image_6.src"
-      /> -->
 
     <g-image
       v-if="$page.markdownPage.solution_image_2"
@@ -105,6 +101,16 @@
       </ClientOnly>
     </template>
 
+      <HeaderSectionInnovat
+      v-if="$page.markdownPage.header6"
+      :header="$page.markdownPage.header6"
+    />
+
+    <g-image class="m-auto mb-10"
+      v-if="$page.markdownPage.solution_image_6"
+      :src="$page.markdownPage.solution_image_6.src"
+    />
+
     <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
@@ -153,7 +159,7 @@
         solution_image_3
         solution_image_4
         solution_image_5
-     #  solution_image_6
+        solution_image_6
         header{
          title
          subtitle
@@ -195,6 +201,16 @@
          content
        }
         header5{
+         title
+         subtitle
+         excerpt(length: 2000)
+         btn1
+         link1
+         btn2
+         link2
+         content
+       }
+       header6{
          title
          subtitle
          excerpt(length: 2000)
@@ -262,6 +278,7 @@
 
 <script>
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
+import HeaderSectionInnovat from "~/components/custom/sections/header/HeaderSectionInnovat.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
@@ -276,6 +293,7 @@ import ShowcaseProducts from "~/components/marketing/sections/cta-sections/Showc
 export default {
   components: {
     SolutionsHeader,
+    HeaderSectionInnovat,
     Header,
     ShowcaseProducts,
     Features,

@@ -16,12 +16,14 @@ solution_image_3: ./world_map.png
 header4: home_header4
 solution_image_4: ./map.png
 header5: home_header5
+header6: home_header6
 comparisonMain: experience
 comparisonSecs:
   [kristof, chris, weynand, andreas, owen, rob]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
 solution_image_5: ./grid.png
+solution_image_6: ./deloitte mockup.png
 ---
 
 <!-- header: home_header -->
