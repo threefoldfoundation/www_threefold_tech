@@ -23,7 +23,7 @@ comparisonSecs:
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
 solution_image_5: ./grid.png
-solution_image_6: ./deloitte mockup.png
+solution_image_6: ./deloitte_mockup.png
 ---
 
 <!-- header: home_header -->
