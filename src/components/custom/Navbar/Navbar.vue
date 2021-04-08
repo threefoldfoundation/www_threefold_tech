@@ -11,7 +11,7 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a :href="$url('/')" class="flex">
             <g-image
-              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
+              :src="require(`!!assets-loader!@images/tft_logo.svg`)"
               class="mr-3 fill-current logo"
               width="200"
               v-if="theme == 'dark'"
@@ -19,7 +19,7 @@
             />
 
             <g-image
-              :src="require(`!!assets-loader!@images/TFT Logo.svg`)"
+              :src="require(`!!assets-loader!@images/tft_logo.svg`)"
               class="mr-3 fill-current logo"
               width="200"
               v-else
