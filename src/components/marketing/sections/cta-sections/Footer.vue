@@ -164,7 +164,7 @@
           &#xA9; 2021, ThreeFold Tech, All rights reserved.
           <a class="leading-6 text-gray-500 hover:text-gray-200" target="_blank" href="https://threefold.io/info/legal#/legal__terms_conditions_websites">Terms & Conditions | </a>
           <a class="leading-6 text-gray-500 hover:text-gray-200" target="_blank" href="https://threefold.io/info/legal#/legal__privacypolicy">Privacy Policy | </a>
-          <a class="leading-6 text-gray-500 hover:text-gray-200" target="_blank" href="#">Impressum</a>
+          <a class="leading-6 text-gray-500 hover:text-gray-200"  href="/impressum">Impressum</a>
         </p>
       </div>
     </div>
