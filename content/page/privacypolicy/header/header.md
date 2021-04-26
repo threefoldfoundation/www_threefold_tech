@@ -101,7 +101,7 @@ There are a number of different types of cookies, however, our websites use:
 ### How to manage cookies 
 
 You can set your browser to not accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result. 
-
+**
 ### Privacy policies of other websites 
 
 Our website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy. 

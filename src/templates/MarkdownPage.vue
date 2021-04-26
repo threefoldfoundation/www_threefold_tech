@@ -11,10 +11,10 @@
         :src="$page.markdownPage.solution_image2.src"
       /> -->
 
-      <!-- <SolutionsHeader
+      <SolutionsHeader2
         v-if="$page.markdownPage.headerSolution4"
         :header="$page.markdownPage.headerSolution4"
-      /> -->
+      />
 
       <!-- <g-image
         v-if="$page.markdownPage.solution_image3"

@@ -1,6 +1,6 @@
 ---
-id: privacypolicy
-header: solution_header
+id: terms
+headerSolution4: headerSolution4
 
 ---
 
