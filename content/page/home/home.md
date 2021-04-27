@@ -2,11 +2,11 @@
 id: home
 metaTitle: ThreeFold Tech | Decentralized Cloud Technology
 metaDesc: A fundamentally new approach to a peer-to-peer data economy. Empowering data privacy and sovereignty through decentralized Web 3.0 infrastructure.
-metaImg: ./globe_header2.png
-solution_image: ./globe_header2.png
+metaImg: ./globe_header2.jpg
+solution_image: ./globe_header2.jpg
 header: home_header
 header_title: THE CYBERPANDEMIC ERA
-header_image: ./cyber.png
+header_image: ./cyber.jpg
 header_excerpt: NEVER BEFORE WAS SECURITY SO ESSENTIAL. As the world’s population increasingly moves online amid a global pandemic, cyber attacks have rapidly surged as well. Both companies and individuals now face security risks that can no longer be ignored.
 button: ''
 link: ''
@@ -25,7 +25,7 @@ comparisonSecs:
   [kristof, chris, weynand, andreas, owen, rob]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
-solution_image_5: ./grid.png
+solution_image_5: ./grid.jpg
 solution_image_6: ./deloitte_mockup.png
 ---
 

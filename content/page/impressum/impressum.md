@@ -9,7 +9,7 @@ link: https://app.liquid.com/quick-exchange/
 featuresMain3: token_features
 features3: [token_feature1, token_feature2, token_feature3, token_feature4, token_feature5, token_feature6]
 headerSolution: headerToken
-solution_image: ./globe_header2.png
+solution_image: ./globe_header2.jpg
 headerSolution2: headerToken2
 cards: [token_card1]
 headerSolution3: headerToken3
