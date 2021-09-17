@@ -46,5 +46,5 @@ social:
         path: /token
 
       - title: Knowledge Base
-        path: https://wiki.threefold.io/#/what_is_farming
+        path: https://library.threefold.me/info/tfgrid/#/what_is_farming
         external: true -->

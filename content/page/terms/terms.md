@@ -11,7 +11,7 @@ header_title: Fast, Secure & Sustainable
 header_image: ./solution_main.png
 header_excerpt: ThreeFold's edge computing solution allows seamless and direct data transportation that guarantees data ownership and access at warp speed in a completely end-to-end encrypted environment.
 button: Learn More
-link: https://wiki.threefold.io/#/hercules_components
+link: https://library.threefold.me/info/tfgrid/#/hercules_components
 headerSolution2: headerSolution2
 cards: [solution_card4, solution_card5]
 solution_image4: ./participate_image.png
