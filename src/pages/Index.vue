@@ -27,7 +27,6 @@
       "
     />
 
-
     <g-image
       v-if="$page.markdownPage.solution_image_2"
       :src="$page.markdownPage.solution_image_2.src"
@@ -67,79 +66,38 @@
       :header="$page.markdownPage.header5"
     />
 
-    <!-- <Features
-        :main="$page.markdownPage.featuresMain"
-        :features="$page.markdownPage.features"
-      /> -->
-
-    <!-- <NewCard
-        v-for="card in $page.markdownPage.cards"
-        :key="card.id"
-        :card="card"
-      /> -->
-
-    <!-- <Features
-      :main="$page.markdownPage.featuresMain2"
-      :features="$page.markdownPage.features2"
-    /> -->
-
-    <!-- <Roadmap
-        v-if="$page.markdownPage.roadmap.length > 0"
-        :roadmap="$page.markdownPage.roadmap"
-    /> -->
-
-    <template>
-      <ClientOnly>
-        <Comparison
-          v-if="
-            $page.markdownPage.comparisonSecs &&
-            $page.markdownPage.comparisonSecs.length > 0
-          "
-          :main="$page.markdownPage.comparisonMain"
-          :sections="$page.markdownPage.comparisonSecs"
-        />
-      </ClientOnly>
-    </template>
-
-      <HeaderSectionInnovat
-      v-if="$page.markdownPage.header6"
-      :header="$page.markdownPage.header6"
+    <Comparison
+      v-if="
+        $page.markdownPage.comparisonSecs &&
+        $page.markdownPage.comparisonSecs.length > 0
+      "
+      :main="$page.markdownPage.comparisonMain"
+      :sections="$page.markdownPage.comparisonSecs"
     />
 
-    <g-image class="m-auto mb-10"
-      v-if="$page.markdownPage.solution_image_6"
-      :src="$page.markdownPage.solution_image_6.src"
-    />
-
-    <logoShowcase
+       <logoShowcase class="m-auto py-20"
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
 
-    <!-- <template>
-      <ClientOnly>
-        <SignUp
-          :signup="$page.markdownPage.signup"
-          v-if="$page.markdownPage.signup"
-        />
-      </ClientOnly>
-    </template> -->
+    <HeaderSectionInnovat
+      v-if="$page.markdownPage.header6"
+      :header="$page.markdownPage.header6"
+    />
 
-    <template>
-      <ClientOnly>
-        <CallToAction
-          v-if="$page.markdownPage.cta"
-          :cta="$page.markdownPage.cta"
-        />
-      </ClientOnly>
-    </template>
+    <g-image
+      class="m-auto mb-10"
+      v-if="$page.markdownPage.solution_image_6"
+      :src="$page.markdownPage.solution_image_6.src"
+    />
+
+
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
       :src="$page.markdownPage.solution_image_5.src"
     />
-
-    <!-- <Getintouch :contacts="contacts"/> -->
   </Layout>
 </template>
 
@@ -244,14 +202,7 @@
           image
           url
         }
-        signup{
-          id
-          title
-          button1
-          link1
-          button2
-          link2
-        }
+        
         cta{
           id
           title
@@ -283,13 +234,9 @@
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import HeaderSectionInnovat from "~/components/custom/sections/header/HeaderSectionInnovat.vue";
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
-import Features from "~/components/custom/sections/Features.vue";
-import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import Getintouch from "~/components/custom/Navbar/Getintouch.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
-import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
-import Roadmap from "~/components/custom/sections/Roadmap.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 
@@ -299,16 +246,12 @@ export default {
     HeaderSectionInnovat,
     Header,
     ShowcaseProducts,
-    Features,
-    NewCard,
     Getintouch,
     logoShowcase,
-    SignUp,
     CallToAction,
-    Roadmap,
     Comparison,
   },
- computed: {
+  computed: {
     getImg() {
       let image = "";
       if (process.isClient) {
