@@ -37,10 +37,10 @@
       :header="$page.markdownPage.headerSolution"
     />
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    />
+    /> -->
 
     <SolutionsHeader
       v-if="$page.markdownPage.header3"
