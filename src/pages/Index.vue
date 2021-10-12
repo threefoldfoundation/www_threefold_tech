@@ -33,15 +33,12 @@
       :src="$page.markdownPage.solution_image_2.src"
     />
 
-    <SolutionsHeader
-      v-if="$page.markdownPage.headerSolution"
-      :header="$page.markdownPage.headerSolution"
-    />
+    
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    />
+    /> -->
     
     <!-- bad -->
     <!-- <SolutionsHeader
@@ -129,7 +126,6 @@
         header{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
@@ -148,7 +144,6 @@
         header3{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
@@ -158,7 +153,6 @@
         header4{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
@@ -168,7 +162,6 @@
         header5{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
@@ -178,16 +171,11 @@
        header6{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
          link2
          content
-       }
-        headerSolution{
-         subtitle
-         excerpt(length: 2000)
        }
        productsMain{
           id
@@ -210,7 +198,6 @@
         cta{
           id
           title
-          excerpt(length: 2000)
           button
           link
           content
@@ -226,7 +213,6 @@
           id
           svg
           title
-          excerpt(length: 2000)
           url
         }
     }  
