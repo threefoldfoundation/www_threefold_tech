@@ -61,10 +61,10 @@
       v-if="$page.markdownPage.solution_image_4"
       :src="$page.markdownPage.solution_image_4.src"
     />
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header5"
       :header="$page.markdownPage.header5"
-    /> -->
+    />
 
     <Comparison
       v-if="
@@ -77,10 +77,10 @@
 
    
 
-    <HeaderSectionInnovat
+    <!-- <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
       :header="$page.markdownPage.header6"
-    />
+    /> -->
 
     <g-image
       class="m-auto mb-10"
