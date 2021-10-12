@@ -10,7 +10,7 @@
       :header="$page.markdownPage.header"
     /> -->
 
-    <!-- <Header
+    <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
       :excerpt="$page.markdownPage.header_excerpt"
@@ -25,7 +25,7 @@
         $page.markdownPage.productData &&
         $page.markdownPage.productData.length > 0
       "
-    /> -->
+    />
 
     <g-image
       v-if="$page.markdownPage.solution_image_2"
