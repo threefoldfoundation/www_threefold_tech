@@ -1,16 +1,17 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <!-- <g-image
-      v-if="$page.markdownPage.solution_image"
-      :src="$page.markdownPage.solution_image.src"
-    /> -->
+ 
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
-    /> -->
+    />
+       <g-image class="mx-auto w-3/4 mb-24"
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+    />
 
-    <!-- <Header
+    <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
       :excerpt="$page.markdownPage.header_excerpt"
@@ -75,10 +76,7 @@
       :sections="$page.markdownPage.comparisonSecs"
     />
 
-       <logoShowcase class="m-auto py-20"
-      v-if="$page.markdownPage.logos.length > 0"
-      :logos="$page.markdownPage.logos"
-    />
+   
 
     <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
@@ -91,13 +89,17 @@
       :src="$page.markdownPage.solution_image_6.src"
     />
 
+    <logoShowcase class="m-auto py-20"
+      v-if="$page.markdownPage.logos.length > 0"
+      :logos="$page.markdownPage.logos"
+    />
 
     <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
       :src="$page.markdownPage.solution_image_5.src"
-    /> -->
+    />
   </Layout>
 </template>
 
