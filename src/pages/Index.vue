@@ -32,10 +32,10 @@
       :src="$page.markdownPage.solution_image_2.src"
     />
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.headerSolution"
       :header="$page.markdownPage.headerSolution"
-    /> -->
+    />
 
     <!-- <SolutionsHeader
       v-if="$page.markdownPage.header2"
@@ -93,7 +93,8 @@
       :logos="$page.markdownPage.logos"
     /> -->
 
-    <!-- <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" /> -->
+    <!-- <CallToAction v-if="$page.markdownPage.cta" 
+    :cta="$page.markdownPage.cta" /> -->
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
