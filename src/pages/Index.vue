@@ -4,7 +4,8 @@
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
     />
-
+    
+    <!-- bad -->
     <!-- <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
@@ -37,15 +38,16 @@
       :header="$page.markdownPage.headerSolution"
     />
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    /> -->
-
-    <SolutionsHeader
+    />
+    
+    <!-- bad -->
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header3"
       :header="$page.markdownPage.header3"
-    />
+    /> -->
 
     <g-image
       v-if="$page.markdownPage.solution_image_3"
@@ -76,7 +78,7 @@
     />
 
    
-
+    <!-- bad -->
     <!-- <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
       :header="$page.markdownPage.header6"
@@ -92,7 +94,8 @@
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
-
+    
+    <!-- bad -->
     <!-- <CallToAction v-if="$page.markdownPage.cta" 
     :cta="$page.markdownPage.cta" /> -->
 
@@ -136,7 +139,6 @@
         header2{
          title
          subtitle
-         excerpt(length: 2000)
          btn1
          link1
          btn2
