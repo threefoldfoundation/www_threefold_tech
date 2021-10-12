@@ -77,10 +77,10 @@
 
    
 
-    <!-- <HeaderSectionInnovat
+    <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
       :header="$page.markdownPage.header6"
-    /> -->
+    />
 
     <g-image
       class="m-auto mb-10"
