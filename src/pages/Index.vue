@@ -88,10 +88,10 @@
       :src="$page.markdownPage.solution_image_6.src"
     />
 
-    <!-- <logoShowcase class="m-auto py-20"
+    <logoShowcase class="m-auto py-20"
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
-    /> -->
+    />
 
     <!-- <CallToAction v-if="$page.markdownPage.cta" 
     :cta="$page.markdownPage.cta" /> -->
