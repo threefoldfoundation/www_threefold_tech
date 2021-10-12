@@ -93,8 +93,9 @@
     />
     
     <!-- bad -->
-    <!-- <CallToAction v-if="$page.markdownPage.cta" 
-    :cta="$page.markdownPage.cta" /> -->
+    <CallToAction 
+    v-if="$page.markdownPage.cta" 
+    :cta="$page.markdownPage.cta" />
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
