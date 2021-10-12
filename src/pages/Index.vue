@@ -66,14 +66,14 @@
       :header="$page.markdownPage.header5"
     /> -->
 
-    <!-- <Comparison
+    <Comparison
       v-if="
         $page.markdownPage.comparisonSecs &&
         $page.markdownPage.comparisonSecs.length > 0
       "
       :main="$page.markdownPage.comparisonMain"
       :sections="$page.markdownPage.comparisonSecs"
-    /> -->
+    />
 
    
 
@@ -93,7 +93,7 @@
       :logos="$page.markdownPage.logos"
     /> -->
 
-    <!-- <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" /> -->
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
