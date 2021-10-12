@@ -37,15 +37,15 @@
       :header="$page.markdownPage.headerSolution"
     />
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    /> -->
+    />
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header3"
       :header="$page.markdownPage.header3"
-    /> -->
+    />
 
     <g-image
       v-if="$page.markdownPage.solution_image_3"

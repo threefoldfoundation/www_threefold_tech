@@ -1,7 +1,7 @@
 ---
 id: home_header3
 title: ''
-subtitle: 'FIRST USE CASE - THE THREEFOLD GRID'
+subtitle: FIRST USE CASE - THE THREEFOLD GRID
 btn1: ''
 link1: ''
 btn2: ''
