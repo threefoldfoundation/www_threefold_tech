@@ -5,7 +5,8 @@
       <h2 class="text-4xl mt-2 mb-6 leading-tight font-semibold font-heading">
         {{ header.subtitle }}
       </h2>
-      <p  v-html="header.content" class="mb-2 text-white leading-relaxed">
+      <!-- <p  v-html="header.content" class="mb-2 text-white leading-relaxed"> -->
+        <p class="mb-2 text-white leading-relaxed">{{ header.excerpt }}</p>
        
       </p>
       <div>

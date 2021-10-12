@@ -5,11 +5,11 @@
       :src="$page.markdownPage.solution_image.src"
     />
     
-    <!-- bad -->
-    <!-- <SolutionsHeader
+    
+    <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
-    /> -->
+    />
 
     <Header
       :title="$page.markdownPage.header_title"
@@ -35,16 +35,16 @@
 
     
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    /> -->
+    />
     
-    <!-- bad -->
-    <!-- <SolutionsHeader
+   
+    <SolutionsHeader
       v-if="$page.markdownPage.header3"
       :header="$page.markdownPage.header3"
-    /> -->
+    />
 
     <g-image
       v-if="$page.markdownPage.solution_image_3"
@@ -75,11 +75,11 @@
     />
 
    
-    <!-- bad -->
-    <!-- <HeaderSectionInnovat
+    
+    <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
       :header="$page.markdownPage.header6"
-    /> -->
+    />
 
     <g-image
       class="m-auto mb-10"
@@ -92,7 +92,7 @@
       :logos="$page.markdownPage.logos"
     />
     
-    <!-- bad -->
+    
     <CallToAction 
     v-if="$page.markdownPage.cta" 
     :cta="$page.markdownPage.cta" />
@@ -132,6 +132,7 @@
          btn2
          link2
          content
+         excerpt
        }
         header2{
          title
@@ -141,6 +142,7 @@
          btn2
          link2
          content
+         excerpt
        }
         header3{
          title
@@ -150,6 +152,7 @@
          btn2
          link2
          content
+         excerpt
        }
         header4{
          title
@@ -177,6 +180,7 @@
          btn2
          link2
          content
+         excerpt
        }
        productsMain{
           id
@@ -202,6 +206,7 @@
           button
           link
           content
+          excerpt
         }
         comparisonMain{
           id

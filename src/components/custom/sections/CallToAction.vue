@@ -4,7 +4,8 @@
       <h2 class="text-4xl leading-tight font-semibold font-heading">
         {{ cta.title }}
       </h2>
-      <p v-html="cta.content" class="mt-6 mb-8 text-white leading-relaxed">
+      <p class="mt-6 mb-8 text-white leading-relaxed">{{ cta.excerpt }}</p>
+      <!-- <p v-html="cta.content" class="mt-6 mb-8 text-white leading-relaxed"> -->
         
       </p>
       <g-link
