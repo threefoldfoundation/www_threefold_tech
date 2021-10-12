@@ -52,10 +52,10 @@
       :src="$page.markdownPage.solution_image_3.src"
     />
 
-    <!-- <SolutionsHeader
+    <SolutionsHeader
       v-if="$page.markdownPage.header4"
       :header="$page.markdownPage.header4"
-    /> -->
+    />
 
     <g-image
       v-if="$page.markdownPage.solution_image_4"
