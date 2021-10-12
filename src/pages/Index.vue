@@ -10,7 +10,7 @@
       :header="$page.markdownPage.header"
     />
 
-    <Header
+    <!-- <Header
       :title="$page.markdownPage.header_title"
       :image="$page.markdownPage.header_image"
       :excerpt="$page.markdownPage.header_excerpt"
@@ -75,10 +75,10 @@
       :sections="$page.markdownPage.comparisonSecs"
     />
 
-       <!-- <logoShowcase class="m-auto py-20"
+       <logoShowcase class="m-auto py-20"
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
-    /> -->
+    />
 
     <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
@@ -97,7 +97,7 @@
     <g-image
       v-if="$page.markdownPage.solution_image_5"
       :src="$page.markdownPage.solution_image_5.src"
-    />
+    /> -->
   </Layout>
 </template>
 
