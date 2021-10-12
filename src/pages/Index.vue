@@ -1,14 +1,14 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <g-image
+    <!-- <g-image
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
-    />
+    /> -->
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
-    />
+    /> -->
 
     <!-- <Header
       :title="$page.markdownPage.header_title"
