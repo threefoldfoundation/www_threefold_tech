@@ -3,7 +3,8 @@ id: headerToken
 subtitle: Impressum TF Tech NV & ThreeFold S.A.  
 ---
 
-The providers of this website are: 
+The providers of this website are:
+<br>
 (1) TF Tech NV (ThreeFold Tech), registered at the Belgian Chamber of Commerce under number 0712845674.
 TF Tech NV is a limited liability organisation under the laws of Belgium.
 TF TECH NV. Antwerpse Steenweg 19 9000 - Lochristi, Belgium
