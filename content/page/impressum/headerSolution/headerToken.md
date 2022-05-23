@@ -13,7 +13,7 @@ BE 0712.845.674
 (RPR Gent) Tel: 0032-93242057
 <br>
 (2) ThreeFold S.A. (TF LUX), a public limited liability company under the Company Number B265333, governed by the laws of the Grand Duchy of Luxembourg.  
-ThreeFold S.A. 6, Rue Dicks, 1417, Luxembourg. 
+ThreeFold S.A., 6, Rue Dicks, 1417, Luxembourg. 
 
 
 
