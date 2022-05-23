@@ -8,8 +8,8 @@ btn2:
 link2: 
 ---
 
-* This privacy policy will explain how TF Tech  ("company", “we”, or “us”) uses the personal data we collect from you when you use our website
-[https://threefold.tech](https://threefold.tech) / [https://www.threefold.tech](https://www.threefold.tech)
+* This privacy policy will explain how ThreeFold Tech ("TF Tech", "Company", “we”, or “us”) and ThreeFold S.A. ("TF LUX", "Company", "we", or "us") uses the personal data we collect from you when you use our website
+[https://threefold.tech](https://threefold.tech)
 
 ### What data do we collect? 
 

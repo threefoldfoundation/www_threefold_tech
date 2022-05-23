@@ -1,15 +1,15 @@
 ---
 id: headerSolution4
-subtitle: TF Tech NV Website/Wiki TERMS OF USE 
+subtitle: TF Tech NV & TF S.A. Website/Wiki TERMS OF USE 
 btn1: 
 link1: 
 ---
 
 
 
-Last updated April, 2021 AGREEMENT TO TERMS
+Last updated May, 2022 AGREEMENT TO TERMS
 
-These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and TF Tech, doing business as ThreeFold Tech (“TF TEch“, “we”, “us”, or “our”), concerning your access to and use of the ThreeFold Tech related websites:
+These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), TF Tech, doing business as ThreeFold Tech (“TF Tech“, “we”, “us”, or “our”) and TF LUX, doing business as ThreeFold S.A. ("TF LUX", "we", "us" or "our"), concerning your access to and use of the ThreeFold Tech related websites:
 
 websites/wikis ending with threefold.tech or any other website as used/promoted by the TF Tech NV or any other site as originating from our opensource git repository on [**https://github.com/threefoldfoundation**](https://github.com/threefoldfoundation).
 
@@ -159,6 +159,9 @@ TF Tech NV
 
 Antwerpse Steenweg 19, 9080 Lochristi, Belgium
 
-[**info@threefold.tech**](mailto:info@threefold.tech)
+ThreeFold S.A. 
 
+6, Rue Dicks, 1413, Luxembourg 
+
+[**info@threefold.tech**](mailto:info@threefold.tech)
 
