@@ -1,14 +1,17 @@
 <template>
-  <section class="py-12 px-4 text-center ">
+  <section class="py-12 px-4 text-center">
     <div class="w-full max-w-2xl mx-auto">
       <span class="font-semibold text-white">{{ header.title }}</span>
       <h2 class="text-4xl mt-2 mb-6 leading-tight font-semibold font-heading">
         {{ header.subtitle }}
       </h2>
-      <!-- <p  v-html="header.content" class="mb-8 text-white leading-relaxed"> -->
-        <p class="mb-8 text-white leading-relaxed">{{ header.excerpt }}</p>
-       
-      </p>
+      <!-- <p  v-html="header.content" class="mb-8 text-white leading-relaxed"></p>-->
+
+      <div
+        class="mb-8 text-white leading-relaxed"
+        v-html="header.content"
+      ></div>
+
       <div>
         <g-link
           class="rounded-md learn-button px-5 py-3 mr-3 font-semibold"
@@ -28,6 +31,6 @@
 
 <script>
 export default {
-  props: ["header"],
+  props: ["header"]
 };
 </script>
