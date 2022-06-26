@@ -164,7 +164,8 @@
           TF Tech NV, 0712845674 and ThreeFold S.A. , B265333 © 2022, ThreeFold Tech and ThreeFold S.A. , All rights reserved. 
           <a class="leading-6 text-gray-500 hover:text-gray-200" href="/terms">Terms & Conditions | </a>
           <a class="leading-6 text-gray-500 hover:text-gray-200"  href="/privacypolicy">Privacy Policy | </a>
-          <a class="leading-6 text-gray-500 hover:text-gray-200"  href="/impressum">Impressum</a>
+          <a class="leading-6 text-gray-500 hover:text-gray-200"  href="/impressum">Impressum | </a>
+          <a class="leading-6 text-gray-500 hover:text-gray-200"  href="/about">About</a>
         </p>
       </div>
     </div>

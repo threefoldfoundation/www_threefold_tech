@@ -22,7 +22,7 @@ header5: home_header5
 header6: home_header6
 comparisonMain: experience
 comparisonSecs:
-  [kristof, chris, weynand, andreas, owen, rob]
+  [kristof, chris, weynand, owen, rob]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
 solution_image_5: ./grid.jpg

@@ -67,10 +67,10 @@
           $page.markdownPage.productData.length > 0
         " /> -->
 
-      <!-- <SolutionsHeader
+       <SolutionsHeader
         v-if="$page.markdownPage.headerSolution2"
         :header="$page.markdownPage.headerSolution2"
-      /> -->
+      /> 
 
       <!-- <Features
         v-if="$page.markdownPage.features && $page.markdownPage.features.length > 0"
@@ -197,23 +197,14 @@
          content
        }
         headerSolution2{
-        subtitle
-        excerpt(length: 2000)
-        content
-       }
-        headerSolution3{
          subtitle
          excerpt(length: 2000)
-         btn1
-         link1
          content
        }
-        headerSolution4{
-        subtitle
-        excerpt(length: 2000)
-        btn1
-        link1
-        content
+       headerSolution4{
+         subtitle
+         excerpt(length: 2000)
+         content
        }
         logos{
           id

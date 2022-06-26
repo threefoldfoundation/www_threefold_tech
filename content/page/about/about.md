@@ -1,10 +1,10 @@
 ---
-id: impressum
-header_title: What is ThreeFold Token? 
+id: about
+header_title: About ThreeFold 
 header_image: ./globe_header2.png
 header_altImg: token_header
 header_excerpt: The currency of the peer-to-peer internet, the ThreeFold Grid. Current value of TFT on ThreeFold Grid = $0.10
-headerSolution: headerToken
+headerSolution2: headerToken2
 solution_image: ./globe_header2.jpg
 
 ---
