@@ -5,6 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+    siteUrl: 'https://<ehab-hassan>.github.io',
+    pathPrefix: '/<www_threefold_tech>',
     siteName: 'ThreeFold Tech',
     plugins: [
 
