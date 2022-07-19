@@ -18,7 +18,7 @@
     "autoprefixer": "^10.3.3",
     "babel-runtime": "^6.26.0",
     "core-js": "^3.6.5",
-    "deploy": "gh-pages -d dist",
+    "deploy": "development -d dist",
     "gh-pages": "^4.0.0",
     "gridsome": "^0.7.3",
     "gridsome-plugin-matomo": "^0.1.0",
