@@ -5,7 +5,6 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    pathPrefix: '/www_threefold_tech',
     siteName: 'ThreeFold Tech',
     plugins: [
 
