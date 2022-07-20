@@ -6,6 +6,7 @@
 
 module.exports = {
     siteName: 'ThreeFold Tech',
+    pathPrefix: '/www_threefold_tech',
     plugins: [
 
         // Local models
