@@ -11,3 +11,7 @@ see [best practices](https://github.com/threefoldfoundation/www_examplesite/blob
 
 > please make sure you work in line with instructions above
 
+### Github page
+
+https://threefoldfoundation.github.io/www_threefold_tech/
+
