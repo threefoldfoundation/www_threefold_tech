@@ -6,7 +6,7 @@
     <p class="text-white mb-10">{{ main.description }}</p>
     <div class="flex flex-wrap -mx-8">
       <div
-        class="w-1/2 md:w-1/5 px-8 mb-8 active--exact active"
+        class="w-1/2 md:w-1/4 px-8 mb-8 active--exact active"
         v-for="(section, index) in sections"
         :key="index"
       >
