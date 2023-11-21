@@ -4,8 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "deploy": "gridsome build && gh-pages -d dist -b developemnt"
+    "explore": "gridsome explore"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -16,10 +15,10 @@
     "@gridsome/transformer-remark": "^0.6.2",
     "@noxify/gridsome-remark-classes": "^1.0.0",
     "@noxify/gridsome-remark-table-align": "^1.0.0",
-    "autoprefixer": "^10.3.3",
     "babel-runtime": "^6.26.0",
     "core-js": "^3.6.5",
     "gridsome": "^0.7.3",
+    "gridsome-plugin-flexsearch": "github:hamdy/gridsome-plugin-flexsearch",
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-remark-prismjs-all": "^0.3.5",
     "gridsome-plugin-tailwindcss": "^3.0.1",
@@ -28,7 +27,7 @@
     "lodash": "^4.17.20",
     "node-sass": "^5.0.0",
     "pluralize": "^8.0.0",
-    "postcss": "^8.3.6",
+    "postcss-import": "^15.1.0",
     "sass-loader": "^10.0.2",
     "tailwindcss": "^2.2.9",
     "tailwindcss-gradients": "^3.0.0",
@@ -37,7 +36,6 @@
     "vue-markdown": "^2.1.2"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.0",
-    "gh-pages": "^4.0.0"
+    "@tailwindcss/aspect-ratio": "^0.2.0"
   }
 }
