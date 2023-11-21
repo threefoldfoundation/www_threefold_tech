@@ -4,8 +4,7 @@
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
     />
-    
-    
+
     <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
@@ -28,42 +27,39 @@
       "
     />
 
-    <g-image
+    <!-- <g-image
       v-if="$page.markdownPage.solution_image_2"
       :src="$page.markdownPage.solution_image_2.src"
-    />
+    /> -->
 
-    
-
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header2"
       :header="$page.markdownPage.header2"
-    />
-    
-   
-    <SolutionsHeader
+    /> -->
+
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header3"
       :header="$page.markdownPage.header3"
-    />
+    /> -->
 
-    <g-image
+    <!-- <g-image
       v-if="$page.markdownPage.solution_image_3"
       :src="$page.markdownPage.solution_image_3.src"
-    />
+    /> -->
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header4"
       :header="$page.markdownPage.header4"
-    />
+    /> -->
 
-    <g-image
+    <!-- <g-image
       v-if="$page.markdownPage.solution_image_4"
       :src="$page.markdownPage.solution_image_4.src"
-    />
-    <SolutionsHeader
+    /> -->
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header5"
       :header="$page.markdownPage.header5"
-    />
+    /> -->
 
     <Comparison
       v-if="
@@ -74,8 +70,6 @@
       :sections="$page.markdownPage.comparisonSecs"
     />
 
-   
-    
     <HeaderSectionInnovat
       v-if="$page.markdownPage.header6"
       :header="$page.markdownPage.header6"
@@ -87,15 +81,13 @@
       :src="$page.markdownPage.solution_image_6.src"
     />
 
-    <logoShowcase class="m-auto py-20"
+    <logoShowcase
+      class="m-auto py-20"
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
     />
-    
-    
-    <CallToAction 
-    v-if="$page.markdownPage.cta" 
-    :cta="$page.markdownPage.cta" />
+
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
 
     <g-image
       v-if="$page.markdownPage.solution_image_5"
@@ -311,12 +303,12 @@ export default {
 /* h2 {
   padding-bottom: 8rem;
 } */
-</style> >
+</style>
+>
 
-    <!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5" div/> -->
+<!-- <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5" div/> -->
 
-
-  <!-- cards{
+<!-- cards{
           id
           title
           image

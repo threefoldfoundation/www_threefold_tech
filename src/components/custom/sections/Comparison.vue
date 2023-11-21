@@ -6,18 +6,16 @@
     <p class="text-white mb-10">{{ main.description }}</p>
     <div class="flex flex-wrap -mx-8">
       <div
-        class="w-1/2 md:w-1/4 px-8 mb-8 active--exact active"
+        class="w-1/2 md:w-1/3 px-8 mb-8 active--exact active"
         v-for="(section, index) in sections"
         :key="index"
       >
-      <g-link
-         :to="section.url"
-      >
-        <g-image
-          class="w-1/8 mx-auto mb-8 h-30"
-          :src="section.svg.src"
-          :alt="section.title"
-        />
+        <g-link :to="section.url">
+          <g-image
+            class="w-1/8 mx-auto mb-8 h-30"
+            :src="section.svg.src"
+            :alt="section.title"
+          />
         </g-link>
         <p class="text-lg leading-tight text-white mb-6 mx-3">
           <!-- <span

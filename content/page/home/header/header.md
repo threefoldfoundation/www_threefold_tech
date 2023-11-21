@@ -1,11 +1,11 @@
 ---
 id: home_header
 title: ''
-subtitle: DECENTRALIZED CLOUD TECHNOLOGY
-excerpt : A fundamentally new approach to a peer-to-peer data economy. Empowering data privacy and sovereignty through decentralized Web 3.0 infrastructure.
+subtitle: A New Era of Autonomous Computing
+excerpt : 
 btn1: ''
 link1: ''
 btn2: ''
 link2: ''
 ---
-
+ThreeFold Tech is an innovative software technology company that has built a decentralized, autonomous, computing platform. Our unique technology provides unparalleled sovereignty, scalability and efficiency features that emerging IT workloads require, and that traditional cloud infrastructures cannot deliver.

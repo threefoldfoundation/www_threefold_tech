@@ -8,8 +8,8 @@ header: home_header
 header_title: THE CYBERPANDEMIC ERA
 header_image: ./cyber.jpg
 header_excerpt: NEVER BEFORE WAS SECURITY SO ESSENTIAL. As the world’s population increasingly moves online amid a global pandemic, cyber attacks have rapidly surged as well. Both companies and individuals now face security risks that can no longer be ignored.
-button: ''
-link: ''
+button: 'Learn More'
+link: 'https://info.ourworld.tf/datacenter/cyberpandemic/red/cyber_pandemic.html'
 productData: [img_1, img_2, img_3, img_4, img_5, img_6]
 productsMain: graph_home
 solution_image_2: ./triangles_home.png
@@ -22,7 +22,7 @@ header5: home_header5
 header6: home_header6
 comparisonMain: experience
 comparisonSecs:
-  [kristof, weynand, owen, rob]
+  [kristof, owen, rob]
 logos: [logo1, logo2, logo3, logo4, logo5, logo6]
 cta: home_cta
 solution_image_5: ./grid.jpg
@@ -41,10 +41,12 @@ solution_image_2: ./Data_Graph.png -->
 <!-- featuresMain2: Features_home_2
 features2:
   [
+
     decentralize_the_internet,
     connect_the_world,
     make_data_safe,
     earn_passive_income,
+
   ] -->
 <!-- 
 inTheNews: in_the_news
