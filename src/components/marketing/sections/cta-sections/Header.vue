@@ -9,19 +9,10 @@
         </h2>
         <p class="mb-8 text-white leading-relaxed">{{ excerpt }}</p>
         <div v-if="button">
-          <a
-            v-if="link.includes('http')"
-            target="_blank"
+          <g-link
             class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
-            :href="link"
-            >{{ button }}</a
-          >
-
-          <a
-            v-else
-            class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
-            :href="link"
-            >{{ button }}</a
+            :to="link"
+            >{{ button }}</g-link
           >
           <!-- <a class="text-gray-600 hover:underline" href="#">Learn more</a> -->
         </div>
