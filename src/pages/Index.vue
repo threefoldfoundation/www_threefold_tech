@@ -1,6 +1,7 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <g-image
+      class="w-1/2 mx-auto"
       v-if="$page.markdownPage.solution_image"
       :src="$page.markdownPage.solution_image.src"
     />
